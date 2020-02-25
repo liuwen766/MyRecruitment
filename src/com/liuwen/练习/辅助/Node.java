@@ -8,6 +8,8 @@ package com.liuwen.练习.辅助;
 public class Node {
     public int value;
     public Node next;
+
+    public Node(){}
     public Node(int value){
         this.value = value;
     }
