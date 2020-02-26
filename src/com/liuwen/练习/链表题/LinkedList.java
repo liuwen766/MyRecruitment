@@ -1,6 +1,6 @@
 package com.liuwen.练习.链表题;
 
-import com.liuwen.练习.数据结构辅助.ListNode;
+import com.liuwen.练习.辅助.LinkList;
 
 /**
  * @description: 链表的创建，包括添加、显示、删除、修改
@@ -10,12 +10,13 @@ import com.liuwen.练习.数据结构辅助.ListNode;
 public class LinkedList {
     public static void main(String[] args){
         //先创建头节点
-        ListNode head = new ListNode();
+        LinkList linkList = new LinkList();
         //创建要给的链表
-        head.addFirst(1);
-        head.addFirst(2);
-        head.addFirst(3);
-        head.display();
+        linkList.addFirst(1);
+        linkList.addFirst(2);
+        linkList.addFirst(3);
+        linkList.addLast(15);
+        linkList.display();
         //显示一把
         int i = 0;
 

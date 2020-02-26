@@ -1,4 +1,4 @@
-package com.liuwen.练习.数据结构辅助;
+package com.liuwen.练习.辅助;
 
 /**
  * @description: 链表的创建
@@ -6,10 +6,10 @@ package com.liuwen.练习.数据结构辅助;
  * @create: 2020-02-26 15:17
  **/
 //创建链表
-public class ListNode {
+public class LinkList {
     public Node head;
 
-    public ListNode(){
+    public LinkList(){
         head = new Node();
     }
 
@@ -24,13 +24,12 @@ public class ListNode {
     }
     //尾结点添加
     public void addLast(int val){
-
     }
 
     //显示链表[遍历]
     public void display(){
         if(head==null||head.next==null){
-            System.out.println(head);
+            System.out.println(head.value);
         }
         Node tmp = head;
         while(tmp.next!=null){

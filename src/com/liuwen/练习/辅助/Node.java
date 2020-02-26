@@ -1,4 +1,4 @@
-package com.liuwen.练习.数据结构辅助;
+package com.liuwen.练习.辅助;
 
 /**
  * @description: 链表结点定义
