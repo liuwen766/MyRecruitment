@@ -1,4 +1,4 @@
-package com.liuwen.华为;
+package com.liuwen.各公司笔试题.华为;
 
 import java.util.Iterator;
 import java.util.Scanner;

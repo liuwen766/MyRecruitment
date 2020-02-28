@@ -1,16 +1,17 @@
 package com.liuwen.练习.辅助;
 
 /**
- * @description: 链表结点定义
+ * @description: Good good study,day day up!
  * @author: Liu Wen
- * @create: 2020-02-25 14:14
+ * @create: 2020-02-28 15:11
  **/
 public class Node {
-    public int value;
-    public Node next;
+        public Node next;
+        public int value;
 
-    public Node(){}
-    public Node(int value){
-        this.value = value;
+        public Node(){}
+
+        public Node(int value){
+            this.value = value;
+        }
     }
-}

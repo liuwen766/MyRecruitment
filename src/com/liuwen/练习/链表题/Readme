@@ -1,6 +1,6 @@
 ﻿
 目录：
- * 1. 求单链表中结点的个数: getListLength
+ /* 1. 求单链表中结点的个数: getListLength
  * 2. 将单链表反转: reverseList（遍历），reverseListRec（递归）
  * 3. 查找单链表中的倒数第K个结点（k > 0）: reGetKthNode
  * 4. 查找单链表的中间结点: getMiddleNode
@@ -11,4 +11,5 @@
  * 9. 求两个单链表相交的第一个节点: getFirstCommonNode
  * 10. 已知一个单链表中存在环，求进入环中的第一个节点: getFirstNodeInCycle, getFirstNodeInCycleHashMap
  * 11. 给出一单链表头指针pHead和一节点指针pToBeDeleted，O(1)时间复杂度删除节点pToBeDeleted: delete
+ **/
  ————————————————————————————————————————————————
