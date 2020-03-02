@@ -15,6 +15,13 @@ public class Main3 {
         }
     }
 
+    /**
+     * @Description: 插入排序的工作原理是通过构建有序序列，对于未排序数据，
+     * 在已排序序列中从后向前扫描，找到相应位置并插入。
+     * @param array
+     * @return int[]
+     * @date 20.3.2 17:41
+     */
     private static int[] InsertSort(int[] array) {
         int preIndex; int cur;
         for (int i = 1; i < array.length; i++) {

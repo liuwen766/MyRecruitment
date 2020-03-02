@@ -14,6 +14,13 @@ public class Main1 {
         }
     }
 
+    /**
+     * @Description: 冒泡排序重复地走访过要排序的数列，一次比较两个元素，
+     * 如果它们的顺序错误就把它们交换过来。
+     * @param array
+     * @return int[]
+     * @date 20.3.2 17:43
+     */
     private static int[] BubbleSort(int[] array) {
         int tmp;
         for (int i = 0; i < array.length-1; i++) {
