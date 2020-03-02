@@ -6,7 +6,7 @@ import java.math.*;
  * @author: Liu Wen
  * @create: 2020-02-26 13:05
  **/
-public class Main{
+public class Main1 {
     public static void main(String[] args) {
         //大数加减乘除
         int a = 156, b = 55, c = 1652;

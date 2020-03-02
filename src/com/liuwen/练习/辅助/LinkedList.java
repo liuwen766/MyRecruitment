@@ -203,7 +203,7 @@ public class LinkedList {
             return head;
         }
         Node newHead = reverseListRec(head.next);
-        head.next.next = head;		// 把head接在reHead串的最后一个后面
+        head.next.next = head;		    // 把head接在reHead串的最后一个后面
         head.next = null;				// 防止循环链表
         return newHead;
     }
