@@ -15,7 +15,19 @@ public class Main2 {
     }
 
     private static int[] SelectSort(int[] array) {
-
-        return new int[0];
+        int minIndex = 0;
+        int tmp = 0;
+        for (int i = 0; i < array.length; i++) {
+            minIndex = i;
+            for (int j = i+1; j < array.length; j++) {
+                if(array[j]<array[minIndex]){
+                    minIndex = j;
+                }
+            }
+            tmp = array[i];
+            array[i] = array[minIndex];
+            array[minIndex] = tmp;
+        }
+        return array;
     }
 }

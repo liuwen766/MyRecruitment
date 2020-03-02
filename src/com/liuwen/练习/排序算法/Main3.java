@@ -16,6 +16,15 @@ public class Main3 {
     }
 
     private static int[] InsertSort(int[] array) {
-        return new int[0];
+        int preIndex; int cur;
+        for (int i = 1; i < array.length; i++) {
+            cur = array[i]; preIndex = i-1;
+            while (preIndex>=0&&array[preIndex]>cur){
+                array[preIndex+1]=array[preIndex];
+                preIndex--;
+            }
+            array[preIndex+1]=cur;
+        }
+        return array;
     }
 }
