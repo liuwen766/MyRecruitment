@@ -9,7 +9,7 @@ public class Main3 {
 
     public static void main(String[] args){
         int[] array = {7,8,1,3,5,2,4,9,6};
-        int[] result = InsertSort(array);
+        int[] result = InsertSort1(array);
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i]+" ");
         }
@@ -31,6 +31,23 @@ public class Main3 {
                 preIndex--;
             }
             array[preIndex+1]=cur;
+        }
+        return array;
+    }
+     //                preIndex   i
+     //练习1 2   4   6     7      3    4    1
+    //                           cur
+    private static int[] InsertSort1(int[] array) {
+        int preindex;
+        int cur = 0;
+        for (int i = 1; i < array.length; i++) {
+            preindex = i-1;
+            cur = array[i];
+            while (preindex>=0&&array[preindex]>cur){
+                array[preindex+1] = array[preindex];
+                preindex--;
+            }
+            array[preindex+1] = cur;
         }
         return array;
     }

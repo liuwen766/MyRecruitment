@@ -8,7 +8,7 @@ package com.liuwen.练习.排序算法;
 public class Main2 {
     public static void main(String[] args){
         int[] array = {7,8,1,3,5,2,4,9,6};
-        int[] result = SelectSort(array);
+        int[] result = SelectSort1(array);
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i]+" ");
         }
@@ -34,6 +34,24 @@ public class Main2 {
             tmp = array[i];
             array[i] = array[minIndex];
             array[minIndex] = tmp;
+        }
+        return array;
+    }
+
+    //练习1
+    private static int[] SelectSort1(int[] array) {
+        int maxIndex;
+        int tmp;
+        for (int i = array.length-1; i > 0; i--) {
+            maxIndex = i;
+            for (int j = i; j >= 0 ; j--) {
+                 if(array[maxIndex]<array[j]){
+                         maxIndex = j;
+                 }
+            }
+            tmp = array[i];
+            array[i] = array[maxIndex];
+            array[maxIndex] = tmp;
         }
         return array;
     }

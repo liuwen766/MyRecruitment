@@ -1,4 +1,4 @@
-package com.liuwen.牛客网.a第一个十题;
+package com.liuwen.牛客网;
 
 /**
  * @description:  二维数组的查找
