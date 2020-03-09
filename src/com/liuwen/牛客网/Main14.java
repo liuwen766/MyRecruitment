@@ -19,7 +19,6 @@ public class Main14 {
         ListNode result = FindKthToTail1(head,4);
         if(result!=null)
         System.out.println(result.value);
-
     }
     /**
      * @Description:  方法2：两个指针（类似于指针），一个先走k步，然后两个同时走。
