@@ -1,8 +1,5 @@
 package com.liuwen.练习.链表题;
 
-import com.liuwen.练习.辅助.LinkedList;
-import com.liuwen.练习.辅助.Node;
-
 /**
  * @description: Good good study,day day up!
  * @author: Liu Wen
