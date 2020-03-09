@@ -1,4 +1,4 @@
-package com.liuwen.练习.辅助;
+package com.liuwen.练习.链表题;
 
 /**
  * @description: Good good study,day day up!

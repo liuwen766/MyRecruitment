@@ -1,4 +1,4 @@
-package com.liuwen.练习.辅助;
+package com.liuwen.练习.链表题;
 
         /* 1. 求单链表中结点的个数: getListLength
          * 2. 将单链表反转: reverseList（遍历），reverseListRec（递归）
@@ -12,6 +12,8 @@ package com.liuwen.练习.辅助;
          * 10. 已知一个单链表中存在环，求进入环中的第一个节点: getFirstNodeInCycle, getFirstNodeInCycleHashMap
          * 11. 给出一单链表头指针pHead和一节点指针pToBeDeleted，O(1)时间复杂度删除节点pToBeDeleted: delete
          * */
+
+
 /**
  * @description: 链表的创建（链表结点的增、删、改、查）
  * @author: Liu Wen
