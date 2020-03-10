@@ -37,11 +37,31 @@ public class Main17 {
      */
     public static boolean HasSubtree(TreeNode root1,TreeNode root2) {
         boolean result = false;
-
+        if(root1==null||root2==null){
+            return result;
+        }
+        if(root1.val==root2.val){
+            result = isTree1HasTree2(root1,root2);  //判断以root为起点的树是否包含树2
+        }
+        if(!result){          //如果没有找到，则判断树1的左字节点是否是树2的根节点
+            result = HasSubtree(root1.left,root2);
+        }
+        if(!result){          //如果还没有找到，则判断树1的左字节点是否是树2的根节点
+            result = HasSubtree(root1.right,root2);
+        }
         return result;
     }
     //判断树1含有树2吗？
     public static boolean isTree1HasTree2(TreeNode root1, TreeNode root2) {
-        return false;
+        if(root2==null){          //递归截止条件1（如果Tree2已经遍历完了都能对应的上，返回true）
+            return true;
+        }
+        if(root1==null){          //递归截止条件2（如果Tree2还没有遍历完，Tree1却遍历完了。返回false）
+            return false;
+        }
+        if(root1.val!=root2.val){ //若节点出现不一致，直接返回false
+            return false;
+        }         //如果根节点一致，分别比较左右子结点。
+        return isTree1HasTree2(root1.left,root2.left)&&isTree1HasTree2(root1.right,root2.right);
     }
 }
