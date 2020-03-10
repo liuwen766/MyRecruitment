@@ -25,8 +25,6 @@ public class Main3 {
         System.out.println();
         postorderTraversal(root);
     }
-
-
     /**
      * @Description:   先序遍历
       * @param root
