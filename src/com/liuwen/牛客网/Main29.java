@@ -13,9 +13,31 @@ public class Main29 {
     public static void main(String[] args){
         int[] input = {4,5,1,6,2,7,3,8};
         int k = 4;
-        ArrayList<Integer> result = GetLeastNumbers_Solution(input,k);
+        ArrayList<Integer> result = GetLeastNumbers_Solution2(input,k);
         System.out.println(result);
     }
+    /**
+     * @Description:     方法3：用优先队列建立一个长度为K的队列，每次把队列头部的数据和遍历数据做对比即可
+      * @param input
+     * @param k
+     * @return java.util.ArrayList<java.lang.Integer>
+     * @date 20.3.11 18:48
+     */
+    public static ArrayList<Integer> GetLeastNumbers_Solution2(int[] input, int k) {
+        return null;
+    }
+
+    /**
+     * @Description:    排好序，找出最小的k个数
+      * @param input
+     * @param k
+     * @return java.util.ArrayList<java.lang.Integer>
+     * @date 20.3.11 18:47
+     */
+    public static ArrayList<Integer> GetLeastNumbers_Solution1(int[] input, int k) {
+        return null;
+    }
+
     /**
      * @Description:    方法1：利用工具类将集合排好序，取出前k个即可
       * @param input

@@ -1,5 +1,7 @@
 package com.liuwen.牛客网;
 
+import java.util.Arrays;
+
 /**
  * @description: 重建二叉树
  * @author: Liu Wen
@@ -22,16 +24,41 @@ public class Main4 {
      * @date 20.3.10 15:21
      */
     public static TreeNode reConstructBinaryTree(int [] pre,int [] in) {
-        return null;
+        if (pre.length!=in.length||pre.length==0){
+            return null;
+        }
+        TreeNode root = new TreeNode(pre[0]);      //找出根节点
+        int i = 0;
+        for (i = 0; i < pre.length; i++) {
+            if(in[i]==pre[0]){
+                break;
+            }
+        }
+        /*
+        int[] pre = {1,2,4,7,3,5,6,8};
+        int[] in = {4,7,2,1,5,3,8,6};
+                          i
+         */ //分别找出新的左右子树的前序遍历和中序遍历
+        int[] Leftnewpre = Arrays.copyOfRange(pre,1,i+1);
+        int[] Leftnewin = Arrays.copyOfRange(in,0,i);
+        int[] Rigntnewpre = Arrays.copyOfRange(pre,i+1,pre.length);
+        int[] Rightnewin = Arrays.copyOfRange(in,i+1,in.length);
+        root.left = reConstructBinaryTree(Leftnewpre,Leftnewin); //找出根节点的左子树的根结点
+        root.right = reConstructBinaryTree(Rigntnewpre,Rightnewin);//找出根节点的右子树的根节点
+        return root;
     }
-
     /**
-     * @Description:  前序遍历
+     * @Description:  前序遍历  用于可视化检验结果
       * @param treeNode
      * @return void
      * @date 20.3.10 15:24
      */
     private static void preorderTraversal(TreeNode treeNode) {
-
+        if(treeNode==null){
+            return;
+        }
+        System.out.print(treeNode.val);
+        preorderTraversal(treeNode.left);
+        preorderTraversal(treeNode.right);
     }
 }
