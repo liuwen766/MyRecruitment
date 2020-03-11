@@ -24,7 +24,16 @@ public class Main30 {
      * @date 20.3.10 21:36
      */
     public static int FindGreatestSumOfSubArray1(int[] array) {
-        return 0;
+        if(array.length==0){
+            return 0;
+        }
+        int Fn = array[0];       //包含array[i]的连续数组最大值
+        int res = array[0];      //记录当前所有子数组的和的最大值
+        for (int i = 1; i < array.length; i++) {
+            Fn = Math.max(Fn+array[i],array[i]);
+            res = Math.max(Fn,res);
+        }
+        return res;
     }
     /**
      * @Description:  方法1：暴力搜索。把以每个元素为起始点的子数组的和都算出来，保留最大值。

@@ -2,6 +2,7 @@ package com.liuwen.牛客网;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.PriorityQueue;
 
 /**
  * @description: 输入n个整数，找出其中最小的K个数。
@@ -17,25 +18,60 @@ public class Main29 {
         System.out.println(result);
     }
     /**
-     * @Description:     方法3：用优先队列建立一个长度为K的队列，每次把队列头部的数据和遍历数据做对比即可
+     * @Description:     方法3：用优先队列储存一个长度为K的队列，
+     *                          每次把队列头部的数据和遍历数据做对比即可
       * @param input
      * @param k
      * @return java.util.ArrayList<java.lang.Integer>
      * @date 20.3.11 18:48
      */
     public static ArrayList<Integer> GetLeastNumbers_Solution2(int[] input, int k) {
-        return null;
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if(k>input.length||k<=0){
+            return arrayList;
+        }   // 定义一个优先队列
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(((o1, o2) -> o2-o1));
+        for (int i = 0; i < input.length; i++) {
+            //先把队列装到k个元素
+            if(priorityQueue.size()<k){
+                priorityQueue.add(input[i]);
+                continue;
+            }
+//            System.out.println(priorityQueue);
+            // 移除最大值，塞入最小值
+            if(priorityQueue.size()>=k&&priorityQueue.peek()>input[i]){
+                priorityQueue.poll();
+                priorityQueue.add(input[i]);
+            }
+        }
+        return new ArrayList<>(priorityQueue);
     }
-
     /**
-     * @Description:    排好序，找出最小的k个数
+     * @Description:    方法2：排好序，找出最小的k个数
       * @param input
      * @param k
      * @return java.util.ArrayList<java.lang.Integer>
      * @date 20.3.11 18:47
      */
     public static ArrayList<Integer> GetLeastNumbers_Solution1(int[] input, int k) {
-        return null;
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if(k>input.length||k<=0){
+            return arrayList;
+        }
+        for (int i = 0; i < input.length-1; i++) {
+            for (int j = 0; j < input.length-i-1; j++) {
+                if(input[j]>input[j+1]){
+                    int temp = input[j];
+                    input[j] = input[j+1];
+                    input[j+1] = temp;
+                }
+            }
+        }
+        for (int i = 0; i < k; i++) {
+            arrayList.add(input[i]);
+//            System.out.print(input[i]+" ");
+        }
+        return arrayList;
     }
 
     /**

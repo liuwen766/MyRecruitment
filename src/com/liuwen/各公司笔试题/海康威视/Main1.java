@@ -7,6 +7,6 @@ package com.liuwen.各公司笔试题.海康威视;
  **/
 public class Main1 {
     /*
-    我写了一个静态内部类实现的额单例。
+    写了一个静态内部类实现的额单例。
      */
 }
