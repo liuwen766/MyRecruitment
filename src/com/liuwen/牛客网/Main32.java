@@ -1,7 +1,10 @@
 package com.liuwen.牛客网;
 
 
+import java.io.Reader;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 
 /**
@@ -12,20 +15,10 @@ import java.util.Comparator;
  **/
 public class Main32 {
     public static void main(String[] args){
-        int[] array = {332,321};
+        int[] array = {1,2,3};
         String ans = PrintMinNumber(array);
         System.out.println(ans);
     }
-    /**
-     * @Description:    方法：暴力搜索       全排序，取出最小值（n个数有n!的排列）
-      * @param array
-     * @return java.lang.String
-     * @date 20.3.12 01:59
-     */
-    public static String PrintMinNumber1(int[] array) {
-        return null;
-    }
-
     /**
      * @Description:     方法2： 朝着能使数最小的方式排序
      *                    实现了Comparator接口的compare方法，将集合元素按照compare方法的规则进行排序
@@ -39,9 +32,9 @@ public class Main32 {
         for (int i = 0; i < numbers.length; i++) {
             strings[i] = String.valueOf(numbers[i]);
         }
-        Arrays.sort(strings, new Comparator<String>() {
+        Arrays.sort(strings, new Comparator<String>() {  //自动实现Comparator接口
             @Override
-            public int compare(String o1, String o2) {
+            public int compare(String o1, String o2) {   //自定义比较器（代码没有侵入性）
                 return (o1+o2).compareTo(o2+o1);
             }
         });
