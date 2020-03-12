@@ -7,7 +7,9 @@ package com.liuwen.牛客网;
  **/
 public class Test {
     public static void main(String[] args){
-
+        char[] chars = {'j','k','d','5','/'};
+        String string = String.valueOf(chars);
+        System.out.println(string);
     }
 }
 

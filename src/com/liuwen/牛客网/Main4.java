@@ -43,8 +43,8 @@ public class Main4 {
         int[] Leftnewin = Arrays.copyOfRange(in,0,i);
         int[] Rigntnewpre = Arrays.copyOfRange(pre,i+1,pre.length);
         int[] Rightnewin = Arrays.copyOfRange(in,i+1,in.length);
-        root.left = reConstructBinaryTree(Leftnewpre,Leftnewin); //找出根节点的左子树的根结点
-        root.right = reConstructBinaryTree(Rigntnewpre,Rightnewin);//找出根节点的右子树的根节点
+        root.left = reConstructBinaryTree(Leftnewpre,Leftnewin); //找出当前根节点的左子树的根结点
+        root.right = reConstructBinaryTree(Rigntnewpre,Rightnewin);//找出当前根节点的右子树的根节点
         return root;
     }
     /**
