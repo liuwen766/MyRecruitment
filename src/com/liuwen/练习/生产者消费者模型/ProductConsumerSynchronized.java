@@ -20,9 +20,9 @@ public class ProductConsumerSynchronized {
     }
     private static class Data{
         int num = 0;
-
         public synchronized void increment(){
-             while (num!=0){   //使用 while 可以多次检测，避免虚假唤醒的问题。
+             while (num==5){   //使用 while 可以多次检测，避免虚假唤醒的问题。
+                System.out.println("仓库已满，暂时不能执行生产任务!");
                 try {
                     this.wait();
                 } catch (InterruptedException e) {
@@ -35,6 +35,7 @@ public class ProductConsumerSynchronized {
         }
         public synchronized void decrement(){
             while (num==0){
+                System.out.println("仓库已空，暂时不能执行消费任务!");
                 try {
                     this.wait();
                 } catch (InterruptedException e) {

@@ -30,7 +30,8 @@ public class ProductConsumerLock {
         public void increment(){
             try {
                 lock.lock();            //加锁
-                while (num!=0){
+                while (num==3){
+                    System.out.println("仓库已满，暂时不能执行生产任务!");
                     condition.await();  //condition条件等待
                 }
                 num++;
@@ -46,6 +47,7 @@ public class ProductConsumerLock {
             try {
                 lock.lock();
                 while (num==0){
+                    System.out.println("仓库已空，暂时不能执行消费任务!");
                     condition.await();
                 }
                 num--;
