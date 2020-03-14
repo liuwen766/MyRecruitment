@@ -1,5 +1,8 @@
 package com.liuwen.MyCSDN.Java异常;
 
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
 /**
  * @description: Good good study,day day up!
  * @author: Liu Wen
@@ -19,4 +22,18 @@ public class Test {
 
        异常处理：try、catch、finally、throw、throws。
      */
+    public static void main(String[] args){
+        ArrayList<String> arrayList = new ArrayList<>();
+        for (int i = 0; i < 8; i++) {
+            new Thread(()->{
+                try {
+                    TimeUnit.SECONDS.sleep(2);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();          //可能会抛出：java.util.ConcurrentModificationException
+                }
+                arrayList.add("A");
+                System.out.println(arrayList);
+            }).start();
+        }
+    }
 }
