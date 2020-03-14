@@ -14,7 +14,7 @@ public class Main1 {
         System.out.println("==============================================");
         Integer a1 = 128;
         Integer b1 = 128;
-        System.out.println("a1==b1:"+(a1==b1));                   //比较地址
+        System.out.println("a1==b1:"+(a1==b1));                  //比较地址
         System.out.println("a1.equals(b1):"+(a1.equals(b1)));    //比较值
         System.out.println("==============================================");
         String s1 = "abc";
