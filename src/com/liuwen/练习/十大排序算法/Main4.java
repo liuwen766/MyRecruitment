@@ -1,4 +1,4 @@
-package com.liuwen.练习.排序算法;
+package com.liuwen.练习.十大排序算法;
 
 /**
  * @description: 希尔排序
@@ -22,7 +22,7 @@ public class Main4 {
      * @date 20.3.5 14:33
      */
     private static int[] ShellSort(int[] array) {
-        int gap = array.length/2;
+        int gap = array.length/2;         //
         int cur;
         int preIndex;
         while (gap>0){

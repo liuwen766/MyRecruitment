@@ -1,4 +1,4 @@
-package com.liuwen.练习.排序算法;
+package com.liuwen.练习.十大排序算法;
 
 /**
  * @description: 选择排序
