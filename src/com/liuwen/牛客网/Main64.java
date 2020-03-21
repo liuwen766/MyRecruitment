@@ -19,7 +19,8 @@ public class Main64 {
     }
     /**
      * @Description:     方法3：用一个双端队列（算法复杂度n)），队列第一个位置保存当前窗口的最大值，当窗口滑动一次
-     *                   step1.判断当前最大值是否过期；step2.新增加的值从队尾开始比较，把所有比他小的值丢掉
+     *                   step1.判断当前最大值是否过期；
+     *                   step2.新增加的值从队尾开始比较，把所有比他小的值丢掉
      * @date 20.3.15 10:56
      */
     public static ArrayList<Integer> maxInWindows2(int[] num, int size) {

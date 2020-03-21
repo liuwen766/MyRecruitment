@@ -15,12 +15,11 @@ public class Main24 {
     }
     /**
      * @Description:
-      * @param root
-     * @param target
-     * @return java.util.ArrayList<java.util.ArrayList<java.lang.Integer>>
-     * @date 20.3.10 15:13
+     * @date 20.3.20 23:16
      */
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+
+
         return null;
     }
 }

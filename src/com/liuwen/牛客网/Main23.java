@@ -9,12 +9,39 @@ import java.util.ArrayList;
 public class Main23 {
     public static void main(String[] args){
         int[] arr = {1,3,2,6,5,4};
-        boolean result = VerifySquenceOfBST(arr);
+        boolean result = VerifySquenceOfBST1(arr);
         System.out.println(result);
     }
     /**
-     * @Description: BST的后序序列的合法序列是，对于一个序列S，最后一个元素是x （也就是根），如果去掉最后一个元素的序列为T，那么T满足：T可以分成两段，前一段（左子树）小于x，后一段（右子树）大于x，
-     * 且这两段（子树）都是合法的后序序列。完美的递归定义。
+     * @Description:           方法2：直接传数组，递归。
+     * @date 20.3.20 22:01
+     */
+    public static boolean VerifySquenceOfBST1(int[] sequence) {
+        if(sequence.length==0){
+            return false;
+        }
+        return isVerify(sequence,0,sequence.length-1);
+    }
+    private static boolean isVerify(int[] sequence, int left, int right) {
+        if(left>=right)
+            return true;
+        int i = left;
+        for (; i < right; i++) {
+            if(sequence[i]>sequence[right]){
+                break;
+            }
+        }
+        for (int j = i; j < right; j++) {
+            if(sequence[j]<sequence[right]){
+                return false;
+            }
+        }
+        return isVerify(sequence,0,i-1)&&isVerify(sequence,i,right-1);
+    }
+
+    /**
+     * @Description:        方法1：BST的后序序列的合法序列是，对于一个序列S，最后一个元素是x （也就是根），如果去掉最后一个元素的序列为T，那么T满足：T可以分成两段，前一段（左子树）小于x，后一段（右子树）大于x，
+     * 且这两段（子树）都是合法的后序序列。完美的递归定义。(这个方法没100%通过)
       * @param sequence
      * @return boolean
      * @date 20.3.10 15:02
@@ -30,7 +57,7 @@ public class Main23 {
         return VerifySeq(list);
     }
     private static boolean VerifySeq(ArrayList<Integer> sequence) {
-        if(sequence.size()<1){
+        if(sequence.size()<0){
             return true;
         }
         int last = sequence.get(sequence.size()-1);
