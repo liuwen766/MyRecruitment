@@ -38,19 +38,28 @@ public class Main65 {
         }
         return false;
     }
-
     private static boolean helper(char[] matrix, int i, int j, int rows, int cols, boolean[] buer, char[] str, int k) {
         //先根据i和j计算匹配的第一个元素转为一维数组的位置
-
-        //递归终止条件
-
+        int index = cols*i+j;
+        //递归终止条件   ①越界  ②当前找到的矩阵值不等于数组对应位置的值    ③已经走过的
+        if(i<0||i>=rows||j<0||j>=cols||matrix[index]!=str[k]||buer[index]==true){
+            return false;
+        }
         //若k已经到达str末尾了，说明之前的都已经匹配成功了，直接返回true即可
-
+        if(k==str.length-1){
+            return true;
+        }
         //要走的第一个位置置为true，表示已经走过了
-
-        //回溯，递归寻找，每次找到了就给k加一，找不到，还原
-
+        buer[index] = true;
+        //回溯，递归寻找，每次找到了就给k加一，找不到，还原           *****************
+        if(helper(matrix,i+1,j,rows,cols,buer,str,k+1)||
+           helper(matrix,i-1,j,rows,cols,buer,str,k+1)||
+           helper(matrix,i,j+1,rows,cols,buer,str,k+1)||
+           helper(matrix,i,j-1,rows,cols,buer,str,k+1)){
+            return true;
+        }
         //走到这，说明这一条路不通，还原，再试其他的路径
+        buer[index]=false;
         return false;
     }
 }
