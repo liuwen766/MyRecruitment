@@ -21,13 +21,12 @@ public class Main1 {
      */
     public static void perm(int[] nums,int L, int R) {
         if(L==R){                     //结束条件：当只有一个数字做全排列的时候，则就只有一种可能。
-//            printPerm(nums);
               System.out.println(Arrays.toString(nums));
         }
         for (int i = L; i <= R; i++) {
-            swap(nums,L,i);            //step1:把第一个数与第i个交换；
-            perm(nums,L+1,R);       //step2:全排列后面的数组；
-            swap(nums,L,i);            //step3:在交换第一个数与第i+1个数之前，把原来的交换复原。
+            swap(nums,L,i);             //step1:把第一个数与第i个交换；
+            perm(nums,L+1,R);         //step2:全排列后面的数组；
+            swap(nums,L,i);             //step3:在交换第一个数与第i+1个数之前，把原来的交换复原。
         }
     }
     //交换数组中的两个数（必须传递下标，要不然完不成交换）

@@ -13,7 +13,6 @@ public class Main65 {
         char[] str = {'b','c','c','e','d'};
         boolean result = hasPath(matrix,rows,cols,str);
         System.out.println(result);
-
     }
     /**
      * @Description:    回朔法：

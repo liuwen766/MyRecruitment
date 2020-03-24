@@ -1,7 +1,5 @@
 package com.liuwen.牛客网;
 
-import java.util.Arrays;
-
 /**
  * @description:      数组中重复的数字
  * @author: Liu Wen

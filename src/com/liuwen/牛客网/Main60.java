@@ -1,6 +1,9 @@
 package com.liuwen.牛客网;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @description:    把二叉树打印成多行
@@ -20,6 +23,7 @@ public class Main60 {
         node1.left=node3;node1.right=node4;
         node2.left=node5;node2.right=node6;
         ArrayList<ArrayList<Integer>> res = Print(pRoot);
+        System.out.println(res);
     }
     /**
      * @Description:     从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行。
@@ -27,18 +31,42 @@ public class Main60 {
      */
     public static ArrayList<ArrayList<Integer>> Print(TreeNode pRoot) {
         ArrayList<ArrayList<Integer>> arrayLists = new ArrayList<>();
-        return null;
+        if(pRoot==null){
+            return arrayLists;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(pRoot);
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        int count = 0;int nextCount = 0;int cur = 1;
+        while (!queue.isEmpty()){
+            TreeNode ans = queue.poll();
+            count++;
+            arrayList.add(ans.val);
+            if(ans.left!=null){
+                queue.add(ans.left);
+                nextCount++;
+            }
+            if(ans.right!=null){
+                queue.add(ans.right);
+                nextCount++;
+            }
+            if(count==cur){
+                count=0;
+                arrayLists.add(arrayList);
+                arrayList = new ArrayList<>();
+                cur = nextCount;
+                nextCount = 0;
+            }
+        }
+        return arrayLists;
     }
-
-
     public static class TreeNode {
-        int val = 0;
+        int val;
         TreeNode left = null;
         TreeNode right = null;
 
         public TreeNode(int val) {
             this.val = val;
-
         }
     }
 
