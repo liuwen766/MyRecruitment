@@ -1,4 +1,4 @@
-package com.liuwen.练习.生产者消费者模型;
+package com.liuwen.练习.死锁与生产者消费者;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

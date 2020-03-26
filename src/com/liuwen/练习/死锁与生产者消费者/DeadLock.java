@@ -1,4 +1,4 @@
-package com.liuwen.练习.生产者消费者模型;
+package com.liuwen.练习.死锁与生产者消费者;
 
 /**
  * @description:    死锁的实现

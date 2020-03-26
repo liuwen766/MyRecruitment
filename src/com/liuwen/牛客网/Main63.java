@@ -14,6 +14,7 @@ public class Main63 {
      */
     public static void Insert(Integer num) {
 
+
     }
     /**
      * @Description:   获取当前读取数据的中位数

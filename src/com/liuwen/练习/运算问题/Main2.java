@@ -1,4 +1,4 @@
-package com.liuwen.练习.大数;
+package com.liuwen.练习.运算问题;
 /**
  * @description: 数的位运算：与（&）、按位或（|）、异或（^）、取反（~）、左移（<<）、右移（>>）、 无符号右移（>>>）
  * @author: Liu Wen

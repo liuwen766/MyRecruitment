@@ -10,4 +10,4 @@
 9、求两个单链表相交的第一个节点: getFirstCommonNode
 10、已知一个单链表中存在环，求进入环中的第一个节点: getFirstNodeInCycle, getFirstNodeInCycleHashMap
 11、给出一单链表头指针pHead和一节点指针pToBeDeleted，O(1)时间复杂度删除节点pToBeDeleted: delete
- ————————————————————————————————————————————————
+

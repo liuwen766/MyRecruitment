@@ -23,6 +23,7 @@ public class Main35 {
     copy          7            6 7          5 6 7
      */
     public static int InversePairs1(int[] array) {
+
         return 0;
     }
 
