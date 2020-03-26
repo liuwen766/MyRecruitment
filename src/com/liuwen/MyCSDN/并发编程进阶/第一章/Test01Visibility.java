@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
  **/
 public class Test01Visibility {
     public static boolean flag = true;
+//    public static volatile boolean flag = true;    //可见性正确
     public static void main(String[] args) throws InterruptedException {
         new Thread(()->{
             while (flag){
