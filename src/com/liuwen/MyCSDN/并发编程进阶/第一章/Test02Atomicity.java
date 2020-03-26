@@ -9,10 +9,14 @@ import java.util.ArrayList;
  **/
 public class Test02Atomicity {
     private static int number = 0;
+//    private static Object obj = new Object();        //保证原子操作
     public static void main(String[] args) throws InterruptedException{
         Runnable runnable = ()->{
             for (int i = 0; i < 1000; i++) {
                 number++;
+//                synchronized (obj) {
+//                    number++;
+//                }
             }
         };
 
