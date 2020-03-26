@@ -3,7 +3,7 @@ package com.liuwen.MyCSDN.并发编程进阶.第一章;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @description:    验证程序的可见性
+ * @description:    验证可见性
  * @author: Liu Wen
  * @create: 2020-03-26 23:13
  **/
