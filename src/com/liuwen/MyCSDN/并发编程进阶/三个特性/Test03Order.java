@@ -1,6 +1,4 @@
-package com.liuwen.MyCSDN.并发编程进阶.第一章;
-
-import java.util.concurrent.TimeUnit;
+package com.liuwen.MyCSDN.并发编程进阶.三个特性;
 
 /**
  * @description: Good good study,day day up!

@@ -1,4 +1,4 @@
-package com.liuwen.MyCSDN.并发编程进阶.第一章;
+package com.liuwen.MyCSDN.并发编程进阶.三个特性;
 
 import java.util.ArrayList;
 
