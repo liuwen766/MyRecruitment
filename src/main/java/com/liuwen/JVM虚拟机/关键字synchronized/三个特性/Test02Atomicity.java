@@ -1,4 +1,4 @@
-package com.liuwen.JVM虚拟机.并发编程进阶.三个特性;
+package com.liuwen.JVM虚拟机.关键字synchronized.三个特性;
 
 import java.util.ArrayList;
 
@@ -9,6 +9,7 @@ import java.util.ArrayList;
  **/
 public class Test02Atomicity {
     private static int number = 0;
+//    private static volatile  int number = 0;         //不保证原子操作
 //    private static Object obj = new Object();        //保证原子操作
     public static void main(String[] args) throws InterruptedException{
         Runnable runnable = ()->{

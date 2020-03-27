@@ -1,4 +1,4 @@
-package com.liuwen.JVM虚拟机.并发编程进阶.syn锁优化;
+package com.liuwen.JVM虚拟机.关键字synchronized.syn锁优化;
 
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicInteger;

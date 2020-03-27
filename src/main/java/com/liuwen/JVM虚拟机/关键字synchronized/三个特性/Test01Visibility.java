@@ -1,4 +1,4 @@
-package com.liuwen.JVM虚拟机.并发编程进阶.三个特性;
+package com.liuwen.JVM虚拟机.关键字synchronized.三个特性;
 
 import java.util.concurrent.TimeUnit;
 

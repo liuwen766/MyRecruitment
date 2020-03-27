@@ -1,4 +1,4 @@
-package com.liuwen.JVM虚拟机.并发编程进阶.对象头;
+package com.liuwen.JVM虚拟机.关键字synchronized.对象头;
 
 import org.openjdk.jol.info.ClassLayout;
 

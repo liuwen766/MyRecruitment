@@ -1,4 +1,4 @@
-package com.liuwen.JVM虚拟机.并发编程进阶.syn锁;
+package com.liuwen.JVM虚拟机.关键字synchronized.syn锁;
 
 /**
  * @description:           通过字节码文件查看syn原理
