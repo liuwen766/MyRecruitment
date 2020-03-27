@@ -1,8 +1,8 @@
 package com.liuwen.JVM虚拟机.关键字synchronized.三个特性;
 
 /**
- * @description: Good good study,day day up!
- * @author: Liu Wen
+ * @description:     要看见结果，需要导入一个压力测试包
+ * @author: Liu Wen         看Test03Order2
  * @create: 2020-03-26 23:48
  **/
 public class Test03Order {

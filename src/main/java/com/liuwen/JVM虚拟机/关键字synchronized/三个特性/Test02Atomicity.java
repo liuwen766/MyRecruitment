@@ -9,7 +9,7 @@ import java.util.ArrayList;
  **/
 public class Test02Atomicity {
     private static int number = 0;
-//    private static volatile  int number = 0;         //不保证原子操作
+//    private static volatile  int number = 0;           //不保证原子操作
 //    private static Object obj = new Object();        //保证原子操作
     public static void main(String[] args) throws InterruptedException{
         Runnable runnable = ()->{
