@@ -1,9 +1,24 @@
 package com.liuwen.练习.单例模式;
 
 /**
- * @description: Good good study,day day up!
+ * @description: 懒汉式（线程不安全 ,不推荐）
  * @author: Liu Wen
  * @create: 2020-03-11 20:43
  **/
 public class SingletonDemo5 {
+    private static SingletonDemo5 INSTANCE;
+
+    private SingletonDemo5(){
+
+    }
+
+    public static SingletonDemo5 getInstance(){
+        if(INSTANCE==null){
+            synchronized (SingletonDemo5.class) {
+                INSTANCE = new SingletonDemo5();
+            }
+        }
+        return INSTANCE;
+    }
+
 }
