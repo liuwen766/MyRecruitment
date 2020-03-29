@@ -18,8 +18,40 @@ public class Main6 {
      * @date 20.3.18 11:37
      */
     private static int[] quickSort(int[] array, int start, int end) {
-
-        return new int[0];
+        int L = start;
+        int R = end;
+        //递归结束条件
+        if(L>=R){
+            return array;
+        }
+        int pivot = array[L];
+        while (L<R){
+            //step1：从右向左找到第一个比pivot小的数
+            while (L<R&&array[R]>=pivot){
+                R--;
+            }
+            //找到之后交换
+            if(L<R){
+                array[L]=array[R];
+            }
+            //step2：从左向右找到第一个比pivot大的数
+            while (L<R&&array[L]<=pivot){
+                L++;
+            }
+            //找到之后交换
+            if(L<R){
+                array[R]=array[L];
+            }
+            //当L与R相遇的时候，一遍找完。
+            if(L==R){
+                array[L]=pivot;
+            }
+        }
+        //step3：两边子数组分别递归
+        quickSort(array,start,L-1);
+        quickSort(array,L+1,end);
+        //step4：递归结束时返回
+        return array;
     }
 
 }
