@@ -15,7 +15,7 @@ public class Test01Visibility {
 
             while (flag){
                 // 增加对象共享数据的打印，println是同步方法
-                    System.out.println(flag);
+//                    System.out.println(flag);
             }
         },"Thread-1").start();
 
