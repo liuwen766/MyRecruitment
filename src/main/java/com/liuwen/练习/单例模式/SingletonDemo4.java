@@ -1,6 +1,5 @@
 package com.liuwen.练习.单例模式;
 
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
 
 /**
  * @description: 懒汉式（线程安全 ,性能差，不推荐）

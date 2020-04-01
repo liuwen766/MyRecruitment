@@ -1,6 +1,5 @@
 package com.liuwen.练习.单例模式;
 
-import java.util.concurrent.TimeUnit;
 
 /**
  * @description: 懒汉式（线程不安全，不推荐的方案）
