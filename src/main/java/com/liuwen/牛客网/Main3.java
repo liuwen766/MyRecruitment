@@ -10,6 +10,7 @@ import java.util.Stack;
  * @author: Liu Wen
  * @create: 2020-03-07 12:36
  **/
+@SuppressWarnings("all")
 public class Main3 {
     public static void main(String[] args){
         ListNode node1 = new ListNode(1);
