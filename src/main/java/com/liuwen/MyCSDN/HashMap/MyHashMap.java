@@ -1,6 +1,7 @@
 package com.liuwen.MyCSDN.HashMap;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 
 /**
  * @description:              HashMap源码解析
@@ -12,6 +13,9 @@ public class MyHashMap {
     public static void main(String[] args){
         HashMap map = new HashMap();
         map.put(1,2);
+
+        Hashtable table = new Hashtable();
+        table.put(2,3);
     }
     private static final long serialVersionUID = 362498820763181265L;  //serialVersionUID适用于Java的序列化机制。简单来说，Java的序列化机制是通过判断类的serialVersionUID来验证版本一致性的。在进行反序列化时，JVM会把传来的字节流中的serialVersionUID与本地相应实体类的serialVersionUID进行比较，如果相同就认为是一致的，可以进行反序列化，否则就会出现序列化版本不一致的异常，即是InvalidCastException。
     static final int DEFAULT_INITIAL_CAPACITY = 1 << 4;    // 默认table容量大小2^4，即capacity
@@ -48,4 +52,6 @@ public class MyHashMap {
         this.loadFactor = loadFactor;
         this.threshold = tableSizeFor(initialCapacity);
     }
+
+
 }

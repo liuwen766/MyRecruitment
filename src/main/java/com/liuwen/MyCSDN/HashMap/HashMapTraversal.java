@@ -19,19 +19,21 @@ public class HashMapTraversal {
         Traversal3(hashMap);          //建议
         Traversal4(hashMap);          //不建议
 
-        int[] arr = {1,5,3,6};
-        ArrayList<Integer> arrayList = new ArrayList();
-        arrayList.add(1);
-        arrayList.add(8);
-        arrayList.add(5);
-        arrayList.add(2);
-        Collections.sort(arrayList);
-        for (Integer a:arrayList) {
-            System.out.println(a);
-        }
+        Traversal5(hashMap);          //强烈建议
 
     }
-   /**
+
+    /**
+     * @Description:         方法5：jdk8以后使用Map接口中的默认方法
+     * @date 20.4.3 23:32
+     */
+    private static void Traversal5(HashMap<Integer, String> hashMap) {
+        hashMap.forEach((key,vlalue)->{
+            System.out.println(key+vlalue);
+        });
+    }
+
+    /**
      * @Description: 方法1：使用For-Each迭代entrySet ——— 当key和value都需要的时候
      * @date 20.3.13 13:20
      */
