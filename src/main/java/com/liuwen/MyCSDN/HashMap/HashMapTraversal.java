@@ -24,7 +24,7 @@ public class HashMapTraversal {
     }
 
     /**
-     * @Description:         方法5：jdk8以后使用Map接口中的默认方法
+     * @Description:         方法5：jdk8以后使用Map接口中的默认方法（Lambda表达式，简洁）
      * @date 20.4.3 23:32
      */
     private static void Traversal5(HashMap<Integer, String> hashMap) {
