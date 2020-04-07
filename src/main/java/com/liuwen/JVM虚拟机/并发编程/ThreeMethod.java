@@ -10,7 +10,7 @@ import java.util.concurrent.FutureTask;
  * @author: Liu Wen
  * @create: 2020-03-14 14:43
  **/
-public class Main2 {
+public class ThreeMethod {
     public static void main(String[] args){
         System.out.println("当前主线程："+Thread.currentThread().getName());
         try {
@@ -34,7 +34,7 @@ public class Main2 {
         FutureTask futureTask = new FutureTask(myThreadCallable);
         Thread thread = new Thread(futureTask);
         thread.start();
-              //获取Callable的返回值
+              //获取Callable的返回值    futureTask.get()
         try {
             System.out.println("Callable的返回值:"+futureTask.get());
         } catch (InterruptedException e) {
