@@ -9,11 +9,13 @@ import java.util.concurrent.TimeUnit;
  **/
 public class JUC {
     public static void main(String[] args){
+
         //实现Runnable接口，还是耦合的写法。
         Account1 account = new Account1();
         new Thread(account, "A").start();
         new Thread(account, "B").start();
         new Thread(account, "C").start();
+
         //解耦：资源和任务分开。（实现Runnable接口，解耦的写法）
         Account2 account2 = new Account2();
         new Thread(()->{
