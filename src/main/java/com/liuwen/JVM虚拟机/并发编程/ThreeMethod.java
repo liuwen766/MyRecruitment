@@ -12,6 +12,7 @@ import java.util.concurrent.FutureTask;
  **/
 public class ThreeMethod {
     public static void main(String[] args){
+        //主线程
         System.out.println("当前主线程："+Thread.currentThread().getName());
         try {
             Thread.sleep(1000);
@@ -20,15 +21,18 @@ public class ThreeMethod {
         }
         Thread.currentThread().setName("我是主线程！我改名字啦！");
         System.out.println("当前主线程："+Thread.currentThread().getName());
+
         //1：继承 Thread
         MyThread myThread1 = new MyThread();
         MyThread myThread2 = new MyThread();
         myThread1.start();
         myThread2.start();
+
         //2.实现 Runnable
         MyThreadRunnable myThreadRunnable1 = new MyThreadRunnable();
         Thread thread3 = new Thread(myThreadRunnable1);
         thread3.start();
+
         //3.实现 Callable
         MyThreadCallable myThreadCallable = new MyThreadCallable();
         FutureTask futureTask = new FutureTask(myThreadCallable);
