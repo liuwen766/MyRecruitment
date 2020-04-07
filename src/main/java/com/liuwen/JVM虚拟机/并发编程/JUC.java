@@ -8,7 +8,9 @@ import java.util.concurrent.TimeUnit;
  * @create: 2020-03-14 16:03
  **/
 public class JUC {
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException {
+
+        TimeUnit.SECONDS.sleep(2);         //JUC提供的工具类
 
         //实现Runnable接口，还是耦合的写法。
         Account1 account = new Account1();
