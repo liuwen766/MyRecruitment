@@ -13,13 +13,14 @@ public class ThreadPoolSource {
                 2,
                 3,
                 1L,
-                TimeUnit.SECONDS,
-                new ArrayBlockingQueue<>(2),
-                Executors.defaultThreadFactory(),                 //四种拒绝策略：
-//                new ThreadPoolExecutor.AbortPolicy()            //抛出异常
-//                new ThreadPoolExecutor.DiscardPolicy()          //不抛出异常（不管不顾）
-//                 new ThreadPoolExecutor.DiscardOldestPolicy()   //会与workQueue中的第一个竞争
-                new ThreadPoolExecutor.CallerRunsPolicy()         //谁调用谁处理
+                TimeUnit.SECONDS,                               //时间单位
+                new ArrayBlockingQueue<>(2),            //workQueue：工作队列，阻塞队列
+                Executors.defaultThreadFactory(),               //线程工厂，用来创建线程对象
+
+//                new ThreadPoolExecutor.AbortPolicy()          //抛出异常
+//                new ThreadPoolExecutor.DiscardPolicy()        //不抛出异常（不管不顾）
+//                 new ThreadPoolExecutor.DiscardOldestPolicy() //会与workQueue中的第一个竞争
+                new ThreadPoolExecutor.CallerRunsPolicy()       //谁调用谁处理
         );
     }
 }
