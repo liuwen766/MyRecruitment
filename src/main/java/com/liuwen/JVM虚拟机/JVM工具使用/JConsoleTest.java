@@ -1,4 +1,4 @@
-package com.liuwen.JVM虚拟机.垃圾回收;
+package com.liuwen.JVM虚拟机.JVM工具使用;
 
 
 import java.util.ArrayList;
