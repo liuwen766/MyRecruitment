@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recruitment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Recruitment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/携程/Main4.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Singleton" />
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>set</find>
+      <find>synchronized</find>
+      <find>comparable</find>
+      <find>ThreadPoolExecutor</find>
+      <find>Entry</find>
+      <find>HashMap</find>
+      <find>Node</find>
+      <find>synchron</find>
+      <find>最大和</find>
+      <find>copy</find>
+      <find>copyOf</find>
+      <find>copyOfRa</find>
+      <find>sort</find>
+      <find>sort(</find>
+      <find>正则</find>
+      <find>unsafe</find>
+      <find>iterator</find>
+      <find>ConcurrentModificationException</find>
+      <find>transient</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectId" id="1dnVMjhfDPwulV20yYBhiujNWuV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592977637504" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuwen.练习.链表题" />
+      <recent name="com.liuwen.华为" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\找工作不-春招\春招笔试开始啦\Recruitment\src\main\java\com\liuwen\JVM虚拟机\关键字volatile" />
+      <recent name="D:\找工作不-春招\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网进阶版" />
+      <recent name="D:\找实习不-找工作不\春招笔试开始啦\Recruitment\lib" />
+      <recent name="D:\找实习不-找工作不\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网" />
+      <recent name="D:\找实习不-找工作不\春招笔试开始啦\Recruitment\src\com\liuwen\练习\排序算法" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test01">
+    <configuration name="JConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.JVM虚拟机.JVM工具使用.JConsoleTest" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.JVM虚拟机.JVM工具使用.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.各公司笔试题.咪咕视讯.Main1" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.各公司笔试题.咪咕视讯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.各公司笔试题.咪咕视讯.Test" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.各公司笔试题.咪咕视讯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.各公司笔试题.咪咕视讯.Test1" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.各公司笔试题.咪咕视讯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.effectivejava.test01" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.effectivejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test1 (1)" />
+      <item itemvalue="Application.JConsoleTest" />
+      <item itemvalue="Application.test01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test01" />
+        <item itemvalue="Application.JConsoleTest" />
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="" />
+      <created>1582604896416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582604896416</updated>
+      <workItem from="1582604898202" duration="2306000" />
+      <workItem from="1582611147299" duration="6365000" />
+      <workItem from="1582622099199" duration="127000" />
+      <workItem from="1582624186694" duration="1208000" />
+      <workItem from="1582649375968" duration="673000" />
+      <workItem from="1582693422822" duration="19913000" />
+      <workItem from="1582798205650" duration="7610000" />
+      <workItem from="1582864740162" duration="14641000" />
+      <workItem from="1583121679002" duration="10533000" />
+      <workItem from="1583218846037" duration="17000" />
+      <workItem from="1583325042456" duration="873000" />
+      <workItem from="1583383843478" duration="7400000" />
+      <workItem from="1583436807088" duration="681000" />
+      <workItem from="1583484457746" duration="616000" />
+      <workItem from="1583505679685" duration="293000" />
+      <workItem from="1583555543952" duration="19068000" />
+      <workItem from="1583641936158" duration="26420000" />
+      <workItem from="1583727593564" duration="4054000" />
+      <workItem from="1583740166675" duration="21206000" />
+      <workItem from="1583806853456" duration="10554000" />
+      <workItem from="1583839074679" duration="14870000" />
+      <workItem from="1583898043630" duration="3344000" />
+      <workItem from="1583920008381" duration="7294000" />
+      <workItem from="1583940416100" duration="10333000" />
+      <workItem from="1583982897527" duration="9442000" />
+      <workItem from="1583998769670" duration="3616000" />
+      <workItem from="1584002417020" duration="19396000" />
+      <workItem from="1584068618438" duration="20162000" />
+      <workItem from="1584147943070" duration="29428000" />
+      <workItem from="1584239372735" duration="12471000" />
+      <workItem from="1584261365490" duration="1510000" />
+      <workItem from="1584347611986" duration="9252000" />
+      <workItem from="1584362738198" duration="11651000" />
+      <workItem from="1584410115217" duration="1361000" />
+      <workItem from="1584455590121" duration="1231000" />
+      <workItem from="1584498773759" duration="3053000" />
+      <workItem from="1584505689138" duration="1856000" />
+      <workItem from="1584524986645" duration="10115000" />
+      <workItem from="1584548768373" duration="13000" />
+      <workItem from="1584601721984" duration="3365000" />
+      <workItem from="1584669408368" duration="19206000" />
+      <workItem from="1584708515066" duration="5811000" />
+      <workItem from="1584721350185" duration="1909000" />
+      <workItem from="1584759266368" duration="10169000" />
+      <workItem from="1584780540092" duration="5638000" />
+      <workItem from="1584796943573" duration="8000" />
+      <workItem from="1584853737704" duration="6121000" />
+      <workItem from="1584866078434" duration="8690000" />
+      <workItem from="1584923969432" duration="17000" />
+      <workItem from="1584950207904" duration="12101000" />
+      <workItem from="1584969854365" duration="3636000" />
+      <workItem from="1585014324549" duration="4969000" />
+      <workItem from="1585028573555" duration="2692000" />
+      <workItem from="1585032630205" duration="178000" />
+      <workItem from="1585038734563" duration="13628000" />
+      <workItem from="1585064544715" duration="3964000" />
+      <workItem from="1585099362485" duration="2302000" />
+      <workItem from="1585131271854" duration="8762000" />
+      <workItem from="1585215163117" duration="1008000" />
+      <workItem from="1585219197817" duration="1414000" />
+      <workItem from="1585235406893" duration="4629000" />
+      <workItem from="1585266648860" duration="7623000" />
+      <workItem from="1585279311749" duration="164000" />
+      <workItem from="1585280054946" duration="1134000" />
+      <workItem from="1585287274718" duration="19920000" />
+      <workItem from="1585363435131" duration="3485000" />
+      <workItem from="1585481233147" duration="6792000" />
+      <workItem from="1585535436664" duration="3260000" />
+      <workItem from="1585580705019" duration="4276000" />
+      <workItem from="1585585981913" duration="22000" />
+      <workItem from="1585586058946" duration="68000" />
+      <workItem from="1585621599949" duration="10273000" />
+      <workItem from="1585650355703" duration="1054000" />
+      <workItem from="1585659142363" duration="6842000" />
+      <workItem from="1585708143286" duration="7021000" />
+      <workItem from="1585738865741" duration="6874000" />
+      <workItem from="1585799182943" duration="1036000" />
+      <workItem from="1585801884450" duration="1132000" />
+      <workItem from="1585830235360" duration="761000" />
+      <workItem from="1585886622852" duration="11740000" />
+      <workItem from="1586068814685" duration="199000" />
+      <workItem from="1586243115316" duration="8825000" />
+      <workItem from="1586309249834" duration="5499000" />
+      <workItem from="1586317338518" duration="2272000" />
+      <workItem from="1586582641968" duration="2686000" />
+      <workItem from="1586599546698" duration="1401000" />
+      <workItem from="1586673569493" duration="4474000" />
+      <workItem from="1586869292446" duration="5874000" />
+      <workItem from="1586948997161" duration="17000" />
+      <workItem from="1586949046825" duration="13000" />
+      <workItem from="1586952618064" duration="673000" />
+      <workItem from="1587002063666" duration="7000" />
+      <workItem from="1587278524973" duration="1677000" />
+      <workItem from="1587965433673" duration="12000" />
+      <workItem from="1591146723659" duration="44000" />
+      <workItem from="1592977392095" duration="301000" />
+      <workItem from="1592992230221" duration="3000" />
+      <workItem from="1593055658921" duration="36000" />
+      <workItem from="1593058852361" duration="140000" />
+      <workItem from="1593060806702" duration="909000" />
+      <workItem from="1593569695795" duration="5474000" />
+      <workItem from="1593652362217" duration="26000" />
+      <workItem from="1594106907262" duration="133000" />
+      <workItem from="1594110071872" duration="28000" />
+    </task>
+    <task id="LOCAL-00046" summary="单点登录">
+      <created>1584853827115</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1584853827116</updated>
+    </task>
+    <task id="LOCAL-00047" summary="牛客网  剑指offer">
+      <created>1584854983235</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1584854983235</updated>
+    </task>
+    <task id="LOCAL-00048" summary="牛客网  剑指offer">
+      <created>1585050906508</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1585050906508</updated>
+    </task>
+    <task id="LOCAL-00049" summary="牛客网  剑指offer">
+      <created>1585068327151</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1585068327151</updated>
+    </task>
+    <task id="LOCAL-00050" summary="..">
+      <created>1585215516215</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1585215516215</updated>
+    </task>
+    <task id="LOCAL-00051" summary="链表题">
+      <created>1585215564486</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1585215564486</updated>
+    </task>
+    <task id="LOCAL-00052" summary="可见性">
+      <created>1585236192773</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1585236192774</updated>
+    </task>
+    <task id="LOCAL-00053" summary="可见性">
+      <created>1585236332847</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1585236332847</updated>
+    </task>
+    <task id="LOCAL-00054" summary="可见性">
+      <created>1585237369402</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1585237369402</updated>
+    </task>
+    <task id="LOCAL-00055" summary="原子性">
+      <created>1585237381767</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1585237381767</updated>
+    </task>
+    <task id="LOCAL-00056" summary="有序性">
+      <created>1585238347631</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1585238347631</updated>
+    </task>
+    <task id="LOCAL-00057" summary="可见性与原子性">
+      <created>1585239579897</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1585239579897</updated>
+    </task>
+    <task id="LOCAL-00058" summary="可见性、原子性、有序性">
+      <created>1585239901097</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1585239901097</updated>
+    </task>
+    <task id="LOCAL-00059" summary="synchrosized">
+      <created>1585275884870</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1585275884871</updated>
+    </task>
+    <task id="LOCAL-00060" summary="工程改为Maven工程">
+      <created>1585296668504</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1585296668504</updated>
+    </task>
+    <task id="LOCAL-00061" summary="day2020.03.27">
+      <created>1585297292179</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1585297292179</updated>
+    </task>
+    <task id="LOCAL-00062" summary="day2020.03.27">
+      <created>1585302954478</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1585302954478</updated>
+    </task>
+    <task id="LOCAL-00063" summary="8种单例模式">
+      <created>1585323961830</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1585323961830</updated>
+    </task>
+    <task id="LOCAL-00064" summary="可见性原子性有序性">
+      <created>1585324027698</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1585324027698</updated>
+    </task>
+    <task id="LOCAL-00065" summary="maven包">
+      <created>1585324047713</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1585324047713</updated>
+    </task>
+    <task id="LOCAL-00066" summary="单列模式">
+      <created>1585324062696</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1585324062696</updated>
+    </task>
+    <task id="LOCAL-00067" summary="单列模式">
+      <created>1585372926151</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1585372926152</updated>
+    </task>
+    <task id="LOCAL-00068" summary="快速排序">
+      <created>1585484728434</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1585484728435</updated>
+    </task>
+    <task id="LOCAL-00069" summary="堆排序">
+      <created>1585489710267</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1585489710267</updated>
+    </task>
+    <task id="LOCAL-00070" summary="排序">
+      <created>1585540408121</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1585540408123</updated>
+    </task>
+    <task id="LOCAL-00071" summary="synchronsized">
+      <created>1585645243345</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1585645243345</updated>
+    </task>
+    <task id="LOCAL-00072" summary="浦发第二次笔试">
+      <created>1585655744010</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1585655744010</updated>
+    </task>
+    <task id="LOCAL-00073" summary="synchronsized">
+      <created>1585655756855</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1585655756855</updated>
+    </task>
+    <task id="LOCAL-00074" summary="泛型">
+      <created>1585666796135</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1585666796136</updated>
+    </task>
+    <task id="LOCAL-00075" summary="volatile">
+      <created>1585717279046</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1585717279046</updated>
+    </task>
+    <task id="LOCAL-00076" summary="单例">
+      <created>1585718940277</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1585718940277</updated>
+    </task>
+    <task id="LOCAL-00077" summary="携程">
+      <created>1585745831611</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1585745831611</updated>
+    </task>
+    <task id="LOCAL-00078" summary="ThreadLocal">
+      <created>1585907348558</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1585907348558</updated>
+    </task>
+    <task id="LOCAL-00079" summary="去掉黄线警告">
+      <created>1585907366748</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1585907366748</updated>
+    </task>
+    <task id="LOCAL-00080" summary="HashMap">
+      <created>1585928879895</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1585928879895</updated>
+    </task>
+    <task id="LOCAL-00081" summary="HashMap">
+      <created>1585928923661</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1585928923661</updated>
+    </task>
+    <task id="LOCAL-00082" summary="线程创建的三种方法">
+      <created>1586243557104</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1586243557105</updated>
+    </task>
+    <task id="LOCAL-00083" summary="线程创建的三种方法">
+      <created>1586243601581</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1586243601581</updated>
+    </task>
+    <task id="LOCAL-00084" summary="推荐runnable写法">
+      <created>1586243664548</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1586243664548</updated>
+    </task>
+    <task id="LOCAL-00085" summary="JUC">
+      <created>1586245285890</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1586245285891</updated>
+    </task>
+    <task id="LOCAL-00086" summary="死锁 生产者消费者">
+      <created>1586255283678</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1586255283678</updated>
+    </task>
+    <task id="LOCAL-00087" summary="并发编程">
+      <created>1586314306415</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1586314306416</updated>
+    </task>
+    <task id="LOCAL-00088" summary="并发编程">
+      <created>1586317528915</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1586317528915</updated>
+    </task>
+    <task id="LOCAL-00089" summary="中国移动上海云能力中心测评">
+      <created>1586592704097</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1586592704098</updated>
+    </task>
+    <task id="LOCAL-00090" summary="咪咕笔试">
+      <created>1586678240919</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1586678240919</updated>
+    </task>
+    <task id="LOCAL-00091" summary=" GC：JConsole测试">
+      <created>1586875517080</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1586875517081</updated>
+    </task>
+    <task id="LOCAL-00092" summary=" GC：JConsole测试">
+      <created>1586880641837</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1586880641837</updated>
+    </task>
+    <task id="LOCAL-00093" summary="leetcode">
+      <created>1586953919364</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1586953919364</updated>
+    </task>
+    <task id="LOCAL-00094" summary="上海交通银行笔试">
+      <created>1587282497490</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1587282497490</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JUC_test - 2020.03.14 at 16h 25m 57s.xml">
+      <configuration name="JUC.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUC - 2020.03.14 at 16h 26m 45s.xml">
+      <configuration name="JUC" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUC_(1) - 2020.03.14 at 16h 27m 14s.xml">
+      <configuration name="JUC (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUC_(2) - 2020.03.14 at 16h 27m 41s.xml">
+      <configuration name="JUC (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUC_(3) - 2020.03.14 at 16h 28m 00s.xml">
+      <configuration name="JUC (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUC_(4) - 2020.03.14 at 16h 28m 32s.xml">
+      <configuration name="JUC (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUC_(5) - 2020.03.14 at 16h 28m 37s.xml">
+      <configuration name="JUC (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringDemo_test1 - 2020.03.24 at 13h 45m 17s.xml">
+      <configuration name="StringDemo.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringDemo_test2 - 2020.03.24 at 13h 46m 14s.xml">
+      <configuration name="StringDemo.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringDemo_test5 - 2020.03.24 at 13h 47m 09s.xml">
+      <configuration name="StringDemo.test5" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="可见性原子性有序性" />
+    <MESSAGE value="maven包" />
+    <MESSAGE value="单列模式" />
+    <MESSAGE value="快速排序" />
+    <MESSAGE value="堆排序" />
+    <MESSAGE value="排序" />
+    <MESSAGE value="浦发第二次笔试" />
+    <MESSAGE value="synchronsized" />
+    <MESSAGE value="泛型" />
+    <MESSAGE value="volatile" />
+    <MESSAGE value="单例" />
+    <MESSAGE value="携程" />
+    <MESSAGE value="ThreadLocal" />
+    <MESSAGE value="去掉黄线警告" />
+    <MESSAGE value="HashMap" />
+    <MESSAGE value="线程创建的三种方法" />
+    <MESSAGE value="推荐runnable写法" />
+    <MESSAGE value="JUC" />
+    <MESSAGE value="死锁 生产者消费者" />
+    <MESSAGE value="并发编程" />
+    <MESSAGE value="中国移动上海云能力中心测评" />
+    <MESSAGE value="咪咕笔试" />
+    <MESSAGE value=" GC：JConsole测试" />
+    <MESSAGE value="leetcode" />
+    <MESSAGE value="上海交通银行笔试" />
+    <option name="LAST_COMMIT_MESSAGE" value="上海交通银行笔试" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1188" height="215" key="GridCell.Tab.0.bottom" timestamp="1593598443383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1188" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593598443383" />
+    <state width="1188" height="215" key="GridCell.Tab.0.center" timestamp="1593598443383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1188" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593598443383" />
+    <state width="1188" height="215" key="GridCell.Tab.0.left" timestamp="1593598443383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1188" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593598443383" />
+    <state width="1188" height="215" key="GridCell.Tab.0.right" timestamp="1593598443383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1188" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593598443383" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1593571004694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593571004694" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Father.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Father.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/StaticTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main6.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/iterator.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="Recruitment" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Recruitment" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Recruitment</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>com.springsource.org.junit-4.7.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
