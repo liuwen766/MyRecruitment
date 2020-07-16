@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/FindByAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FindByAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/FindBySalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FindBySalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/FunctionInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FunctionInterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/LambadaLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/LambadaLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/MyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/MyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Charcater01Lambada/Test01Lambada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +71,8 @@
   </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
@@ -93,7 +88,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -108,66 +103,65 @@
       <recent name="D:\找实习不-找工作不\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTransaction.test5">
-    <configuration name="FunctionInterfaceTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ForkJoinTest">
+    <configuration name="ForkJoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.Java8新特性.Character01Lambada.*" />
+          <option name="PATTERN" value="com.liuwen.Java8新特性.Character04Parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character01Lambada" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character01Lambada.FunctionInterfaceTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character04Parallel" />
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character04Parallel.ForkJoinTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01MethodRef.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForkJoinTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.Java8新特性.Character02MethodRef.*" />
+          <option name="PATTERN" value="com.liuwen.Java8新特性.Character04Parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character02MethodRef" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character02MethodRef.Test01MethodRef" />
+      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character04Parallel" />
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character04Parallel.ForkJoinTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01MethodRef.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForkJoinTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.Java8新特性.Character02MethodRef.*" />
+          <option name="PATTERN" value="com.liuwen.Java8新特性.Character04Parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character02MethodRef" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character02MethodRef.Test01MethodRef" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character04Parallel" />
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character04Parallel.ForkJoinTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01StreamAPI.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForkJoinTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.Java8新特性.Character03StreamAPI.*" />
+          <option name="PATTERN" value="com.liuwen.Java8新特性.Character04Parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character03StreamAPI" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character03StreamAPI.Test01StreamAPI" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character04Parallel" />
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character04Parallel.ForkJoinTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FunctionInterfaceTest.test4" />
-      <item itemvalue="JUnit.Test01MethodRef.test" />
-      <item itemvalue="JUnit.Test01MethodRef.test5" />
-      <item itemvalue="JUnit.Test01StreamAPI.test01" />
       <item itemvalue="JUnit.TestTransaction.test5" />
+      <item itemvalue="JUnit.ForkJoinTest.test" />
+      <item itemvalue="JUnit.ForkJoinTest.test02" />
+      <item itemvalue="JUnit.ForkJoinTest" />
+      <item itemvalue="JUnit.ForkJoinTest.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ForkJoinTest" />
+        <item itemvalue="JUnit.ForkJoinTest.test" />
+        <item itemvalue="JUnit.ForkJoinTest.test01" />
+        <item itemvalue="JUnit.ForkJoinTest.test02" />
         <item itemvalue="JUnit.TestTransaction.test5" />
-        <item itemvalue="JUnit.Test01StreamAPI.test01" />
-        <item itemvalue="JUnit.Test01MethodRef.test5" />
-        <item itemvalue="JUnit.Test01MethodRef.test" />
-        <item itemvalue="JUnit.FunctionInterfaceTest.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -330,14 +324,7 @@
       <workItem from="1594806753471" duration="3020000" />
       <workItem from="1594810071327" duration="4212000" />
       <workItem from="1594820937529" duration="7113000" />
-      <workItem from="1594860302618" duration="6307000" />
-    </task>
-    <task id="LOCAL-00054" summary="可见性">
-      <created>1585237369402</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1585237369402</updated>
+      <workItem from="1594860302618" duration="10137000" />
     </task>
     <task id="LOCAL-00055" summary="原子性">
       <created>1585237381767</created>
@@ -675,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594866174636</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Java 8 新特性学习">
+      <created>1594869394744</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1594869394745</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TodoView">
@@ -691,7 +685,6 @@
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="排序" />
     <MESSAGE value="浦发第二次笔试" />
     <MESSAGE value="synchronsized" />
     <MESSAGE value="泛型" />
@@ -716,41 +709,42 @@
     <MESSAGE value="Java StreamAPI" />
     <MESSAGE value="Java Lambada" />
     <MESSAGE value="Java 方法引用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 方法引用" />
+    <MESSAGE value="Java 8 新特性学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 8 新特性学习" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1594813447416">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1594879706635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594813447416" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594879706635" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594548728647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594548728647" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1594866172307">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1594869392032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594866172307" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1594868320238">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594869392032" />
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom" timestamp="1594880483974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594868320238" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1594868320238">
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594880483974" />
+    <state width="1493" height="298" key="GridCell.Tab.0.center" timestamp="1594880483974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594868320238" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1594868320353">
+    <state width="1493" height="298" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594880483974" />
+    <state width="1493" height="298" key="GridCell.Tab.0.left" timestamp="1594880484067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594868320353" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1594868320238">
+    <state width="1493" height="298" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594880484067" />
+    <state width="1493" height="298" key="GridCell.Tab.0.right" timestamp="1594880483974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594868320238" />
-    <state x="270" y="56" key="SettingsEditor" timestamp="1594809776651">
+    <state width="1493" height="298" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594880483974" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1594878706125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594809776651" />
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594878706125" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594552399977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
