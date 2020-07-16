@@ -1,4 +1,4 @@
-package com.liuwen.Java8新特性.Charcater01Lambada;
+package com.liuwen.Java8新特性.Character01Lambada;
 
 /**
  * ----------------------------------------------------------------------

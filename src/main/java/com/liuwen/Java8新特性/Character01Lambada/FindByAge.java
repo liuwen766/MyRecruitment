@@ -1,4 +1,4 @@
-package com.liuwen.Java8新特性.Charcater01Lambada;
+package com.liuwen.Java8新特性.Character01Lambada;
 
 /**
  * ----------------------------------------------------------------------
@@ -8,13 +8,13 @@ package com.liuwen.Java8新特性.Charcater01Lambada;
  * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
  *
  * @description:
- * @author: Create by Liu Wen at 2020-07-15 19:43
+ * @author: Create by Liu Wen at 2020-07-15 19:42
  * ----------------------------------------------------------------------
  **/
 
-public class FindBySalary implements MyStrategy<Employee>{
+public class FindByAge implements MyStrategy<Employee>{
     @Override
     public boolean test(Employee employee) {
-        return employee.getSalary()>20000;
+        return employee.getAge()>35;
     }
 }

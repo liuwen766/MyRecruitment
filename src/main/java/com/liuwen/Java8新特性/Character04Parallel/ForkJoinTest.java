@@ -1,4 +1,4 @@
-package com.liuwen.Java8新特性.Charcater01Lambada;
+package com.liuwen.Java8新特性.Character04Parallel;
 
 /**
  * ----------------------------------------------------------------------
@@ -7,11 +7,10 @@ package com.liuwen.Java8新特性.Charcater01Lambada;
  * The programs can not be copied and/or distributed without the express
  * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
  *
- * @description:
- * @author: Create by Liu Wen at 2020-07-15 19:40
+ * @description:         ForkJoin框架适合做任务耗时长的大数据量任务。
+ * @author: Create by Liu Wen at 2020-07-16 11:14
  * ----------------------------------------------------------------------
  **/
 
-public interface MyStrategy<T> {
-    boolean test(T t);
+public class ForkJoinTest {
 }

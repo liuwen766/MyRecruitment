@@ -1,6 +1,6 @@
 package com.liuwen.Java8新特性.Character02MethodRef;
 
-import com.liuwen.Java8新特性.Charcater01Lambada.Employee;
+import com.liuwen.Java8新特性.Character01Lambada.Employee;
 import org.junit.Test;
 
 import java.util.Comparator;

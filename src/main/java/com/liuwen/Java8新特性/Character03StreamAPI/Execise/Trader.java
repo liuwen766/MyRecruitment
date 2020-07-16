@@ -1,4 +1,4 @@
-package com.liuwen.Java8新特性.Charcater01Lambada;
+package com.liuwen.Java8新特性.Character03StreamAPI.Execise;
 
 /**
  * ----------------------------------------------------------------------
@@ -7,22 +7,21 @@ package com.liuwen.Java8新特性.Charcater01Lambada;
  * The programs can not be copied and/or distributed without the express
  * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
  *
- * @description:    员工类
- * @author: Create by Liu Wen at 2020-07-15 19:03
+ * @description:   交易员
+ * @author: Create by Liu Wen at 2020-07-12 19:08
  * ----------------------------------------------------------------------
  **/
-public class Employee {
-    private String name;
-    private int age;
-    private double salary;
 
-    public Employee() {
+public class Trader {
+    private String name;
+    private String city;
+
+    public Trader() {
     }
 
-    public Employee(String name, int age, double salary) {
+    public Trader(String name, String city) {
         this.name = name;
-        this.age = age;
-        this.salary = salary;
+        this.city = city;
     }
 
     public String getName() {
@@ -33,28 +32,19 @@ public class Employee {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public String getCity() {
+        return city;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setCity(String city) {
+        this.city = city;
     }
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Trader{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
-                ", salary=" + salary +
+                ", city='" + city + '\'' +
                 '}';
     }
 }
