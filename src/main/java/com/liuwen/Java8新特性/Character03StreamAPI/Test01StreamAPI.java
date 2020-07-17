@@ -53,34 +53,36 @@ public class Test01StreamAPI {
 
     /**
      * @Description:  2.中间操作
+     *
      *  一、筛选与切片
-     * i1ter接收 Lambd
-     * 从流中排除某些元素
-     * 1imit—截断流，使其元素不超过给定数量
-     * skp（m）一跳过元素，返回一个扔掉了前n个元素的流。若流中元素不足n个，则返回一个空流。与11
-     * distinct-筛选，通过流所生成元素的 hashcode（）和 equals（）去除重复元素
+     * filer——接收 Lambada，从流中排除某些元素。
+     * limit——截断流，使其元素不超过给定数量。
+     * skip（n）——跳过元素，返回一个扔掉了前n个元素的流。若流中元素不足n个，则返回一个空流。
+     * distinct——筛选，通过流所生成元素的 hashcode（）和 equals（）来去除重复元素。
+     *
      * 二、映射
-     * map接收 Lambda，将元素转换成其他形式或提取信息。接收一个函数作为参数，该函数会被应用到每个
-     * f1 atMan接收一个函数作为参数
-     * 中的每个值都换成另一个流，然后把所有流连接成一个流
+     * map——接收Lambda，将元素转换成其他形式或提取信息。接收一个函数作为参数，该函数会被应用到每个。
+     * flatMap——接收一个函数作为参数。将流中的每个值都换成另一个流，然后把所有流连接成一个流。
+     *
      * 三、排序
-     * sorted（）一自然排序
-     * sorted（ Comparator com）一定制排序
+     * sorted（）——自然排序
+     * sorted（ Comparator com）——定制排序
+     *
      * 四、匹配
-     * a1 Match-检查是否匹配所有元素
-     * nyMatch检查是否至少匹配一个元素
-     * noneMatch检查是否没有匹配所有元素
-     * findE⊥xst—返回第一个元素
-     * findAny一返回当前流中的任意元素
-     * count一返回流中元素的总个数
-     * max一返回流中最大值
-     * mn一返回流中最小值
+     * allMatch——检查是否匹配所有元素
+     * anyMatch——检查是否至少匹配一个元素
+     * noneMatch——检查是否没有匹配所有元素
+     * findFirst——返回第一个元素
+     * findAny——返回当前流中的任意元素
+     * count——返回流中元素的总个数
+     * max——返回流中最大值
+     * min——返回流中最小值
+     *
      * 五、归约
-     * （T identity
-     * or）/ reduce（Binaryoperator
-     * 以将流中元素反复结合起来，
+     * reduce(T identity,BinaryOperator)可以将流中元素反复结合起来。
+     *
      * 六、收集
-     * collect——将流转换为其它形式。接收一个Collector接口的实现，用于给Stream中元素做汇总。
+     * collect——将流转换为其它形式。接收一个Collector接口的实现，用于给Stream中元素做汇总的方法。
      *
      */
 }
