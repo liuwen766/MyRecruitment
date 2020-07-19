@@ -4,11 +4,6 @@ import java.util.concurrent.RecursiveTask;
 
 /**
  * ----------------------------------------------------------------------
- * Copyright © 2014-2020 China Mobile (SuZhou) Software Technology Co.,Ltd.
- * <p>
- * The programs can not be copied and/or distributed without the express
- * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
- *
  * @description:     ForkJoin框架
  * @author: Create by Liu Wen at 2020-07-16 11:19
  * ----------------------------------------------------------------------

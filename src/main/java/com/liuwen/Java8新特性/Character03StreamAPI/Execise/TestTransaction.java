@@ -3,17 +3,13 @@ package com.liuwen.Java8新特性.Character03StreamAPI.Execise;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Stream;
 
 /**
- * ----------------------------------------------------------------------
- * Copyright © 2014-2020 China Mobile (SuZhou) Software Technology Co.,Ltd.
- * <p>
- * The programs can not be copied and/or distributed without the express
- * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
- *
  * @description:   测试交易（使用StreamAPI）
  * @author: Create by Liu Wen at 2020-07-12 19:12
  * ----------------------------------------------------------------------

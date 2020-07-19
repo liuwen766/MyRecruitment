@@ -6,11 +6,6 @@ import java.util.*;
 
 /**
  * ----------------------------------------------------------------------
- * Copyright © 2014-2020 China Mobile (SuZhou) Software Technology Co.,Ltd.
- * <p>
- * The programs can not be copied and/or distributed without the express
- * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
- *
  * @description:      为什么要用Lambada表达式
  * @author: Create by Liu Wen at 2020-07-15 18:55
  * ----------------------------------------------------------------------
@@ -40,6 +35,7 @@ public class Test01Lambada {
     @Test
     public void test02(){
         Comparator<Integer> comparator = (o1,o2)->Integer.compare(o1,o2);
+        Comparator<Integer> comparator1 = Integer::compare;
         TreeSet<Integer> treeSet = new TreeSet<>(comparator);
     }
 

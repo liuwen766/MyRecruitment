@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="Java 8 新特性学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Test05OptionClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/FindByAge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/FindBySalary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/Function.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/FunctionInterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/LambadaLearning$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/LambadaLearning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/MyStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/Test01Lambada$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/Test01Lambada$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Charcater01Lambada/Test01Lambada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Recruitment.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +103,8 @@
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592977637504" />
@@ -112,7 +131,20 @@
       <recent name="D:\找实习不-找工作不\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ForkJoinTest">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character03StreamAPI.Test" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.Java8新特性.Character03StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForkJoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Recruitment" />
       <extension name="coverage">
@@ -160,52 +192,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForkJoinTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test01Lambada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.Java8新特性.Character04Parallel.*" />
+          <option name="PATTERN" value="com.liuwen.Java8新特性.Character01Lambada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character04Parallel" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character04Parallel.ForkJoinTest" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTransaction.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.Java8新特性.Character03StreamAPI.Execise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character03StreamAPI.Execise" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character03StreamAPI.Execise.TestTransaction" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character01Lambada" />
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character01Lambada.Test01Lambada" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestTransaction.test5" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.ForkJoinTest.test" />
-      <item itemvalue="JUnit.ForkJoinTest.test02" />
       <item itemvalue="JUnit.ForkJoinTest" />
       <item itemvalue="JUnit.ForkJoinTest.test01" />
+      <item itemvalue="JUnit.Test01Lambada" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForkJoinTest" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.ForkJoinTest.test" />
         <item itemvalue="JUnit.ForkJoinTest.test01" />
-        <item itemvalue="JUnit.ForkJoinTest.test02" />
-        <item itemvalue="JUnit.TestTransaction.test5" />
+        <item itemvalue="JUnit.Test01Lambada" />
+        <item itemvalue="JUnit.ForkJoinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -335,6 +350,9 @@
       <workItem from="1594820937529" duration="7113000" />
       <workItem from="1594860302618" duration="10720000" />
       <workItem from="1594965329044" duration="1041000" />
+      <workItem from="1594970843788" duration="351000" />
+      <workItem from="1595082286039" duration="3410000" />
+      <workItem from="1595122040671" duration="819000" />
     </task>
     <task id="LOCAL-00056" summary="有序性">
       <created>1585238347631</created>
@@ -694,6 +712,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="浦发第二次笔试" />
     <MESSAGE value="synchronsized" />
@@ -735,22 +765,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594881234882" />
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1594881509713">
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom" timestamp="1595087454542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594881509713" />
-    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1594881509713">
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center" timestamp="1595087454542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594881509713" />
-    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1594881509713">
+    <state width="1492" height="267" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left" timestamp="1595087454542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594881509713" />
-    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1594881509713">
+    <state width="1492" height="267" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right" timestamp="1595087454542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594881509713" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
+    <state width="1492" height="267" key="GridCell.Tab.1.bottom" timestamp="1595087454542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="267" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
+    <state width="1492" height="267" key="GridCell.Tab.1.center" timestamp="1595087454542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="267" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
+    <state width="1492" height="267" key="GridCell.Tab.1.left" timestamp="1595087454542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="267" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
+    <state width="1492" height="267" key="GridCell.Tab.1.right" timestamp="1595087454542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="267" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595087454542" />
     <state x="270" y="56" key="SettingsEditor" timestamp="1594878706125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -806,13 +852,13 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Recruitment$TestTransaction_test.ic" NAME="TestTransaction.test Coverage Results" MODIFIED="1594653601558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.liuwen.effectivejava.Java8StreamAPI.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Recruitment$FunctionInterfaceTest_test2.ic" NAME="FunctionInterfaceTest.test2 Coverage Results" MODIFIED="1594825665377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.Java8新特性.Charcater01Lambada.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Recruitment$TestTransaction_test2.ic" NAME="TestTransaction.test2 Coverage Results" MODIFIED="1594653173279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuwen.effectivejava.Java8StreamAPI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Recruitment$TestTransaction_test.ic" NAME="TestTransaction.test Coverage Results" MODIFIED="1594653601558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.effectivejava.Java8StreamAPI.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Recruitment$Test01StreamAPI_test01.ic" NAME="Test01StreamAPI.test01 Coverage Results" MODIFIED="1594867217796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

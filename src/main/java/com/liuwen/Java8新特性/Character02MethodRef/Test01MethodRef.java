@@ -9,12 +9,6 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
- * ----------------------------------------------------------------------
- * Copyright © 2014-2020 China Mobile (SuZhou) Software Technology Co.,Ltd.
- * <p>
- * The programs can not be copied and/or distributed without the express
- * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
- *
  * @description:  方法引用/构造引用/数组有引用
  * @author: Create by Liu Wen at 2020-07-15 23:26
  * ----------------------------------------------------------------------

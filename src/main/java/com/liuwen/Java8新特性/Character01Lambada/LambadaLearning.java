@@ -9,11 +9,6 @@ import java.util.function.Consumer;
 
 /**
  * ----------------------------------------------------------------------
- * Copyright © 2014-2020 China Mobile (SuZhou) Software Technology Co.,Ltd.
- * <p>
- * The programs can not be copied and/or distributed without the express
- * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
- *
  * @description:  Lambada表达式学习  格式：参数列表->Lambada体
  * @author: Create by Liu Wen at 2020-07-15 21:49
  * ----------------------------------------------------------------------

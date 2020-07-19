@@ -10,11 +10,6 @@ import java.util.stream.LongStream;
 
 /**
  * ----------------------------------------------------------------------
- * Copyright © 2014-2020 China Mobile (SuZhou) Software Technology Co.,Ltd.
- * <p>
- * The programs can not be copied and/or distributed without the express
- * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
- *
  * @description:         ForkJoin框架适合做任务耗时长的大数据量任务。
  * @author: Create by Liu Wen at 2020-07-16 11:14
  * ----------------------------------------------------------------------
@@ -74,7 +69,8 @@ public class ForkJoinTest {
         Instant start = Instant.now();
 
         long reduce = LongStream.rangeClosed(0, 50000000000L)
-                .parallel()
+//                .sequential()      //串行   Java串行流总耗时:65251毫秒
+                .parallel()        //并行  Java并行流总耗时:5128毫秒
                 .reduce(0, Long::sum);
         System.out.println(reduce);
 

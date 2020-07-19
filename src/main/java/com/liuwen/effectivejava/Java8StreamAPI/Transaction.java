@@ -2,11 +2,6 @@ package com.liuwen.effectivejava.Java8StreamAPI;
 
 /**
  * ----------------------------------------------------------------------
- * Copyright © 2014-2020 China Mobile (SuZhou) Software Technology Co.,Ltd.
- * <p>
- * The programs can not be copied and/or distributed without the express
- * permission of China Mobile (SuZhou) Software Technology Co.,Ltd.
- *
  * @description:   交易
  * @author: Create by Liu Wen at 2020-07-12 19:09
  * ----------------------------------------------------------------------
