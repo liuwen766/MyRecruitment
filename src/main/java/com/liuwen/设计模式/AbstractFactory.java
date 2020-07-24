@@ -1,4 +1,4 @@
-package com.liuwen.设计结构;
+package com.liuwen.设计模式;
 
 /**
  * ----------------------------------------------------------------------
@@ -7,5 +7,5 @@ package com.liuwen.设计结构;
  * ----------------------------------------------------------------------
  **/
 
-public class SimpleFactory {
+public class AbstractFactory {
 }
