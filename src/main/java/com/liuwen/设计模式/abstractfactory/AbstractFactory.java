@@ -1,4 +1,4 @@
-package com.liuwen.设计模式;
+package com.liuwen.设计模式.abstractfactory;
 
 /**
  * ----------------------------------------------------------------------
@@ -7,5 +7,5 @@ package com.liuwen.设计模式;
  * ----------------------------------------------------------------------
  **/
 
-public class Factory {
+public class AbstractFactory {
 }

@@ -1,11 +1,11 @@
-package com.liuwen.设计模式;
+package com.liuwen.设计模式.factory;
 
 /**
  * ----------------------------------------------------------------------
- * @description:     单例
- * @author: Create by Liu Wen at 2020-07-07 15:29
+ * @description:
+ * @author: Create by Liu Wen at 2020-07-07 15:30
  * ----------------------------------------------------------------------
  **/
 
-public class Singleton {
+public class Factory {
 }

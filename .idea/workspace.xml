@@ -22,12 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="代码隐私">
+    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计结构/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计结构/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计结构/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/SimpleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计结构/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/SimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +126,26 @@
       <recent name="D:\找实习不-找工作不\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liuwen.设计模式.builder.demo2.Test" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.liuwen.设计模式.builder.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.设计模式.factory.simple1.Test" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.设计模式.factory.simple1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,22 +195,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForkJoinTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.Java8新特性.Character04Parallel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Java8新特性.Character04Parallel" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character04Parallel.ForkJoinTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test01Lambada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Recruitment" />
       <extension name="coverage">
@@ -215,18 +212,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.ForkJoinTest.test" />
-      <item itemvalue="JUnit.ForkJoinTest.test01" />
-      <item itemvalue="JUnit.Test01Lambada" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="JUnit.ForkJoinTest.test" />
+      <item itemvalue="JUnit.Test01Lambada" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.ForkJoinTest.test" />
-        <item itemvalue="JUnit.ForkJoinTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -359,14 +356,8 @@
       <workItem from="1594970843788" duration="351000" />
       <workItem from="1595082286039" duration="3410000" />
       <workItem from="1595122040671" duration="4255000" />
-      <workItem from="1595596443569" duration="3388000" />
-    </task>
-    <task id="LOCAL-00059" summary="synchrosized">
-      <created>1585275884870</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1585275884871</updated>
+      <workItem from="1595596443569" duration="4899000" />
+      <workItem from="1595642775505" duration="1513000" />
     </task>
     <task id="LOCAL-00060" summary="工程改为Maven工程">
       <created>1585296668504</created>
@@ -704,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595123582710</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="建造者模式">
+      <created>1595602839565</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1595602839566</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TodoView">
@@ -732,7 +730,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="synchronsized" />
     <MESSAGE value="泛型" />
     <MESSAGE value="volatile" />
     <MESSAGE value="单例" />
@@ -757,53 +754,54 @@
     <MESSAGE value="Java 方法引用" />
     <MESSAGE value="Java 8 新特性学习" />
     <MESSAGE value="代码隐私" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码隐私" />
+    <MESSAGE value="建造者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="建造者模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1595602318488">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1595643928742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595602318488" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595643928742" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594548728647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594548728647" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1595596492753">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1595602838956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595596492753" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1595602769367">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595602838956" />
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1595644255959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595602769367" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1595602769367">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595644255959" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1595644255959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595602769367" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1595602769366">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595644255959" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1595644255959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595602769366" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1595602769367">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595644255959" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1595644255959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595602769367" />
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1595602769367">
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595644255959" />
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1595644255827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595602769367" />
-    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1595602769367">
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595644255827" />
+    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1595644255827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595602769367" />
-    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1595602769367">
+    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595644255827" />
+    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1595644255827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595602769367" />
-    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1595602769367">
+    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595644255827" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1595644255827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595602769367" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595644255827" />
     <state x="270" y="56" key="SettingsEditor" timestamp="1595602635728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -874,6 +872,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/Recruitment$TestTransaction_test.ic" NAME="TestTransaction.test Coverage Results" MODIFIED="1594653601558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.effectivejava.Java8StreamAPI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MyRecruitment$Test__2_.ic" NAME="Test (2) Coverage Results" MODIFIED="1595643645134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuwen.设计模式.factory.simple1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Recruitment$Test01StreamAPI_test01.ic" NAME="Test01StreamAPI.test01 Coverage Results" MODIFIED="1594867217796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.Java8新特性.Character03StreamAPI.*</FILTER>
