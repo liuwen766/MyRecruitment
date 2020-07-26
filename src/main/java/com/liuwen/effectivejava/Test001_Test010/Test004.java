@@ -1,12 +1,14 @@
 package com.liuwen.effectivejava.Test001_Test010;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 
 /**
  * ----------------------------------------------------------------------
  *
- * @description: （第11个建议）：使用try-with-resources 语句替代try-finally 语句
+ * @description: （第9个建议）：使用try-with-resources 语句替代try-finally 语句
  * @author: Create by Liu Wen at  2020/7/26 15:30
  * ----------------------------------------------------------------------
  **/
@@ -26,6 +28,15 @@ public class Test004 {
       if (inputStream != null) {
         inputStream.close();
       }
+    }
+
+
+
+  }
+
+  static String reder(String path) throws IOException{
+    try(BufferedReader bufferedReader = new BufferedReader(new FileReader(path))){
+      return bufferedReader.readLine();
     }
   }
 

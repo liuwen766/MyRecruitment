@@ -10,24 +10,30 @@ package com.liuwen.effectivejava.Test001_Test010;
 public class Test002 {
 
   public static void main(String[] args) {
-    Box box = new Box.Builder(30, 30).color("red").weight(20).build();
+
+    Box box = new Box.Builder(30, 40,50).color("red").weight(20).build();
+
     System.out.println(box.toString());
   }
 
   public static class Box {
-    private int height;
-    private int width;
-    private int weight;
-    private String color;
 
+    private int length;   //盒子长度
+    private int width;    //盒子宽度
+    private int height;   //盒子高度
+    private int weight;   //盒子重量
+    private String color; //盒子颜色
 
     public static class Builder{
-      private int height;
+
+      private int length;
       private int width;
+      private int height;
       private int weight;
       private String color;
 
-      public Builder(int height, int width){
+      public Builder(int length,int width,int height){
+        this.length = length;
         this.height = height;
         this.width = width;
       }
@@ -48,6 +54,7 @@ public class Test002 {
     }
 
     private Box(Builder builder){
+      length = builder.length;
       height = builder.height;
       weight = builder.weight;
       width = builder.width;
@@ -57,10 +64,11 @@ public class Test002 {
     @Override
     public String toString() {
       return "Box{" +
-          "盒子高=" + height +
-          ", 宽=" + width +
-          ", 重=" + weight +
-          ", 颜色='" + color + '\'' +
+          "长:" + length +
+          ", 宽:" + width +
+          ", 高:" + height +
+          ", 重:" + weight +
+          ", 颜色:'" + color + '\'' +
           '}';
     }
   }

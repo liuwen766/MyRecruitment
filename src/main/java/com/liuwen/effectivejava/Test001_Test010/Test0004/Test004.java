@@ -9,11 +9,15 @@ package com.liuwen.effectivejava.Test001_Test010.Test0004;
  **/
 public class Test004 {
   public static void main(String[] args) {
-    try(Resource1 resource = new Resource1(); /*Resource2 resource2 = new Resource2()*/) {
+
+    try(Resource1 resource = new Resource1(); Resource2 resource2 = new Resource2()) {
       resource.sayHello();
- /*     resource2.sayhello();*/
+      resource2.sayhello();
     } catch (Exception e) {
       e.printStackTrace();
     }
+
+
+
   }
 }
