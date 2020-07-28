@@ -5,14 +5,22 @@ import java.util.*;
 
 /**
  * ----------------------------------------------------------------------
- *
- * @description: 对传入的集合进行分类
+ *               慎用重载
+ * @description: 对传入的集合进行分类(重载使期望输出落空：期望输出是List Set Unknown Collection)
  * @author: Create by Liu Wen at  2020/7/28 20:44
  * ----------------------------------------------------------------------
  **/
 public class CollectionClassifier {
   public static void main(String[] args) {
 
+    Collection<?>[] collections = {new HashSet<String>(),
+            new ArrayList<Integer>(),
+            new HashMap<String,String>().values()
+    };
+
+    for (Collection<?> c: collections) {
+      System.out.println(classify(c));
+    }
 
   }
   /**
@@ -39,4 +47,10 @@ public class CollectionClassifier {
   public static String classify(Collection<?> c){
     return "Unknown Collection";
   }
+
+//  public static String classify(Collection<?> c){
+//    return c instanceof Set ? "Set":
+//           c instanceof List ? "List":
+//          "Unknown Collection" ;
+//  }
 }
