@@ -1,15 +1,16 @@
-package com.liuwen.effectivejava.Test001_Test010;
+package com.liuwen.effectivejava.Test001_Test010.Test00010;
 
+import java.io.Serializable;
 import java.util.Comparator;
 
 /**
  * ----------------------------------------------------------------------
  *
- * @description:   （第43个建议）：方法引用优先于Lambda
+ * @description:   （第43个建议）：谨慎的实现Serializable接口
  * @author: Create by Liu Wen at  2020/7/26 19:42
  * ----------------------------------------------------------------------
  **/
-public class Test010 {
+public class Test010 implements Serializable {
 
   /**
    * @Desc Lambada表达式

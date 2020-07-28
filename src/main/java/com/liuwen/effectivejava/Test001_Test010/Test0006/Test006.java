@@ -1,4 +1,4 @@
-package com.liuwen.effectivejava.Test001_Test010;
+package com.liuwen.effectivejava.Test001_Test010.Test0006;
 
 /**
  * ----------------------------------------------------------------------

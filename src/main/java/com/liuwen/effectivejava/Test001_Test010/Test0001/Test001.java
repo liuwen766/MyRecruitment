@@ -1,4 +1,4 @@
-package com.liuwen.effectivejava.Test001_Test010;
+package com.liuwen.effectivejava.Test001_Test010.Test0001;
 
 import com.liuwen.effectivejava.Ensemble;
 import com.liuwen.redis.pojo.User;
