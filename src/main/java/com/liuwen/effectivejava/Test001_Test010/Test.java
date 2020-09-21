@@ -16,5 +16,18 @@ public class Test {
     if(s.equals(string)){
       System.out.println("魔法值");
     }
+
+    String aStatic = InnerTest.STATIC;
+    System.out.println(aStatic);
+
+    InnerTest innerTest = new InnerTest();
+    String aStatic1 = innerTest.STATIC;
+    System.out.println("我是对象，我可以调用→"+aStatic1);
+
   }
+
+  static class InnerTest{
+    public static final String STATIC = "我是静态变量";
+  }
+
 }
