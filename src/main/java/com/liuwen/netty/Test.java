@@ -19,5 +19,7 @@ public class Test {
         System.out.println("                                                                                                                                                                                                                                                                                                                                                                                                                                                         ".length());
         //话单尾记录
         System.out.println("                                                                                                                                                                                                                                                                                                                                                                                                                                                        ".length());
+        System.out.println("44,d04c3f146ad94345941153472fec6d".length());
+        System.out.println("                               ".length());
     }
 }
