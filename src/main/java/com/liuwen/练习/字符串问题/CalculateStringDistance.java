@@ -1,7 +1,7 @@
 package com.liuwen.练习.字符串问题;
 
 /**
- * @description:    字符串最小距离
+ * @description: 字符串最小距离
  * @author: Liu Wen
  * @create: 2020-04-19 14:43
  **/
@@ -48,7 +48,7 @@ public class CalculateStringDistance {
                 if (str1.charAt(i - 1) != str2.charAt(j - 1)) {
                     leftBottom += 1;
                 }
-                D[i][j] = Math.min(left,Math.min(bottom,leftBottom));
+                D[i][j] = Math.min(left, Math.min(bottom, leftBottom));
             }
         }
         return D[len1][len2];

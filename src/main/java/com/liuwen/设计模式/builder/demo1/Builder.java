@@ -10,9 +10,12 @@ package com.liuwen.设计模式.builder.demo1;
 public interface Builder {
 
     abstract void buildA();
-    abstract void  buildB();
-    abstract void  buildC();
-    abstract void  buildD();
+
+    abstract void buildB();
+
+    abstract void buildC();
+
+    abstract void buildD();
 
     abstract Product getProduct();
 

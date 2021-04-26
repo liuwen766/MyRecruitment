@@ -2,7 +2,8 @@ package com.liuwen.effectivejava.Java8StreamAPI;
 
 /**
  * ----------------------------------------------------------------------
- * @description:   交易员
+ *
+ * @description: 交易员
  * @author: Create by Liu Wen at 2020-07-12 19:08
  * ----------------------------------------------------------------------
  **/

@@ -8,28 +8,29 @@ import java.util.Scanner;
  * @create: 2020-03-07 17:07
  **/
 public class Main8 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int target = scanner.nextInt();
         int result = JumpFloor(target);
         System.out.println(result);
     }
+
     /**
-     * @Description:     递归
-      * @param target
+     * @param target
      * @return int
+     * @Description: 递归
      * @date 20.3.7 17:09
      */
     public static int JumpFloor(int target) {
-        if(target==0){
+        if (target == 0) {
             return 0;
         }
-        if(target==1){
+        if (target == 1) {
             return 1;
         }
-        if(target==2){
+        if (target == 2) {
             return 2;
         }
-        return JumpFloor(target-1)+JumpFloor(target-2);
+        return JumpFloor(target - 1) + JumpFloor(target - 2);
     }
 }

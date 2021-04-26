@@ -1,16 +1,17 @@
 package com.liuwen.JVM虚拟机.关键字synchronized.三个特性;
 
 /**
- * @description:   volatile 可以禁止指令重排序
+ * @description: volatile 可以禁止指令重排序
  * @author: Liu Wen
  * @create: 2020-03-27 19:05
  **/
 public class Test03Order2 {
     private volatile static int i = 0, j = 0;   //禁止重排序
     private volatile static int a = 0, b = 0;
+
     public static void main(String[] args) throws InterruptedException {
         int count = 0; // 计数
-        while(true) {
+        while (true) {
             count++;
             i = 0;
             j = 0;

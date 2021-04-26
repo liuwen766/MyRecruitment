@@ -5,6 +5,6 @@ package com.liuwen.模板;
  * @description: Good good study,day day up!
  **/
 public class Main1 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
     }
 }

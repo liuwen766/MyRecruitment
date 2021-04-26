@@ -22,7 +22,7 @@ public class Student implements Person {
             e.printStackTrace();
         }
         System.out.println();
-        System.out.println(name+"上交班费30元!");
+        System.out.println(name + "上交班费30元!");
     }
 
     @Override
@@ -32,6 +32,6 @@ public class Student implements Person {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(name+"提交作业");
+        System.out.println(name + "提交作业");
     }
 }

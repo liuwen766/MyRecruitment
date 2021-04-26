@@ -15,12 +15,14 @@ package com.liuwen.MyCSDN.接口与抽象类的区别;
 7.使用接口可以实现多继承
  */
 public interface TestInterface {
-//    private void method1();
+    //    private void method1();
 //    public TestInterface(){}
     public void method2();
+
     public abstract void method3();
-    public int  Changliang = 2;
-//    private int Changliang2 = 3;
-      public final int Changliang3 = 2;
+
+    public int Changliang = 2;
+    //    private int Changliang2 = 3;
+    public final int Changliang3 = 2;
 //    public static void method4();
 }

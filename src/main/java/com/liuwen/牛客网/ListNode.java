@@ -5,10 +5,11 @@ package com.liuwen.牛客网;
  * @author: Liu Wen
  * @create: 2020-03-08 22:50
  **/
-class ListNode{
+class ListNode {
     int value;
     ListNode next = null;
-    public ListNode(int value){
-        this.value = value ;
+
+    public ListNode(int value) {
+        this.value = value;
     }
 }

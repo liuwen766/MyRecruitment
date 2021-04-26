@@ -9,25 +9,26 @@ import java.util.Scanner;
  * @create: 2020-03-07 16:55
  **/
 public class Main7 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int result = Fibonacci(n);
         System.out.println(result);
     }
+
     /**
-     * @Description:  递归解决
-      * @param n
+     * @param n
      * @return int
+     * @Description: 递归解决
      * @date 20.3.7 16:58
      */
     public static int Fibonacci(int n) {
-        if(n == 0){
+        if (n == 0) {
             return 0;
         }
-        if(n == 1){
+        if (n == 1) {
             return 1;
         }
-        return Fibonacci(n-1)+Fibonacci(n-2);
+        return Fibonacci(n - 1) + Fibonacci(n - 2);
     }
 }

@@ -11,13 +11,12 @@ import java.util.Scanner;
  * ----------------------------------------------------------------------
  **/
 public class Test005 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         String string = new Scanner(System.in).toString();
-        if("string".equals(string) ){
-               System.out.println("不要出现魔法值！");
+        if ("string".equals(string)) {
+            System.out.println("不要出现魔法值！");
         }
-
 
 
 //        if("1".equals(dangerKey)){

@@ -26,13 +26,13 @@ public class Main2 {
     }
 
     private static int getDepth(TreeNode root) {
-        if (root==null) {
+        if (root == null) {
             return 0;
         }
-        return maxDepth((getDepth(root.left)+1),(getDepth(root.right)+1));
+        return maxDepth((getDepth(root.left) + 1), (getDepth(root.right) + 1));
     }
 
-    private static int maxDepth(int a,int b) {
-        return a>b?a:b;
+    private static int maxDepth(int a, int b) {
+        return a > b ? a : b;
     }
 }

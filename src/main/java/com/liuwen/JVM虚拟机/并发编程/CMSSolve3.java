@@ -11,11 +11,11 @@ import java.util.concurrent.TimeUnit;
  **/
 public class CMSSolve3 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         List<Integer> arrayList = new CopyOnWriteArrayList<>();
         //多个线程对一个集合对象进行操作可能会出现并发修改异常
         for (int i = 0; i < 10; i++) {
-            new Thread(()->{
+            new Thread(() -> {
                 try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {
@@ -23,7 +23,7 @@ public class CMSSolve3 {
                 }
                 arrayList.add(8);
                 System.out.println(arrayList);
-            },"线程"+i).start();
+            }, "线程" + i).start();
         }
     }
 }

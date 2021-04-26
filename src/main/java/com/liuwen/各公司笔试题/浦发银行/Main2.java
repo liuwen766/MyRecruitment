@@ -1,7 +1,7 @@
 package com.liuwen.各公司笔试题.浦发银行;
 
 /**
- * @description:          按要求合并数组。
+ * @description: 按要求合并数组。
  * @author: Liu Wen
  * @create: 2020-03-22 16:35
  **/

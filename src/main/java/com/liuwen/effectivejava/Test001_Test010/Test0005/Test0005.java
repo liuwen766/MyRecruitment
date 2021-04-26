@@ -12,22 +12,23 @@ import java.util.Set;
  **/
 public class Test0005 {
 
-  public static void main(String[] args) {
-    User user1 = new User("test");
-    User user2 = new User("test");
-    Set<User> set1 = new HashSet<>();
-    Set<User> set2 = new HashSet<>();
-    set1.add(user1);
-    set2.add(user2);
-    System.out.println(set1.equals(set2));
+    public static void main(String[] args) {
+        User user1 = new User("test");
+        User user2 = new User("test");
+        Set<User> set1 = new HashSet<>();
+        Set<User> set2 = new HashSet<>();
+        set1.add(user1);
+        set2.add(user2);
+        System.out.println(set1.equals(set2));
 
 
-    System.out.println("--------------");
-    Set<Integer> set3 = new HashSet<>();
-    Set<Integer> set4 = new HashSet<>();
-    set3.add(10);set4.add(10);
-    System.out.println(set3.equals(set4));
+        System.out.println("--------------");
+        Set<Integer> set3 = new HashSet<>();
+        Set<Integer> set4 = new HashSet<>();
+        set3.add(10);
+        set4.add(10);
+        System.out.println(set3.equals(set4));
 
-  }
+    }
 
 }

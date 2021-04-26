@@ -2,7 +2,7 @@ package com.liuwen.各公司笔试题.上海移动云能力中心;
 
 
 /**
- * @description:          没有编程题以及java编程相关的题
+ * @description: 没有编程题以及java编程相关的题
  * @author: Liu Wen
  * @create: 2020-04-11 13:29
  **/

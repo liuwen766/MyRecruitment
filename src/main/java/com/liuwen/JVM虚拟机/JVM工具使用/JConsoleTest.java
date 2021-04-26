@@ -5,13 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description:             JConsole测试
+ * @description: JConsole测试
  * @author: Liu Wen
  * @create: 2020-04-14 21:02
  **/
 public class JConsoleTest {
 
-    private byte[] bytes = new byte[64*1024];
+    private byte[] bytes = new byte[64 * 1024];
+
     public static void main(String[] args) throws Exception {
         System.in.read();      //输入start，则开始运行程序。
         List<JConsoleTest> list = new ArrayList<>();

@@ -3,17 +3,17 @@ package com.liuwen.MyCSDN.HashMap;
 import java.util.*;
 
 /**
- * @description:      HashMap的遍历方法
+ * @description: HashMap的遍历方法
  * @author: Liu Wen
  * @create: 2020-03-13 13:10
  **/
 public class HashMapTraversal {
-    public static void main(String[] args){
-        HashMap<Integer,String> hashMap = new HashMap<>();
-        hashMap.put(1,"西西");
-        hashMap.put(2,"刘稳");
-        hashMap.put(3,"康康");
-        hashMap.put(4,"金玉");
+    public static void main(String[] args) {
+        HashMap<Integer, String> hashMap = new HashMap<>();
+        hashMap.put(1, "西西");
+        hashMap.put(2, "刘稳");
+        hashMap.put(3, "康康");
+        hashMap.put(4, "金玉");
         Traversal1(hashMap);          //建议
         Traversal2(hashMap);
         Traversal3(hashMap);          //建议
@@ -24,12 +24,12 @@ public class HashMapTraversal {
     }
 
     /**
-     * @Description:         方法5：jdk8以后使用Map接口中的默认方法（Lambda表达式，简洁）
+     * @Description: 方法5：jdk8以后使用Map接口中的默认方法（Lambda表达式，简洁）
      * @date 20.4.3 23:32
      */
     private static void Traversal5(HashMap<Integer, String> hashMap) {
-        hashMap.forEach((key,vlalue)->{
-            System.out.println(key+vlalue);
+        hashMap.forEach((key, vlalue) -> {
+            System.out.println(key + vlalue);
         });
     }
 
@@ -39,48 +39,51 @@ public class HashMapTraversal {
      */
     public static void Traversal1(HashMap<Integer, String> hashMap) {
         System.out.println();
-        for (HashMap.Entry<Integer,String> map:hashMap.entrySet()) {
-            System.out.print(map.getKey()+": "+map.getValue());
+        for (HashMap.Entry<Integer, String> map : hashMap.entrySet()) {
+            System.out.print(map.getKey() + ": " + map.getValue());
         }
     }
-   /**
-    * @Description:  方法2：使用For-Each迭代keys和values ———key和value只需要其中之一时
-    * @date 20.3.13 13:22
-    */
+
+    /**
+     * @Description: 方法2：使用For-Each迭代keys和values ———key和value只需要其中之一时
+     * @date 20.3.13 13:22
+     */
     private static void Traversal2(HashMap<Integer, String> hashMap) {
         System.out.println();
         for (Integer key : hashMap.keySet()) {
-            System.out.print(key+" ");
+            System.out.print(key + " ");
         }
 
         System.out.println();
 
-        for (String value:hashMap.values()) {
-            System.out.print(value+" ");
+        for (String value : hashMap.values()) {
+            System.out.print(value + " ");
         }
     }
+
     /**
-     * @Description:  方法3 使用Iterator迭代 ———万金油方法（迭代器）
+     * @Description: 方法3 使用Iterator迭代 ———万金油方法（迭代器）
      * @date 20.3.13 13:25
      */
     private static void Traversal3(HashMap<Integer, String> hashMap) {
         System.out.println();
         Iterator iterator = hashMap.entrySet().iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
 //            Map.Entry entry = (Map.Entry)iterator.next();
 //            System.out.print(entry.getKey()+"-"+entry.getValue());
-            System.out.print(iterator.next()+" ");
+            System.out.print(iterator.next() + " ");
         }
     }
+
     /**
-     * @Description:  方法4 迭代keys并搜索values（低效的） ———最慢的方法
+     * @Description: 方法4 迭代keys并搜索values（低效的） ———最慢的方法
      * @date 20.3.13 13:26
      */
     private static void Traversal4(HashMap<Integer, String> hashMap) {
         System.out.println();
-        for (Integer key:hashMap.keySet()) {
+        for (Integer key : hashMap.keySet()) {
             String value = hashMap.get(key);
-            System.out.print(key+"+"+value+" ");
+            System.out.print(key + "+" + value + " ");
         }
     }
 }

@@ -8,5 +8,5 @@ package com.liuwen.设计模式.factory.simple1;
  * ----------------------------------------------------------------------
  **/
 public interface Car {
-  void name();
+    void name();
 }

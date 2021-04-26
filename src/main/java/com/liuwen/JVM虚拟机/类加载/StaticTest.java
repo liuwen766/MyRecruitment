@@ -1,6 +1,7 @@
 package com.liuwen.JVM虚拟机.类加载;
+
 /**
- * @description:      实例初始化不一定要在类初始化结束之后才开始初始化。
+ * @description: 实例初始化不一定要在类初始化结束之后才开始初始化。
  * @author: Liu Wen
  * @create: 2020-03-17 00:32
  **/
@@ -11,6 +12,7 @@ public class StaticTest {
     }
 
     static StaticTest st = new StaticTest();
+
     static {
         System.out.println("1");             //静态代码块
     }
@@ -28,9 +30,10 @@ public class StaticTest {
         System.out.println("4");
         System.out.println(b);
     }
+
     int a = 110;                             //实例变量
     static int b = 112;                      //静态变量
- }
+}
  /*
    在类的初始化阶段需要做的是执行类构造器<clinit>()。类构造器本质上是编译器收集所有静态语句块和类变量的
 赋值语句按语句在源码中的顺序合并生成类构造器<clinit>()。因此，对上述程序而言，JVM将先执行第一条静态变量

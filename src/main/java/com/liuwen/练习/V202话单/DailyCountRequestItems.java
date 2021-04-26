@@ -29,6 +29,7 @@ public class DailyCountRequestItems {
     public void setCustomerId(String customerId) {
         this.customerId = customerId;
     }
+
     public String getCustomerId() {
         return customerId;
     }
@@ -36,6 +37,7 @@ public class DailyCountRequestItems {
     public void setIsShareVersion(boolean isShareVersion) {
         this.isShareVersion = isShareVersion;
     }
+
     public boolean getIsShareVersion() {
         return isShareVersion;
     }

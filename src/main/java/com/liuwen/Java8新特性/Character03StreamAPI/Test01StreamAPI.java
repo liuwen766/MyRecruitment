@@ -10,7 +10,8 @@ import java.util.stream.Stream;
 
 /**
  * ----------------------------------------------------------------------
- * @description:   StreamAPI
+ *
+ * @description: StreamAPI
  * @author: Create by Liu Wen at 2020-07-15 23:51
  * ----------------------------------------------------------------------
  **/
@@ -18,17 +19,17 @@ import java.util.stream.Stream;
 public class Test01StreamAPI {
 
     /**
-     * @Description:   一、创建的流的三个步骤
+     * @Description: 一、创建的流的三个步骤
      *                 1.创建Stream
      *                 2.中间操作
      *                 3.终止操作（终端操作）
      * @date 20.7.16 10:23
      */
     /**
-     * @Description:  1.创建流的五种方式
+     * @Description: 1.创建流的五种方式
      */
     @Test
-    public void test01(){
+    public void test01() {
         //方式1
         List<Integer> list = new ArrayList<>();
         Stream<Integer> integerStream = list.stream();
@@ -38,8 +39,8 @@ public class Test01StreamAPI {
         //方式3
         Stream<Integer> stream = Stream.of(1, 2, 3);
         //方式4 无限流
-        Stream<Integer> iterate = Stream.iterate(0, x -> x+2);
-              //没有限制limit(10)，则会无限迭代
+        Stream<Integer> iterate = Stream.iterate(0, x -> x + 2);
+        //没有限制limit(10)，则会无限迭代
         iterate.limit(10).forEach(System.out::println);
         //方式5  无限流2
         Stream<Double> generate = Stream.generate(() -> Math.random());
@@ -47,7 +48,7 @@ public class Test01StreamAPI {
     }
 
     /**
-     * @Description:  2.中间操作
+     * @Description: 2.中间操作
      *
      *  一、筛选与切片
      * filer——接收 Lambada，从流中排除某些元素。

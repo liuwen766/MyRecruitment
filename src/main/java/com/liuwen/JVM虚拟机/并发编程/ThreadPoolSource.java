@@ -3,12 +3,12 @@ package com.liuwen.JVM虚拟机.并发编程;
 import java.util.concurrent.*;
 
 /**
- * @description:               线程池：7大参数、四种拒绝策略
+ * @description: 线程池：7大参数、四种拒绝策略
  * @author: Liu Wen
  * @create: 2020-03-14 22:28
  **/
 public class ThreadPoolSource {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ExecutorService executorService = new ThreadPoolExecutor(
                 2,
                 3,

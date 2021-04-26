@@ -9,31 +9,32 @@ import java.util.ArrayList;
  * @author: Liu Wen
  * @create: 2020-03-09 19:23
  **/
-public class Main1{
-    public static void main(String[] args){
-        int[] nums = {1,2,4,5,7,8,11,12,15};
+public class Main1 {
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 4, 5, 7, 8, 11, 12, 15};
         int target = 60;
-        ArrayList<ArrayList<Integer>> result = getMutiplyOfAB(nums,target);
+        ArrayList<ArrayList<Integer>> result = getMutiplyOfAB(nums, target);
         System.out.println(result);
     }
+
     /**
-     * @Description:         双指针思想
      * @param nums
-     * @param target
-     * @return java.util.ArrayList<java.util.ArrayList<java.lang.Integer>>
+     * @param target
+     * @return java.util.ArrayList<java.util.ArrayList < java.lang.Integer>>
+     * @Description: 双指针思想
      * @date 20.3.9 19:49
      */
     private static ArrayList<ArrayList<Integer>> getMutiplyOfAB(int[] nums, int target) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         ArrayList<ArrayList<Integer>> result = new ArrayList<>();
         int L = 0;
-        int R = nums.length-1;
-        while (L<R){
-            if(nums[L]*nums[R]>target){
+        int R = nums.length - 1;
+        while (L < R) {
+            if (nums[L] * nums[R] > target) {
                 R--;
-            }else if(nums[L]*nums[R]<target){
+            } else if (nums[L] * nums[R] < target) {
                 L++;
-            }else {
+            } else {
                 arrayList.add(nums[L]);
                 arrayList.add(nums[R]);
                 result.add(arrayList);
@@ -41,7 +42,7 @@ public class Main1{
             }
             arrayList = new ArrayList<>();
         }
-        if(result.size()==0){
+        if (result.size() == 0) {
             arrayList.add(-1);
             arrayList.add(-1);
             result.add(arrayList);

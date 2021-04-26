@@ -1,7 +1,7 @@
 package com.liuwen.Java框架.Spring;
 
 /**
- * @description:     AOP：面向切面编程
+ * @description: AOP：面向切面编程
  * @author: Liu Wen
  * @create: 2020-03-20 11:02
  **/

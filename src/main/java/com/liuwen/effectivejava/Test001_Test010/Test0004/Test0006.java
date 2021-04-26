@@ -13,15 +13,15 @@ import java.util.HashSet;
  **/
 public class Test0006 {
 
-  public static void main(String[] args) {
-    MyHashSet<String> set = new MyHashSet<>();
-    set.addAll(Arrays.asList( "zhangsan", "lisi","wangwu"));
-    System.out.println(set.getCount());
-  }
+    public static void main(String[] args) {
+        MyHashSet<String> set = new MyHashSet<>();
+        set.addAll(Arrays.asList("zhangsan", "lisi", "wangwu"));
+        System.out.println(set.getCount());
+    }
 
 }
 
- class MyHashSet<E> extends HashSet<E> {
+class MyHashSet<E> extends HashSet<E> {
     private int count = 0;
 
     public MyHashSet() {
@@ -29,19 +29,19 @@ public class Test0006 {
     }
 
     public MyHashSet(int initCap, float loadFactor) {
-      super(initCap, loadFactor);
+        super(initCap, loadFactor);
     }
 
     @Override
     public boolean add(E e) {
-      count++;
-      return super.add(e);
+        count++;
+        return super.add(e);
     }
 
     @Override
     public boolean addAll(Collection<? extends E> c) {
-      count += c.size();
-      return super.addAll(c);
+        count += c.size();
+        return super.addAll(c);
     }
 
 //   @Override
@@ -56,7 +56,7 @@ public class Test0006 {
 //   }
 
     public int getCount() {
-      return count;
+        return count;
     }
 
 }

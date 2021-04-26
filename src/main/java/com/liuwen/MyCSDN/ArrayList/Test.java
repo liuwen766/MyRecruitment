@@ -9,7 +9,7 @@ import java.util.ArrayList;
  **/
 public class Test {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append(5);
         StringBuilder stringBuilder = new StringBuilder();
@@ -21,8 +21,8 @@ public class Test {
         arrayList.add("e");
         arrayList.add("f");
         arrayList.add("g");
-        for (String s:arrayList) {
-         System.out.print(s);
+        for (String s : arrayList) {
+            System.out.print(s);
         }
 
     }

@@ -12,7 +12,10 @@ public class Son extends Father {
         j = 2;
     }
 
-    {j = 3;}
+    {
+        j = 3;
+    }
+
     @Override
     protected int getValue() {
         return j;

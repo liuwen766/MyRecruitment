@@ -4,9 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * @description:   创建StuInvocationHandler类，实现InvocationHandler接口，这个类中持有一
- *                 个被代理对象的实例target。InvocationHandler中有一个invoke方法，所有执行
- *                 代理对象的方法都会被替换成执行invoke方法。
+ * @description: 创建StuInvocationHandler类，实现InvocationHandler接口，这个类中持有一
+ * 个被代理对象的实例target。InvocationHandler中有一个invoke方法，所有执行
+ * 代理对象的方法都会被替换成执行invoke方法。
  * @author: Liu Wen
  * @create: 2020-03-27 15:07
  **/
@@ -18,10 +18,12 @@ public class StuInvocationHandler<T> implements InvocationHandler {
     public StuInvocationHandler(T target) {
         this.target = target;
     }
+
     /**
      * proxy: 代表动态代理对象
      * method：代表正在执行的方法
      * args：代表调用目标方法时传入的实参
+     *
      * @date 20.3.27 15:09
      */
     @Override

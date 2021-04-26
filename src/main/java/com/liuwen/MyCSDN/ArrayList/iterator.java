@@ -9,7 +9,7 @@ import java.util.Iterator;
  * @create: 2020-04-03 12:04
  **/
 public class iterator {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("aa");
         arrayList.add("bb");

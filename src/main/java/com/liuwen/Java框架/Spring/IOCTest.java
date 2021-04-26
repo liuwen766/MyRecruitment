@@ -3,7 +3,7 @@ package com.liuwen.Java框架.Spring;
 import org.junit.Test;
 
 /**
- * @description:     IOC：控制反转
+ * @description: IOC：控制反转
  * @author: Liu Wen
  * @create: 2020-03-20 10:33
  **/
@@ -27,7 +27,7 @@ System.out.println(student);
  */
 public class IOCTest {
     /**
-     * @Description:        IOC底层原理
+     * @Description: IOC底层原理
      * @date 20.3.20 10:40
      */
     /*

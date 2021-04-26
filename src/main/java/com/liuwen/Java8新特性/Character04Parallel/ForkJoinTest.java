@@ -10,7 +10,8 @@ import java.util.stream.LongStream;
 
 /**
  * ----------------------------------------------------------------------
- * @description:         ForkJoin框架适合做任务耗时长的大数据量任务。
+ *
+ * @description: ForkJoin框架适合做任务耗时长的大数据量任务。
  * @author: Create by Liu Wen at 2020-07-16 11:14
  * ----------------------------------------------------------------------
  **/
@@ -18,18 +19,18 @@ import java.util.stream.LongStream;
 public class ForkJoinTest {
 
     /**
-     * @Description:   使用ForkJoin框架
+     * @Description: 使用ForkJoin框架
      * @date 20.7.16 14:22
      */
     @Test
-    public void test01(){
+    public void test01() {
         //当前计时
         Instant start = Instant.now();
 
         //ForkJoin线程池用于执行fork/join线程子任务
         ForkJoinPool forkJoinPool = new ForkJoinPool();
         //父类引用，实例化子类（多态？）
-        ForkJoinTask<Long> task = new ForkJoinCalculate(0,50000000000L);
+        ForkJoinTask<Long> task = new ForkJoinCalculate(0, 50000000000L);
         //叫线程池来干活
         Long sum = forkJoinPool.invoke(task);
         System.out.println(sum);
@@ -37,16 +38,16 @@ public class ForkJoinTest {
         //当前计时
         Instant end = Instant.now();
         //总耗时 毫秒
-        System.out.println("Forkjoin框架总耗时:"+Duration.between(start,end).toMillis()+"毫秒");
+        System.out.println("Forkjoin框架总耗时:" + Duration.between(start, end).toMillis() + "毫秒");
 
     }
 
     /**
-     * @Description:  使用传统方法
+     * @Description: 使用传统方法
      * @date 20.7.16 14:21
      */
     @Test
-    public void test02(){
+    public void test02() {
 
         Instant start = Instant.now();
 
@@ -57,15 +58,15 @@ public class ForkJoinTest {
         System.out.println(sum);
 
         Instant end = Instant.now();
-        System.out.println("普通方法总耗时:"+Duration.between(start,end).toMillis()+"毫秒");
+        System.out.println("普通方法总耗时:" + Duration.between(start, end).toMillis() + "毫秒");
     }
 
     /**
-     * @Description:       Java8 新特性：并行流
+     * @Description: Java8 新特性：并行流
      * @date 20.7.16 14:28
      */
     @Test
-    public void test(){
+    public void test() {
         Instant start = Instant.now();
 
         long reduce = LongStream.rangeClosed(0, 50000000000L)
@@ -75,7 +76,7 @@ public class ForkJoinTest {
         System.out.println(reduce);
 
         Instant end = Instant.now();
-        System.out.println("Java并行流总耗时:"+Duration.between(start,end).toMillis()+"毫秒");
+        System.out.println("Java并行流总耗时:" + Duration.between(start, end).toMillis() + "毫秒");
     }
 
 

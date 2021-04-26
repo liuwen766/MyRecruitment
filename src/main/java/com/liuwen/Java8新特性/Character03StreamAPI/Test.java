@@ -29,7 +29,7 @@ public class Test {
 
         String s1 = formatLongTime(86399);
         System.out.println(s1);
-        String ebossNnn = (new Random().nextInt(900)+100)+"";
+        String ebossNnn = (new Random().nextInt(900) + 100) + "";
         System.out.println(ebossNnn);
 //        primes().map(p->TWO.pow(p.intValueExact()).subtract(BigInteger.ONE))
 //                .filter(m->m.isProbablePrime(50))
@@ -86,11 +86,11 @@ public class Test {
 
     public static String formatLongTime(long mss) {
         String DateTimes = null;
-        long hours = (mss % ( 60 * 60 * 24)) / (60 * 60);
-        long minutes = (mss % ( 60 * 60)) /60;
+        long hours = (mss % (60 * 60 * 24)) / (60 * 60);
+        long minutes = (mss % (60 * 60)) / 60;
         long seconds = mss % 60;
 
-        DateTimes=String.format("%02d:", hours)+ String.format("%02d:", minutes) + String.format("%02d", seconds);
+        DateTimes = String.format("%02d:", hours) + String.format("%02d:", minutes) + String.format("%02d", seconds);
         String.format("%2d:", hours);
         return DateTimes;
     }

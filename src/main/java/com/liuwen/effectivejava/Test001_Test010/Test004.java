@@ -13,31 +13,30 @@ import java.io.IOException;
  * ----------------------------------------------------------------------
  **/
 public class Test004 {
-  private static final String FileName = "file.txt";
+    private static final String FileName = "file.txt";
 
-  public static void main(String[] args) throws IOException {
-    FileInputStream inputStream = null;
+    public static void main(String[] args) throws IOException {
+        FileInputStream inputStream = null;
 
-    try {
-      inputStream = new FileInputStream(FileName);
-      char c1 = (char) inputStream.read();
-      System.out.println("c1=" + c1);
-    } catch (IOException e) {
-      e.printStackTrace();
-    } finally {
-      if (inputStream != null) {
-        inputStream.close();
-      }
+        try {
+            inputStream = new FileInputStream(FileName);
+            char c1 = (char) inputStream.read();
+            System.out.println("c1=" + c1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (inputStream != null) {
+                inputStream.close();
+            }
+        }
+
+
     }
 
-
-
-  }
-
-  static String reder(String path) throws IOException{
-    try(BufferedReader bufferedReader = new BufferedReader(new FileReader(path))){
-      return bufferedReader.readLine();
+    static String reder(String path) throws IOException {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(path))) {
+            return bufferedReader.readLine();
+        }
     }
-  }
 
 }

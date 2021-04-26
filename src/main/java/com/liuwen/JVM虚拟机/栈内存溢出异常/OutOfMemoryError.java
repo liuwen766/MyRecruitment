@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description:    堆内存溢出
+ * @description: 堆内存溢出
  * @author: Liu Wen                    测试：设置堆内存大小    -Xmx10m
  * @create: 2020-03-30 23:53
  **/
 public class OutOfMemoryError {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int count = 0;
         try {
             List<String> list = new ArrayList<>();
@@ -19,7 +19,7 @@ public class OutOfMemoryError {
 //                s+=s;
 //                count++;
 //            }
-            while (true){
+            while (true) {
                 list.add(s);
 //                s+=s;
                 count++;

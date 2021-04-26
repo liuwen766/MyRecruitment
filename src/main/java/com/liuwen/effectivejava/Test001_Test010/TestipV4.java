@@ -30,11 +30,11 @@ public class TestipV4 {
 
         for (int i = 0; i < 5; i++) {
             List<Ports> ports = new ArrayList<>(2);
-            ports.add(0,new Ports("fd88:5110:982:a:29"));
-            ports.add(1,new Ports("192.168.3.20"));
+            ports.add(0, new Ports("fd88:5110:982:a:29"));
+            ports.add(1, new Ports("192.168.3.20"));
             String ifIpV4NotIpV6 = "";
             //对于有两个IP的端口，优先获取ipV4
-            if(null != ports&& ports.size() > 0) {
+            if (null != ports && ports.size() > 0) {
                 for (Ports port : ports) {
                     String privateIp = port.getPrivateIp();
 //                    if (ipV4Regex.matches(privateIp)) {
@@ -44,7 +44,7 @@ public class TestipV4 {
                     }
                 }
                 //若全都是IpV6，则选择第一个IpV6
-                if (ifIpV4NotIpV6.length()==0) {
+                if (ifIpV4NotIpV6.length() == 0) {
                     if (null != ports.get(0)) {
                         ifIpV4NotIpV6 = ports.get(0).getPrivateIp();
                     }
@@ -56,8 +56,9 @@ public class TestipV4 {
             System.out.println("---------------------");
 
 
-            String singleIp = "";String doubleIp = "";
-            if(null != ports && ports.size() > 0) {
+            String singleIp = "";
+            String doubleIp = "";
+            if (null != ports && ports.size() > 0) {
                 if (ports.size() == 1) {
                     singleIp = ports.get(0).getPrivateIp();
                 }
@@ -81,11 +82,8 @@ public class TestipV4 {
         }
 
 
-
         Date data = new Date();
         System.out.println(data);
-
-
 
 
     }

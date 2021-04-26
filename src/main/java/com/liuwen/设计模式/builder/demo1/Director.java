@@ -9,7 +9,7 @@ package com.liuwen.设计模式.builder.demo1;
  **/
 public class Director {
 
-    public Product build(Builder builder){
+    public Product build(Builder builder) {
         builder.buildA();
         builder.buildB();
         builder.buildC();

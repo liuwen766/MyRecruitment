@@ -1,6 +1,7 @@
 package com.liuwen.MyCSDN.Object类的方法;
+
 /**
- * @description:          关于Object类的方法
+ * @description: 关于Object类的方法
  * @author: Liu Wen
  * @create: 2020-03-13 11:07
  **/
@@ -20,18 +21,18 @@ package com.liuwen.MyCSDN.Object类的方法;
 12 finalize()                   //当垃圾回收器确定不存在对该对象的更多引用时，由对象的垃圾回收器调用此方法。
  */
 public class TestObject {
-    public static void main(String[] args){
-        Object objectA  = new Object();
-        Object objectB  = new Object();
-        Object objectC  = objectA;
+    public static void main(String[] args) {
+        Object objectA = new Object();
+        Object objectB = new Object();
+        Object objectC = objectA;
 
-        System.out.println("objectA.equals(objectB):"+objectA.equals(objectB)); //equals()默认比较的是两个对象的地址。所以必须被重写方法以用于比较对象是否相等。
-        System.out.println("objectA==objectB:"+(objectA==objectB));
-        System.out.println("objectA.equals(objectC):"+objectA.equals(objectC));
-        System.out.println("objectA==objectC:"+(objectA==objectC));
-        System.out.println("objectA.hashCode():"+objectA.hashCode());            //hashCode()返回对象所在物理地址所计算出的哈希值。常会和equals方法同时重写，确保相等的两个对象拥有相等的.hashCode。
-        System.out.println("objectA.toString():"+objectA.toString());            //toString()默认取得对象信息，输出的是对象的地址。重写toString()方法来输出对象属性信息。
-        System.out.println("objectA.getClass():"+objectA.getClass());
+        System.out.println("objectA.equals(objectB):" + objectA.equals(objectB)); //equals()默认比较的是两个对象的地址。所以必须被重写方法以用于比较对象是否相等。
+        System.out.println("objectA==objectB:" + (objectA == objectB));
+        System.out.println("objectA.equals(objectC):" + objectA.equals(objectC));
+        System.out.println("objectA==objectC:" + (objectA == objectC));
+        System.out.println("objectA.hashCode():" + objectA.hashCode());            //hashCode()返回对象所在物理地址所计算出的哈希值。常会和equals方法同时重写，确保相等的两个对象拥有相等的.hashCode。
+        System.out.println("objectA.toString():" + objectA.toString());            //toString()默认取得对象信息，输出的是对象的地址。重写toString()方法来输出对象属性信息。
+        System.out.println("objectA.getClass():" + objectA.getClass());
 //        objectA.wait();
 //        objectA.wait(1);
 //        objectA.wait(1,1);
@@ -43,6 +44,7 @@ public class TestObject {
 class Object {
 
     private static native void registerNatives();
+
     static {
         registerNatives();
     }

@@ -7,7 +7,8 @@ package com.liuwen.练习.单例模式;
  **/
 public enum SingletonDemo8 {
     INSTANCE;
-    public void whatever(){
+
+    public void whatever() {
 
     }
 }

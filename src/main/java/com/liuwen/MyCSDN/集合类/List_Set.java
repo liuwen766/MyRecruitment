@@ -3,14 +3,14 @@ package com.liuwen.MyCSDN.集合类;
 import java.util.*;
 
 /**
- * @description:          List有序可重复元素集合     Set无序不可重复元素集合
+ * @description: List有序可重复元素集合     Set无序不可重复元素集合
  * @author: Liu Wen
  * @create: 2020-03-13 12:06
  **/
 public class List_Set {
     /**
-     * @Description:      List接口
-      * @param null
+     * @Description: List接口
+     * @param null
      * @return
      * @date 20.3.13 12:08
      */
@@ -131,8 +131,8 @@ public class List_Set {
         }
     };
     /**
-     * @Description:  Set 接口
-      * @param null
+     * @Description: Set 接口
+     * @param null
      * @return
      * @date 20.3.13 12:10
      */

@@ -10,12 +10,12 @@ public class SingletonDemo4 {
 
     private static SingletonDemo4 INSTANCE;
 
-    private SingletonDemo4(){
+    private SingletonDemo4() {
 
     }
 
-    public synchronized static SingletonDemo4 getInstance(){
-        if(INSTANCE==null){
+    public synchronized static SingletonDemo4 getInstance() {
+        if (INSTANCE == null) {
             INSTANCE = new SingletonDemo4();
         }
         return INSTANCE;

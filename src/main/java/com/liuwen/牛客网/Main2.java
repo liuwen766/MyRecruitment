@@ -9,42 +9,43 @@ import java.util.Scanner;
  * @create: 2020-02-27 18:20
  **/
 public class Main2 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         StringBuffer stringBuffer = new StringBuffer(string);
         String result = replaceSpace2(stringBuffer);
         System.out.println(result);
     }
+
     /**
-     * @Description:  使用 String 自带函数 replaceAll()
-      * @param str
+     * @param str
      * @return java.lang.String
+     * @Description: 使用 String 自带函数 replaceAll()
      * @date 20.2.27 19:24
      */
     public static String replaceSpace(StringBuffer str) {
         String result = "";
         String s = str.toString();
-        result = s.replaceAll(" ","%20");
+        result = s.replaceAll(" ", "%20");
         return result;
     }
 
-  /**
-   * @Description:    方法2. 遍历，遇见一个空格则加一个%20
-    * @param str
-   * @return java.lang.String
-   * @date 20.2.27 19:23
-   */
+    /**
+     * @param str
+     * @return java.lang.String
+     * @Description: 方法2. 遍历，遇见一个空格则加一个%20
+     * @date 20.2.27 19:23
+     */
     public static String replaceSpace1(StringBuffer str) {
         StringBuffer stringBuffer = new StringBuffer();
-        if(str==null){
+        if (str == null) {
             return stringBuffer.toString();
         }
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            if(c==' '){
+            if (c == ' ') {
                 stringBuffer.append("%20");
-            }else {
+            } else {
                 stringBuffer.append(c);
             }
         }
@@ -52,9 +53,9 @@ public class Main2 {
     }
 
     /**
-     * @Description:     从后向前遍历
-      * @param str
+     * @param str
      * @return java.lang.String
+     * @Description: 从后向前遍历
      * @date 20.2.27 19:23
      */
     public static String replaceSpace2(StringBuffer str) {
@@ -63,23 +64,23 @@ public class Main2 {
         int oldLength = str.length();
         int newLength = 0;
         for (int i = 0; i < oldLength; i++) {
-            if(str.charAt(i) == ' '){
+            if (str.charAt(i) == ' ') {
                 space++;
             }
         }
-        System.out.println( space);
-        newLength = oldLength + space*2;
-        int newIndex = newLength-1;
+        System.out.println(space);
+        newLength = oldLength + space * 2;
+        int newIndex = newLength - 1;
         str.setLength(newLength);
-        for (int i = oldLength-1; i >= 0 ; i--) {
-            if(str.charAt(i)==' '){
+        for (int i = oldLength - 1; i >= 0; i--) {
+            if (str.charAt(i) == ' ') {
 
-                str.setCharAt(newIndex--,'0');
-                str.setCharAt(newIndex--,'2');
-                str.setCharAt(newIndex--,'%');
+                str.setCharAt(newIndex--, '0');
+                str.setCharAt(newIndex--, '2');
+                str.setCharAt(newIndex--, '%');
 
-            }else {
-                str.setCharAt(newIndex--,str.charAt(i));
+            } else {
+                str.setCharAt(newIndex--, str.charAt(i));
             }
         }
         return str.toString();

@@ -6,7 +6,7 @@ package com.liuwen.JVM虚拟机.动态代理.静态代理;
  * @create: 2020-03-27 14:46
  **/
 public class TestStudentProxy {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //被代理的学生，他的上交班费由代理对象stuProxy完成。
         Person stu = new Student("稳稳");
         //生成代理对象，并将稳稳传给代理对象。

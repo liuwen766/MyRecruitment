@@ -1,7 +1,7 @@
 package com.liuwen.Java8新特性.Character01Lambada;
 
 /**
- * @description:    员工类
+ * @description: 员工类
  * @author: Create by Liu Wen at 2020-07-15 19:03
  * ----------------------------------------------------------------------
  **/

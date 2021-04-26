@@ -6,9 +6,9 @@ package com.liuwen.Java8新特性.Character01Lambada;
  * ----------------------------------------------------------------------
  **/
 
-public class FindBySalary implements MyStrategy<Employee>{
+public class FindBySalary implements MyStrategy<Employee> {
     @Override
     public boolean test(Employee employee) {
-        return employee.getSalary()>20000;
+        return employee.getSalary() > 20000;
     }
 }

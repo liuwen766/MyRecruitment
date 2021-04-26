@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
  * @create: 2020-03-27 15:10
  **/
 public class TestDynamicProxy {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //创建一个实例对象，这个对象是被代理的对象
         Person stu = new Student("稳稳");
 

@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * @create: 2020-03-09 16:33
  **/
 public class Main4 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         TreeNode root = new TreeNode(1);       //      root:     1
         TreeNode node2 = new TreeNode(2);       //             /   \
         TreeNode node3 = new TreeNode(3);       //            2     3
@@ -24,25 +24,26 @@ public class Main4 {
 
         levelTraversal(root);
     }
+
     /**
-     * @Description:  层序遍历
-      * @param root
+     * @param root
      * @return void
+     * @Description: 层序遍历
      * @date 20.3.9 17:24
      */
     public static void levelTraversal(TreeNode root) {
-        if(root==null){
+        if (root == null) {
             return;
         }
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.add(root);
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             TreeNode tmp = queue.remove();
-            System.out.print(tmp.val+" ");
-            if(tmp.left!=null){
+            System.out.print(tmp.val + " ");
+            if (tmp.left != null) {
                 queue.add(tmp.left);
             }
-            if(tmp.right!=null){
+            if (tmp.right != null) {
                 queue.add(tmp.right);
             }
         }

@@ -1,7 +1,7 @@
 package com.liuwen.Java8新特性.Character03StreamAPI.Execise;
 
 /**
- * @description:   交易
+ * @description: 交易
  * @author: Create by Liu Wen at 2020-07-12 19:09
  * ----------------------------------------------------------------------
  **/

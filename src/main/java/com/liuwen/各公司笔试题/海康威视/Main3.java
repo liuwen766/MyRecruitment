@@ -1,7 +1,7 @@
 package com.liuwen.各公司笔试题.海康威视;
 
 /**
- * @description:    建表
+ * @description: 建表
  * @author: Liu Wen
  * @create: 2020-03-11 20:05
  **/

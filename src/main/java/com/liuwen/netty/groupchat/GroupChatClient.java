@@ -23,6 +23,7 @@ public class GroupChatClient {
     private Selector selector;
     private ServerSocketChannel listenChannel;
     private static final int PORT = 6667;
+
     //构造器
     //初始化工作
     public GroupChatClient() {
@@ -41,6 +42,7 @@ public class GroupChatClient {
             e.printStackTrace();
         }
     }
+
     //监听
     public void listen() {
         System.out.println("监听线程: " + Thread.currentThread().getName());
@@ -80,6 +82,7 @@ public class GroupChatClient {
             //发生异常处理....
         }
     }
+
     //读取客户端消息
     private void readData(SelectionKey key) {
         //取到关联的channle
@@ -111,6 +114,7 @@ public class GroupChatClient {
             }
         }
     }
+
     //转发消息给其它客户(通道)
     private void sendInfoToOtherClients(String msg, SocketChannel self) throws IOException {
         System.out.println("服务器转发消息中...");
@@ -130,6 +134,7 @@ public class GroupChatClient {
             }
         }
     }
+
     public static void main(String[] args) {
         //创建服务器对象
         GroupChatServer groupChatServer = new GroupChatServer();

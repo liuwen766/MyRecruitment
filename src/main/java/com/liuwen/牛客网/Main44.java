@@ -1,24 +1,25 @@
 package com.liuwen.牛客网;
 
 /**
- * @description:    翻转单词顺序列
+ * @description: 翻转单词顺序列
  * @author: Liu Wen
  * @create: 2020-03-11 23:31
  **/
 public class Main44 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String str = "student. a am I";
         String result = ReverseSentence(str);
         System.out.println(result);
     }
+
     /**
-     * @Description:  方法1：先整个反转，再逐个反转。
-      * @param str
+     * @param str
      * @return java.lang.String
+     * @Description: 方法1：先整个反转，再逐个反转。
      * @date 20.3.11 23:32
      */   //student. a am I  →  I am a student.
     public static String ReverseSentence(String str) {
-        if(str.trim().equals("")){         //用于删除字符串的头尾空白符。
+        if (str.trim().equals("")) {         //用于删除字符串的头尾空白符。
             return str;
         }
         StringBuffer stringBuffer = new StringBuffer();
@@ -33,9 +34,9 @@ public class Main44 {
             StringBuffer newStringBuffer = new StringBuffer();
             newStringBuffer.append(strings[i]);
             newStringBuffer.reverse();
-            if(i==strings.length-1){
+            if (i == strings.length - 1) {
                 result.append(newStringBuffer);
-            }else {
+            } else {
                 result.append(newStringBuffer + " ");
             }
         }

@@ -64,16 +64,16 @@ public class TestDate {
         long beginTime = new Date(System.currentTimeMillis() - 89100000).getTime();
         long endTime = new Date(System.currentTimeMillis() - 2700000).getTime();
 
-        System.out.println("当前时间:    "+simpleDateFormat.format(currentTime));
-        System.out.println("计费开始时间: "+simpleDateFormat.format(beginTime));
-        System.out.println("计费结束时间: "+simpleDateFormat.format(endTime));
+        System.out.println("当前时间:    " + simpleDateFormat.format(currentTime));
+        System.out.println("计费开始时间: " + simpleDateFormat.format(beginTime));
+        System.out.println("计费结束时间: " + simpleDateFormat.format(endTime));
 
-        long beginTime1 =  1603296000000L;
+        long beginTime1 = 1603296000000L;
         System.out.println(beginTime1);
 
         for (int i = 0; i < 10; i++) {
             String eBossNnn = (new Random().nextInt(100) + 100) + "";
-            System.out.println("随机生成的三位数:"+eBossNnn);
+            System.out.println("随机生成的三位数:" + eBossNnn);
         }
 
         System.out.println("**********");

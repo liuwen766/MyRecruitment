@@ -6,7 +6,7 @@ package com.liuwen.JVM虚拟机.栈内存溢出异常;
  * @create: 2020-03-30 23:48
  **/
 public class StackOverFlowError {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         try {
             method();
         } catch (Throwable e) {
@@ -16,7 +16,8 @@ public class StackOverFlowError {
     }
 
     private static int count;
-    private static void method(){
+
+    private static void method() {
         count++;
         method();
     }

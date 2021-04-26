@@ -7,7 +7,8 @@ package com.liuwen.JVM虚拟机.关键字volatile.单例模式;
  **/
 public enum SingletonDemo8 {
     INSTANCE;
-    public void whatever(){
+
+    public void whatever() {
 
     }
 }

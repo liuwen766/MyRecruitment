@@ -8,12 +8,12 @@ package com.liuwen.JVM虚拟机.关键字volatile.单例模式;
 public class SingletonDemo5 {
     private static SingletonDemo5 INSTANCE;
 
-    private SingletonDemo5(){
+    private SingletonDemo5() {
 
     }
 
-    public static SingletonDemo5 getInstance(){
-        if(INSTANCE==null){
+    public static SingletonDemo5 getInstance() {
+        if (INSTANCE == null) {
             synchronized (SingletonDemo5.class) {
                 INSTANCE = new SingletonDemo5();
             }

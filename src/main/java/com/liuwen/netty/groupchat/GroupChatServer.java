@@ -86,11 +86,11 @@ public class GroupChatServer {
     }
 
     //转发消息给其它客户端
-    public void sentInfoToOtherClient(String msg, SocketChannel channel) throws IOException{
+    public void sentInfoToOtherClient(String msg, SocketChannel channel) throws IOException {
         for (SelectionKey key : selector.keys()) {
             SelectableChannel targetChannel = key.channel();
-            if(targetChannel instanceof SocketChannel && targetChannel != channel){
-                SocketChannel dest = (SocketChannel)targetChannel;
+            if (targetChannel instanceof SocketChannel && targetChannel != channel) {
+                SocketChannel dest = (SocketChannel) targetChannel;
                 ByteBuffer buffer = ByteBuffer.wrap(msg.getBytes());
                 dest.write(buffer);
             }

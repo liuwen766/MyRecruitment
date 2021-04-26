@@ -43,7 +43,7 @@ public class TestDigOrder {
     }
 
     public static String getBossStreamNumber() {
-        if (atomicLong.weakCompareAndSet(199,100)) {
+        if (atomicLong.weakCompareAndSet(199, 100)) {
             atomicLong = new AtomicLong(100);
         }
         long ebossStreamNumber = atomicLong.getAndIncrement();

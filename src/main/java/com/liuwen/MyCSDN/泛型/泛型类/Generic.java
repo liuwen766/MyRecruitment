@@ -1,7 +1,7 @@
 package com.liuwen.MyCSDN.泛型.泛型类;
 
 /**
- * @description:   泛型类定义
+ * @description: 泛型类定义
  * @author: Liu Wen
  * @create: 2020-03-31 22:07
  **/

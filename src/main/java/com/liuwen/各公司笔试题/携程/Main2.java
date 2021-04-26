@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @description: 携程海洋馆中有 n 只萌萌的小海豚，初始均为 0 岁，每只小海豚的寿命是 m 岁，
  * 且这些小海豚会在 birthYear[i] 这些年份生产出一位宝宝海豚（1 <= birthYear[i] <= m），每位宝宝海豚刚出生为 0 岁。
  * 问 x 年时，携程海洋馆有多少只小海豚？
- *
+ * <p>
  * 输入样例：
  * 5
  * 5
@@ -16,7 +16,6 @@ import java.util.Scanner;
  * 5
  * 输出样例：
  * 20
- *
  * @author: Liu Wen
  * @create: 2020-04-01 19:27
  **/
@@ -35,30 +34,33 @@ public class Main2 {
     static long countDolphin(int n, int m, int[] birthYear, int x) {
         int res = 0;
         //计算一只小海豚变多少只小海豚
-        int count = countHelper(m,birthYear,x);
-        res = n*count;
+        int count = countHelper(m, birthYear, x);
+        res = n * count;
         return res;
     }
 
     private static int countHelper(int m, int[] birthYear, int x) {
-        int count = 1;int ans = 0;int res = 0;
+        int count = 1;
+        int ans = 0;
+        int res = 0;
         for (int i = 0; i < x; i++) {
             for (int var : birthYear) {
-                if (i == var && i<m) {
+                if (i == var && i < m) {
                     count++;
-                    res = countHelper(m,birthYear,x-var);
+                    res = countHelper(m, birthYear, x - var);
                 }
-                if(i>=m){
+                if (i >= m) {
                     count--;
                 }
-                ans = res+count;
+                ans = res + count;
             }
         }
         return ans;
     }
+
     /******************************结束写代码******************************/
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         long res;
 
@@ -72,7 +74,7 @@ public class Main2 {
         _birthYear_size = Integer.parseInt(in.nextLine().trim());
         int[] _birthYear = new int[_birthYear_size];
         int _birthYear_item;
-        for(int _birthYear_i = 0; _birthYear_i < _birthYear_size; _birthYear_i++) {
+        for (int _birthYear_i = 0; _birthYear_i < _birthYear_size; _birthYear_i++) {
             _birthYear_item = Integer.parseInt(in.nextLine().trim());
             _birthYear[_birthYear_i] = _birthYear_item;
         }

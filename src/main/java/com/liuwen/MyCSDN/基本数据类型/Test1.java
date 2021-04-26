@@ -1,7 +1,7 @@
 package com.liuwen.MyCSDN.基本数据类型;
 
 /**
- * @description:         byte(1), short(2), int(4), long(8), float(4), double(8), Boolean(1), char(2)
+ * @description: byte(1), short(2), int(4), long(8), float(4), double(8), Boolean(1), char(2)
  * @author: Liu Wen       2^7-1
  * @create: 2020-03-12 17:12
  **/
@@ -21,14 +21,14 @@ char：2字节。Character。
 boolean：Boolean。
  */
 public class Test1 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int num = 127;
-        Integer integer = num+1;
+        Integer integer = num + 1;
         System.out.println(integer);
         byte num1 = 127;
-        Integer integer1 = num1+1;
+        Integer integer1 = num1 + 1;
         System.out.println(integer1);
-        byte integer2 = (byte)(num1+1);
+        byte integer2 = (byte) (num1 + 1);
         System.out.println(integer2);
     }
 }

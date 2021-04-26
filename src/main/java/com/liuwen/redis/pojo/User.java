@@ -21,6 +21,6 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class User implements Serializable {
 
-  private String name;
-  private Integer age;
+    private String name;
+    private Integer age;
 }

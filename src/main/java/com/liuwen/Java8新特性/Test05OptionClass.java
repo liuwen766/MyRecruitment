@@ -2,6 +2,7 @@ package com.liuwen.Java8新特性;
 
 /**
  * ----------------------------------------------------------------------
+ *
  * @description:
  * @author: Create by Liu Wen at 2020-07-15 18:52
  * ----------------------------------------------------------------------
@@ -9,7 +10,7 @@ package com.liuwen.Java8新特性;
 
 public class Test05OptionClass {
 /**
- * @Description:  Optional类
+ * @Description: Optional类
  *
  * Optional<T>类是一个容器类，代表一个值存在或者不存在，原来用null表示一个值不存在，现在Optional可以
  * 更好的表达这个概念。并且可以避免空指针异常。
@@ -24,7 +25,6 @@ public class Test05OptionClass {
  *         flatMap(Function mapper):与map类似，要求返回值必须是Optional
  *
  */
-
 
 
 }

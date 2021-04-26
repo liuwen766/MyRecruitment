@@ -10,24 +10,24 @@ import java.util.Scanner;
  * ----------------------------------------------------------------------
  **/
 public class Test {
-  public static void main(String[] args) {
-    String string = new Scanner(System.in).toString();
-    String s = "1";
-    if(s.equals(string)){
-      System.out.println("魔法值");
+    public static void main(String[] args) {
+        String string = new Scanner(System.in).toString();
+        String s = "1";
+        if (s.equals(string)) {
+            System.out.println("魔法值");
+        }
+
+        String aStatic = InnerTest.STATIC;
+        System.out.println(aStatic);
+
+        InnerTest innerTest = new InnerTest();
+        String aStatic1 = innerTest.STATIC;
+        System.out.println("我是对象，我可以调用→" + aStatic1);
+
     }
 
-    String aStatic = InnerTest.STATIC;
-    System.out.println(aStatic);
-
-    InnerTest innerTest = new InnerTest();
-    String aStatic1 = innerTest.STATIC;
-    System.out.println("我是对象，我可以调用→"+aStatic1);
-
-  }
-
-  static class InnerTest{
-    public static final String STATIC = "我是静态变量";
-  }
+    static class InnerTest {
+        public static final String STATIC = "我是静态变量";
+    }
 
 }

@@ -6,7 +6,7 @@ package com.liuwen.练习.二叉树题;
  * @create: 2020-03-09 17:30
  **/
 public class Main5 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         TreeNode root = new TreeNode(4);       //      root:     4
         TreeNode node2 = new TreeNode(2);       //             /   \
         TreeNode node3 = new TreeNode(5);       //            2     5

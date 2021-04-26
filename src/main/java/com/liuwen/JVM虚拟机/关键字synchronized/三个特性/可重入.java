@@ -1,4 +1,5 @@
 package com.liuwen.JVM虚拟机.关键字synchronized.三个特性;
+
 /**
  * @description: Good good study,day day up!
  * @author: Liu Wen
@@ -15,6 +16,7 @@ public class 可重入 {
                     test01();
                 }
             }
+
             public void test01() {
                 synchronized (obj) {
                     System.out.println("我是test01");

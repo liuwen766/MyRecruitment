@@ -8,7 +8,9 @@ package com.liuwen.MyCSDN.泛型.泛型与反射;
 public class Person {
     private String name;
 
-    public Person(){}
+    public Person() {
+    }
+
     public Person(String name) {
         this.name = name;
     }

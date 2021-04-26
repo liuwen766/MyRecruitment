@@ -6,7 +6,7 @@ package com.liuwen.MyCSDN.StringStringBufferStringBuilder;
  * @create: 2020-03-18 12:29
  **/
 public class Test {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String string = "abc";
         StringBuffer stringBuffer = new StringBuffer();
         StringBuilder stringBuilder = new StringBuilder();
@@ -25,8 +25,8 @@ public class Test {
         return this;
         }
          */
-        System.out.println(string==stringBuffer.toString());
-        System.out.println(stringBuffer.toString()==stringBuilder.toString());
+        System.out.println(string == stringBuffer.toString());
+        System.out.println(stringBuffer.toString() == stringBuilder.toString());
         System.out.println(string.equals(stringBuffer.toString()));
         System.out.println(stringBuffer.toString().equals(stringBuilder.toString()));
 

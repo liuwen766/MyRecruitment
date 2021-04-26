@@ -5,6 +5,7 @@ package com.liuwen.各公司笔试题.交行;
  * @author: Liu Wen
  * @create: 2020-04-19 14:56
  **/
+
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Stack;
@@ -14,7 +15,7 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class  main1 {
+public class main1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
@@ -38,6 +39,7 @@ class TreeNode {
     String nodeName;
     TreeNode leftNode;
     TreeNode rightNoed;
+
     public TreeNode(String nodeName) {
         this.nodeName = nodeName;
     }

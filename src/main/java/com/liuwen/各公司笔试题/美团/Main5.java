@@ -7,9 +7,9 @@ package com.liuwen.各公司笔试题.美团;
  * @create: 2020-03-12 19:20
  **/
 public class Main5 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int N = 2;                     //第一行一个数N，代表射击轮数。    1≤N≤100,000
-        int[] array = {2,2};           //第二行 N个数a[i]，第 i个数为a[i]。   1≤a[i]<998244353
+        int[] array = {2, 2};           //第二行 N个数a[i]，第 i个数为a[i]。   1≤a[i]<998244353
 
     }
 }

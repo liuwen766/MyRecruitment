@@ -15,16 +15,21 @@ package com.liuwen.MyCSDN.接口与抽象类的区别;
  */
 public abstract class TestClass {
     public abstract void Test1();
+
     public abstract void Test2();
+
     int id = 0;
     static String name = "静态属性";
-    public TestClass(){
+
+    public TestClass() {
         System.out.println("我是构造方法");
     }
-    public void method(){
+
+    public void method() {
         System.out.println("我是普通方法");
     }
-    public static void method2(){
+
+    public static void method2() {
         System.out.println("我是静态方法");
     }
 

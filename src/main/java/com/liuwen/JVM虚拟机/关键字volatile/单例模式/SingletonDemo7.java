@@ -7,15 +7,15 @@ package com.liuwen.JVM虚拟机.关键字volatile.单例模式;
  **/
 public class SingletonDemo7 {
 
-    private SingletonDemo7(){
+    private SingletonDemo7() {
 
     }
 
-    private static class SingletonInner{
+    private static class SingletonInner {
         private static final SingletonDemo7 INSTANCE = new SingletonDemo7();
     }
 
-    public static SingletonDemo7 getInstance(){
+    public static SingletonDemo7 getInstance() {
         return SingletonInner.INSTANCE;
     }
     //1. 静态内部类是在被调用时才会被加载，这种方案实现了懒汉单例的一种思想，需要用到的时候才去创建

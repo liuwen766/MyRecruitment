@@ -8,17 +8,19 @@ package com.liuwen.JVM虚拟机.关键字volatile.单例模式;
 public class SingletonDemo6 {
     //静态属性，volatile保证可见性和禁止指令重排序
     private volatile static SingletonDemo6 INSTANCE;
+
     //私有化构造，不对外提供访问
-    private SingletonDemo6(){
+    private SingletonDemo6() {
 
     }
-    public static SingletonDemo6 getInstance(){
+
+    public static SingletonDemo6 getInstance() {
         // 第一重检查锁定
-        if(INSTANCE==null){
+        if (INSTANCE == null) {
             // 同步锁定代码块
-            synchronized (SingletonDemo6.class){
+            synchronized (SingletonDemo6.class) {
                 // 第二重检查锁定
-                if(INSTANCE==null){
+                if (INSTANCE == null) {
                     // 注意：这里是非原子操作，所以需要volatile关键字修饰INSTANCE
                     INSTANCE = new SingletonDemo6();
                 }

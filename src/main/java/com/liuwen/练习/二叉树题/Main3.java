@@ -6,7 +6,7 @@ package com.liuwen.练习.二叉树题;
  * @create: 2020-03-09 16:16
  **/
 public class Main3 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         TreeNode root = new TreeNode(1);       //      root:     1
         TreeNode node2 = new TreeNode(2);       //             /   \
         TreeNode node3 = new TreeNode(3);       //            2     3
@@ -25,42 +25,45 @@ public class Main3 {
         System.out.println();
         postorderTraversal(root);
     }
+
     /**
-     * @Description:   先序遍历
-      * @param root
+     * @param root
      * @return void
+     * @Description: 先序遍历
      * @date 20.3.9 16:25
      */
     public static void preorderTraversal(TreeNode root) {
-        if(root==null){
+        if (root == null) {
             return;
         }
         System.out.print(root.val);
         preorderTraversal(root.left);
         preorderTraversal(root.right);
     }
+
     /**
-     * @Description:   中序遍历
-      * @param root
+     * @param root
      * @return void
+     * @Description: 中序遍历
      * @date 20.3.9 16:26
      */
     public static void inorderTraversal(TreeNode root) {
-        if (root==null){
+        if (root == null) {
             return;
         }
         inorderTraversal(root.left);
         System.out.print(root.val);
         inorderTraversal(root.right);
     }
+
     /**
-     * @Description:   后序遍历
-      * @param root
+     * @param root
      * @return void
+     * @Description: 后序遍历
      * @date 20.3.9 16:26
      */
     public static void postorderTraversal(TreeNode root) {
-        if(root==null){
+        if (root == null) {
             return;
         }
         postorderTraversal(root.left);

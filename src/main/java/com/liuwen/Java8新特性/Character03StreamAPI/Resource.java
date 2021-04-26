@@ -54,7 +54,7 @@ public class Resource {
 
 
     @Builder
-    public Resource( String customerId, String userId, String instanceId, Integer version) {
+    public Resource(String customerId, String userId, String instanceId, Integer version) {
 
         this.customerId = customerId;
         this.userId = userId;

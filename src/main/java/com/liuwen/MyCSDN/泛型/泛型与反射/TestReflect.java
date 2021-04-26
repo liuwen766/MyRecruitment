@@ -8,7 +8,7 @@ import java.lang.reflect.Constructor;
  * @create: 2020-03-31 22:50
  **/
 public class TestReflect {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
 //        Class<Person> personClass = Person.class;
 //        Constructor<Person> constructor = personClass.getConstructor();
 //        Person person = constructor.newInstance();

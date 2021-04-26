@@ -12,7 +12,7 @@ import java.util.Stack;
  **/
 @SuppressWarnings("all")
 public class Main3 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
@@ -24,35 +24,35 @@ public class Main3 {
         node4.next = node5;
         ArrayList<Integer> arrayList = printListFromTailToHead1(node1);
         Iterator iterator = arrayList.iterator();
-        while (iterator.hasNext()){
-            System.out.print(iterator.next()+" ");
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
         }
     }
+
     /**
-     * @Description:  方法1：使用栈结构（先进后出）
-      * @param listNode
+     * @param listNode
      * @return java.util.ArrayList<java.lang.Integer>
+     * @Description: 方法1：使用栈结构（先进后出）
      * @date 20.3.7 13:29
      */
     public static ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ArrayList<Integer> result = new ArrayList<>();
         Stack<Integer> stack = new Stack<>();          //使用栈结构
-        while (listNode!=null){
+        while (listNode != null) {
             stack.push(listNode.val);
-            listNode=listNode.next;
+            listNode = listNode.next;
         }
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             result.add(stack.pop());
         }
         return result;
     }
 
     /**
-     * @Description:     方法2：将链表反转（不推荐，破坏了原来的数据结构）
-      * @param listNode
+     * @param listNode
      * @return java.util.ArrayList<java.lang.Integer>
+     * @Description: 方法2：将链表反转（不推荐，破坏了原来的数据结构）
      * @date 20.3.7 13:37
-     *
      */
     public static ArrayList<Integer> printListFromTailToHead1(ListNode listNode) {
         ArrayList<Integer> result = new ArrayList<>();
@@ -60,23 +60,25 @@ public class Main3 {
         ListNode tmp = null;
         ListNode cur = listNode;
         //1→2→3→4→5→null
-        while (cur!=null){
+        while (cur != null) {
             tmp = cur;
             cur = cur.next;
-            tmp.next=newHead;
+            tmp.next = newHead;
             newHead = tmp;
         }
         ListNode temp = newHead;
-        while (temp!=null){
+        while (temp != null) {
             result.add(temp.val);
             temp = temp.next;
         }
         return result;
     }
+
     //结点定义
     public static class ListNode {
         int val;
         ListNode next = null;
+
         ListNode(int val) {
             this.val = val;
         }

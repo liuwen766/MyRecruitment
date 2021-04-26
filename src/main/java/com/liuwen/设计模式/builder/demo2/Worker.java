@@ -7,7 +7,7 @@ package com.liuwen.设计模式.builder.demo2;
  * @author: Create by Liu Wen at  2020/7/24 22:51
  * ----------------------------------------------------------------------
  **/
-public class Worker extends Builder{
+public class Worker extends Builder {
 
     private Product product;
 

@@ -13,7 +13,7 @@ public class Main2 {
         String str1 = input.nextLine();
         String str2 = input.nextLine();
         //TODO
-        int res = calculateStringDistance(str1,str2);
+        int res = calculateStringDistance(str1, str2);
         System.out.println(res);
     }
 
@@ -42,7 +42,7 @@ public class Main2 {
                 if (str1.charAt(i - 1) != str2.charAt(j - 1)) {
                     leftBottom += 1;
                 }
-                D[i][j] = Math.min(left,Math.min(bottom,leftBottom));
+                D[i][j] = Math.min(left, Math.min(bottom, leftBottom));
             }
         }
         return D[len1][len2];

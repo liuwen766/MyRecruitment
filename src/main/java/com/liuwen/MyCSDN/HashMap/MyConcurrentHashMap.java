@@ -13,9 +13,9 @@ import java.util.concurrent.ConcurrentHashMap;
 public class MyConcurrentHashMap {
 
     @Test
-    public void test1(){
+    public void test1() {
         ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
-        concurrentHashMap.put(5,6);
+        concurrentHashMap.put(5, 6);
     }
 
 }

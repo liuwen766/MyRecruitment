@@ -8,13 +8,14 @@ import java.util.Collections;
 
 /**
  * ----------------------------------------------------------------------
- * @description:  公司代码规范（
+ *
+ * @description: 公司代码规范（
  * @author: Create by Liu Wen at 2020-07-10 14:13
  * ----------------------------------------------------------------------
  **/
 
 public class coderule {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //1.	【强制】代码中的命名均不能以下划线或美元符号开始，也不能以下划线或美元符号结束。
 
         //2.	【强制】代码中的命名严禁使用拼音与英文混合的方式，更不允许直接使用中文的方式。
@@ -41,11 +42,11 @@ public class coderule {
         collections.stream();
 
 
-        System.out.println(stringHandler("string",(s)->s.toUpperCase()));
+        System.out.println(stringHandler("string", (s) -> s.toUpperCase()));
 
     }
 
-    public static String stringHandler(String s,MyFunction mf){
+    public static String stringHandler(String s, MyFunction mf) {
         return mf.getVlaue(s);
     }
 }

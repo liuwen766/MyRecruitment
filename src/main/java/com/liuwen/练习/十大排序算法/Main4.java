@@ -13,29 +13,30 @@ public class Main4 {
             System.out.print(result[i] + " ");
         }
     }
+
     /**
-     * @Description: 它与插入排序的不同之处在于，
-     *                它会优先比较距离较远的元素。
-     *                希尔排序又叫缩小增量排序。
-      * @param array
+     * @param array
      * @return int[]
+     * @Description: 它与插入排序的不同之处在于，
+     * 它会优先比较距离较远的元素。
+     * 希尔排序又叫缩小增量排序。
      * @date 20.3.5 14:33
      */
     private static int[] ShellSort(int[] array) {
-        int gap = array.length/2;         //
+        int gap = array.length / 2;         //
         int cur;
         int preIndex;
-        while (gap>0){
+        while (gap > 0) {
             for (int i = gap; i < array.length; i++) {
                 cur = array[i];
                 preIndex = i - gap;
-                while (preIndex>=0&&array[preIndex]>cur){
-                    array[preIndex+gap] = array[preIndex];
-                    preIndex = preIndex-gap;
+                while (preIndex >= 0 && array[preIndex] > cur) {
+                    array[preIndex + gap] = array[preIndex];
+                    preIndex = preIndex - gap;
                 }
-                array[preIndex+gap] = cur;
+                array[preIndex + gap] = cur;
             }
-            gap = gap/2;
+            gap = gap / 2;
         }
         return array;
     }

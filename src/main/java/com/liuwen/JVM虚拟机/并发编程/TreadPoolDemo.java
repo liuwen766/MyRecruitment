@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * @description:             线程池
+ * @description: 线程池
  * @author: Liu Wen
  * @create: 2020-03-14 16:19
  **/
@@ -27,8 +27,9 @@ public class TreadPoolDemo {
         service.shutdown();
     }
 }
+
 //实现Runnable接口
-class ThreadDemo4 implements Runnable{
+class ThreadDemo4 implements Runnable {
     @Override
     public void run() {
         try {
@@ -36,9 +37,10 @@ class ThreadDemo4 implements Runnable{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(Thread.currentThread().getName()+":"+"输出的结果");
+        System.out.println(Thread.currentThread().getName() + ":" + "输出的结果");
     }
 }
+
 //实现Callable接口
 class ThreadDemo5 implements Callable<String> {
     @Override
@@ -48,12 +50,13 @@ class ThreadDemo5 implements Callable<String> {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(Thread.currentThread().getName()+":"+"输出的结果");
-        return Thread.currentThread().getName()+":"+"返回的结果";
+        System.out.println(Thread.currentThread().getName() + ":" + "输出的结果");
+        return Thread.currentThread().getName() + ":" + "返回的结果";
     }
 }
+
 //实现Runnable接口
-class ThreadDemo6 implements Runnable{
+class ThreadDemo6 implements Runnable {
     @Override
     public void run() {
         try {
@@ -61,11 +64,12 @@ class ThreadDemo6 implements Runnable{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(Thread.currentThread().getName()+":"+"输出的结果");
+        System.out.println(Thread.currentThread().getName() + ":" + "输出的结果");
     }
 }
+
 //实现Runnable接口
-class ThreadDemo7 implements Runnable{
+class ThreadDemo7 implements Runnable {
     @Override
     public void run() {
         try {
@@ -73,6 +77,6 @@ class ThreadDemo7 implements Runnable{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(Thread.currentThread().getName()+":"+"输出的结果");
+        System.out.println(Thread.currentThread().getName() + ":" + "输出的结果");
     }
 }

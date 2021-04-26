@@ -3,7 +3,7 @@ package com.liuwen.JVM虚拟机.关键字synchronized.syn锁优化;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * @description:   锁粗化
+ * @description: 锁粗化
  * @author: Liu Wen
  * @create: 2020-03-31 16:50
  **/

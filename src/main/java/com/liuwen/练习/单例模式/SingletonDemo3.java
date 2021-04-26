@@ -9,22 +9,23 @@ package com.liuwen.练习.单例模式;
 public class SingletonDemo3 {
     private static SingletonDemo3 INTANCE;
 
-    private SingletonDemo3(){
+    private SingletonDemo3() {
 
     }
-    public static SingletonDemo3 getInstance(){
+
+    public static SingletonDemo3 getInstance() {
 
         //A,B
-        if(INTANCE==null){
+        if (INTANCE == null) {
             INTANCE = new SingletonDemo3();
         }
         return INTANCE;
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SingletonDemo3 singletonDemo3 = SingletonDemo3.getInstance();
         SingletonDemo3 singletonDemo31 = SingletonDemo3.getInstance();
-        System.out.println(singletonDemo3==singletonDemo31);
+        System.out.println(singletonDemo3 == singletonDemo31);
     }
 }

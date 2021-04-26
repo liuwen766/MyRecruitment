@@ -22,10 +22,10 @@ public class Test {
 
        异常处理：try、catch、finally、throw、throws。
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();
         for (int i = 0; i < 8; i++) {
-            new Thread(()->{
+            new Thread(() -> {
                 try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {
