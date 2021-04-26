@@ -25,664 +25,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="软考中级——五大算法题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recruitment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Recruitment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/JVM工具使用/JConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/JVM工具使用/JConsoleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo01CAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo01CAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo02LockElimination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo02LockElimination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo03LockCuhua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo03LockCuhua.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test01Visibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test01Visibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test02Atomicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test02Atomicity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/可重入.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/可重入.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/对象头/TestLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字synchronized/对象头/TestLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/TestVisibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/TestVisibility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/StuInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/StuInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/TestDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/TestDynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/StudentProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/StudentProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/TestStudentProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/动态代理/静态代理/TestStudentProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/反射/DynamicProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/反射/DynamicProxyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CMSSolve1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CMSSolve1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CMSSolve2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CMSSolve2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CMSSolve3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CMSSolve3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CountDownLatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/CyclicBarrierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/DeadLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ForkJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ForkJoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/JUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/JUC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ProductConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ProductConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ReadWriteLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ReadWriteLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/SemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/SemaphoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ThreadPoolSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ThreadPoolSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ThreeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/ThreeMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/TreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/并发编程/TreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/栈内存溢出异常/OutOfMemoryError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/栈内存溢出异常/OutOfMemoryError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/栈内存溢出异常/StackOverFlowError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/栈内存溢出异常/StackOverFlowError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Son.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/StaticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/StaticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JVM虚拟机/类加载/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FindByAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FindByAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FindBySalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FindBySalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FunctionInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/FunctionInterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/LambadaLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/LambadaLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/MyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/MyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Boolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Boolean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Trader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Trader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Resource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinCalculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Test05OptionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java8新特性/Test05OptionClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java框架/Spring/AOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java框架/Spring/AOPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Java框架/Spring/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Java框架/Spring/IOCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/copyOnWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/copyOnWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/resize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/ArrayList/resize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/HashMap/HashMapTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/HashMap/HashMapTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/HashMap/MyConcurrentHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/HashMap/MyConcurrentHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/HashMap/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/HashMap/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/Java异常/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/Java异常/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/Object类的方法/TestObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/Object类的方法/TestObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/String/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/String/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/StringStringBufferStringBuilder/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/StringStringBufferStringBuilder/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/基本数据类型/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/基本数据类型/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/引用传递与值传递equals与等等号/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/引用传递与值传递equals与等等号/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestClassExtend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestClassExtend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestInterfaceImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestInterfaceImplements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestZiLei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/接口与抽象类的区别/TestZiLei.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/比较器排序/Fruit_Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/比较器排序/Fruit_Comparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/比较器排序/Test_Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/比较器排序/Test_Comparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/比较器排序/Test_Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/比较器排序/Test_Comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型与反射/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型与反射/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型与反射/TestReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型与反射/TestReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型是什么/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型是什么/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型类/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型类/Generic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型类/TestGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/泛型/泛型类/TestGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/集合类/ArrayList_LinkedList_HashSet_TreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/集合类/ArrayList_LinkedList_HashSet_TreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/集合类/Collection_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/集合类/Collection_Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/集合类/List_Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/MyCSDN/集合类/List_Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/Test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/Test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/datastructures/TestPrintf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/datastructures/TestPrintf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Ensemble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Ensemble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/JavaStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/JavaStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/TestTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/TestTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/Trader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/Trader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Java8StreamAPI/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0001/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0001/Test001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test00010/Test010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test00010/Test010.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00021.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00022.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0003/Test003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0003/Test003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Resource1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Resource1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Resource2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Resource2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Test0006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Test0006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Test004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0004/Test004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0005/Test0005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0005/Test0005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0005/Test005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0005/Test005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0005/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0005/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0006/Test006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0006/Test006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0008/CollectionClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0008/CollectionClassifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0008/Test008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0008/Test008.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0009/Test009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test0009/Test009.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/Test004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/TestipV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/Test001_Test010/TestipV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/effectivejava/test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/leetCode/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/leetCode/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/BloomFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/JredisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/JredisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/公司代码规范/MyFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/公司代码规范/MyFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/公司代码规范/coderule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/公司代码规范/coderule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/wind万得/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/wind万得/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/wind万得/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/wind万得/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/三七互娱/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/三七互娱/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/三七互娱/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/三七互娱/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/三七互娱/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/三七互娱/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海移动云能力中心/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海移动云能力中心/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海途虎春招/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海途虎春招/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海途虎春招/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海途虎春招/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海途虎春招/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海途虎春招/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海银行/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海银行/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海银行/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/上海银行/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/交行/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/交行/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/交行/main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/交行/main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/华为/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/华为/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/华为/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/华为/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/华为/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/华为/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/同花顺校招/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/同花顺校招/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/同花顺校招/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/同花顺校招/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/同花顺校招/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/同花顺校招/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/咪咕视讯/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/咪咕视讯/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/咪咕视讯/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/咪咕视讯/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/咪咕视讯/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/咪咕视讯/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/携程/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/携程/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/携程/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/携程/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/携程/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/携程/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/浦发银行/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/海康威视/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/海康威视/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/海康威视/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/海康威视/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/各公司笔试题/美团/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/KeyBoardSystemIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/KeyBoardSystemIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/模板/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main32.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main34.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main35.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main36.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main37.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main40.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main49.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main51.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main55.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main56.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main57.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main57.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main59.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main60.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main61.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main62.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main63.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main65.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main66.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Main9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网进阶版/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网进阶版/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网进阶版/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/牛客网进阶版/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/CopyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/CopyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/DailyCountRequestItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/DailyCountRequestItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/DailyCountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/DailyCountResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/TestDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/TestDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/TestDigOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V202话单/TestDigOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V220工单/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/V220工单/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/All.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/二叉树题/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/全排列/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/全排列/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/全排列/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/全排列/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/动态规划题/背包问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/动态规划题/背包问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/单例模式/SingletonDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/回朔法/机器人的运动范围.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/回朔法/机器人的运动范围.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/回朔法/矩阵中的路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/回朔法/矩阵中的路径.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/CalculateStringDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/CalculateStringDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/字符串问题/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/死锁与生产者消费者/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/死锁与生产者消费者/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/死锁与生产者消费者/ProductConsumerLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/死锁与生产者消费者/ProductConsumerLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/死锁与生产者消费者/ProductConsumerSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/死锁与生产者消费者/ProductConsumerSynchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/运算问题/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/运算问题/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/运算问题/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/运算问题/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/All.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/链表题/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/abstractfactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo1/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo1/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo1/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo1/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo1/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo1/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo2/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo2/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo2/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/builder/demo2/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/SimpleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/CarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Tesla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Tesla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Wuling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/factory/simple1/Wuling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/设计模式/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/JVM工具使用/JConsoleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/JVM工具使用/JConsoleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字ThreadLocal/MyDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁/Demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁/Demo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo01CAS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo01CAS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo02LockElimination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo02LockElimination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo03LockCuhua.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/syn锁优化/Demo03LockCuhua.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test01Visibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test01Visibility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test02Atomicity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test02Atomicity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/Test03Order2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/可重入$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/可重入$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/可重入.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/三个特性/可重入.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/对象头/TestLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字synchronized/对象头/TestLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/TestVisibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/TestVisibility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/关键字volatile/单例模式/SingletonDemo8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/内存规范/TestPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/内存规范/TestPC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/StuInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/StuInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/TestDynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/TestDynamicProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/静态代理/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/静态代理/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/静态代理/StudentProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/静态代理/StudentProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/静态代理/TestStudentProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/动态代理/静态代理/TestStudentProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CMSSolve1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CMSSolve1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CMSSolve2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CMSSolve2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CMSSolve3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CMSSolve3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/Cache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/Cache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ConcurrentModificationExceptionDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CountDownLatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CountDownLatchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CyclicBarrierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/CyclicBarrierTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/DeadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/DeadLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/DeadLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ForkJoinDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ForkJoinDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ForkJoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ForkJoinTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/JUC$Account1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/JUC$Account1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/JUC$Account2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/JUC$Account2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/JUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/JUC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/Num.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ProductConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ProductConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ReadWriteLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ReadWriteLockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/SemaphoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/SemaphoreTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadDemo7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadPoolSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadPoolSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreadPoolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreeMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/ThreeMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/TreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/并发编程/TreadPoolDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/栈内存溢出异常/OutOfMemoryError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/栈内存溢出异常/OutOfMemoryError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/栈内存溢出异常/StackOverFlowError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/栈内存溢出异常/StackOverFlowError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/Father.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/Father.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/Son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/StaticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/StaticTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/JVM虚拟机/类加载/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/FindByAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/FindByAge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/FindBySalary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/FindBySalary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Function.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/FunctionInterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/FunctionInterfaceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/LambadaLearning$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/LambadaLearning$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/LambadaLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/LambadaLearning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/MyStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/MyStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character01Lambada/Test01Lambada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character02MethodRef/Test01MethodRef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Boolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Boolean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/TestTransaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Trader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Trader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Execise/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/ResourceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/ResourceDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Test01StreamAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Test区间.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character03StreamAPI/Test区间.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character04Parallel/ForkJoinCalculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character04Parallel/ForkJoinCalculate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Character04Parallel/ForkJoinTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Test05OptionClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Java8新特性/Test05OptionClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/copyOnWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/copyOnWrite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/iterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/resize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/ArrayList/resize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/HashMap/HashMapTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/HashMap/HashMapTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/HashMap/MyHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/HashMap/MyHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/Java异常/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/Java异常/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/Object类的方法/Object.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/Object类的方法/Object.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/Object类的方法/TestObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/Object类的方法/TestObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/String/StringDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/String/StringDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/StringStringBufferStringBuilder/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/StringStringBufferStringBuilder/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/基本数据类型/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/基本数据类型/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/引用传递与值传递equals与等等号/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/引用传递与值传递equals与等等号/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/接口与抽象类的区别/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/接口与抽象类的区别/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/接口与抽象类的区别/TestZiLei.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/接口与抽象类的区别/TestZiLei.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/比较器排序/Fruit_Comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/比较器排序/Fruit_Comparable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/比较器排序/Fruit_Comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/比较器排序/Fruit_Comparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/比较器排序/Test_Comparator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/比较器排序/Test_Comparator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型与反射/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型与反射/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型与反射/TestReflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型与反射/TestReflect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型是什么/Demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型是什么/Demo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型类/Generic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型类/Generic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型类/TestGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/泛型/泛型类/TestGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/ArrayList_LinkedList_HashSet_TreeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/ArrayList_LinkedList_HashSet_TreeSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/Collection_Map$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/Collection_Map$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/Collection_Map$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/Collection_Map$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/Collection_Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/Collection_Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/List_Set$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/List_Set$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/List_Set$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/MyCSDN/集合类/List_Set$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/Test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/Test/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/datastructures/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/datastructures/SparseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/datastructures/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/datastructures/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/datastructures/TestPrintf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/datastructures/TestPrintf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Ensemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Ensemble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/JavaStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/JavaStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/TestTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/TestTransaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/Trader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/Trader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Java8StreamAPI/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Ports.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Ports.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0001/Test001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0001/Test001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test00010/Test010.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test00010/Test010.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002$Box$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002$Box$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002$Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002$Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test0002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00021$Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00021$Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00021.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00021.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00022$Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00022$Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00022.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test00022.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002$Box$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002$Box$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002$Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002$Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0002/Test002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0003/Test003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0003/Test003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/MyHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/MyHashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/Resource2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/Resource2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/Test0006.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/Test0006.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/Test004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0004/Test004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0005/Test0005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0005/Test0005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0005/Test005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0005/Test005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0005/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0005/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0008/CollectionClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0008/CollectionClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0008/Test008.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0008/Test008.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0009/Test009$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0009/Test009$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0009/Test009.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test0009/Test009.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/Test004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/TestipV4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/Test001_Test010/TestipV4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/effectivejava/test01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/netty/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/netty/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/netty/groupchat/GroupChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/netty/groupchat/GroupChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/netty/groupchat/GroupChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/netty/groupchat/GroupChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/redis/BloomFilter$SimpleHash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/redis/BloomFilter$SimpleHash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/redis/BloomFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/redis/BloomFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/redis/JredisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/redis/JredisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/redis/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/redis/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/公司代码规范/MyFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/公司代码规范/MyFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/公司代码规范/coderule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/公司代码规范/coderule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/wind万得/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/wind万得/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/wind万得/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/wind万得/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/wind万得/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/wind万得/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/三七互娱/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/三七互娱/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/三七互娱/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/三七互娱/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/DeadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/上海途虎春招/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/交行/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/交行/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/交行/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/交行/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/交行/main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/交行/main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/华为/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/华为/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/华为/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/华为/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/华为/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/华为/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/同花顺校招/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/同花顺校招/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/同花顺校招/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/同花顺校招/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/同花顺校招/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/同花顺校招/Test3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/咪咕视讯/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/咪咕视讯/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/咪咕视讯/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/咪咕视讯/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/咪咕视讯/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/咪咕视讯/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/携程/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/携程/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/携程/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/携程/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/携程/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/携程/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/浦发银行/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/浦发银行/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/浦发银行/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/浦发银行/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/浦发银行/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/浦发银行/Main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Main5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Main5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/各公司笔试题/美团/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/模板/KeyBoardSystemIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/模板/KeyBoardSystemIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/模板/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/模板/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/模板/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/模板/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/模板/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/模板/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main25$RandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main25$RandomListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main3$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main3$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main32$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main32$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main32.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main34.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main35.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main35.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main36$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main36$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main36.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main37.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main37.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main38$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main38$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main38.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main38.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main39$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main39$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main39.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main39.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main40.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main40.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main41.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main41.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main44.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main44.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main45.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main45.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main46.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main46.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main47.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main47.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main48.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main48.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main49.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main49.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main50.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main50.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main51.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main51.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main53.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main53.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main55.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main55.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main56$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main56$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main56.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main56.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main57$TreeLinkNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main57$TreeLinkNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main57.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main57.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main58.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main58.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main59$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main59$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main59.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main59.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main60$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main60$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main60.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main60.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main61.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main61.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main62$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main62$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main62.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main62.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main63.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main63.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main64.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main65.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main65.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main66.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main66.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main67.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main67.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Main9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网进阶版/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网进阶版/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网进阶版/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/牛客网进阶版/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/CopyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/CopyDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountRequestItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountRequestItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountResponseItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DailyCountResponseItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/DateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/TestDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V202话单/TestDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V220工单/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/V220工单/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/All.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/All.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/Main5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/二叉树题/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/全排列/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/全排列/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/全排列/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/全排列/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Main9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/十大排序算法/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/单例模式/SingletonDemo8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/回朔法/机器人的运动范围.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/回朔法/机器人的运动范围.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/回朔法/矩阵中的路径.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/回朔法/矩阵中的路径.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/字符串问题/CalculateStringDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/字符串问题/CalculateStringDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/字符串问题/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/字符串问题/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/字符串问题/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/字符串问题/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerLock$Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerLock$Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerSynchronized$Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerSynchronized$Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerSynchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/死锁与生产者消费者/ProductConsumerSynchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/运算问题/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/运算问题/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/运算问题/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/运算问题/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/All.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/All.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/练习/链表题/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/abstractfactory/AbstractFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/abstractfactory/AbstractFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo1/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo1/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo1/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo1/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo1/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/builder/demo2/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/SimpleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/SimpleFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/simple1/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/simple1/CarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/simple1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/simple1/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/simple1/Wuling.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/factory/simple1/Wuling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liuwen/设计模式/singleton/Singleton.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -735,7 +79,6 @@
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -811,15 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1057,21 +398,8 @@
       <workItem from="1610247858845" duration="2319000" />
       <workItem from="1610326387238" duration="74000" />
       <workItem from="1619429428628" duration="2942000" />
-      <workItem from="1619435955658" duration="238000" />
-    </task>
-    <task id="LOCAL-00079" summary="去掉黄线警告">
-      <created>1585907366748</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1585907366748</updated>
-    </task>
-    <task id="LOCAL-00080" summary="HashMap">
-      <created>1585928879895</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1585928879895</updated>
+      <workItem from="1619435955658" duration="605000" />
+      <workItem from="1619436592183" duration="475000" />
     </task>
     <task id="LOCAL-00081" summary="HashMap">
       <created>1585928923661</created>
@@ -1402,7 +730,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604279216697</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="格式修改">
+      <created>1619436479547</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1619436479547</updated>
+    </task>
+    <task id="LOCAL-00129" summary="软考中级——五大算法题">
+      <created>1619436509149</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1619436509149</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1430,8 +772,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="中国移动上海云能力中心测评" />
-    <MESSAGE value="咪咕笔试" />
     <MESSAGE value=" GC：JConsole测试" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="上海交通银行笔试" />
@@ -1455,7 +795,9 @@
     <MESSAGE value="2020.10.23" />
     <MESSAGE value="2020.10.29" />
     <MESSAGE value="2020.11.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.11.2" />
+    <MESSAGE value="格式修改" />
+    <MESSAGE value="软考中级——五大算法题" />
+    <option name="LAST_COMMIT_MESSAGE" value="软考中级——五大算法题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
