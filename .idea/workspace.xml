@@ -27,6 +27,11 @@
   <component name="ChangeListManager">
     <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="软考中级——五大算法题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/动态规划算法/BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/动态规划算法/BackPack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/贪心算法/GoodsPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/贪心算法/GoodsPack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/算法/贪心算法/GoodsPack.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +91,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592977637504" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/百度网盘/尚硅谷资料/数据结构与算法学习/Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -114,7 +119,7 @@
       <recent name="D:\找工作不-春招\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网进阶版" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoodsPack">
+  <component name="RunManager" selected="Application.Maze">
     <configuration name="GoodsPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liuwen.五大算法题.贪心算法.GoodsPack" />
       <module name="Recruitment" />
@@ -141,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQLParseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Test.SQLParseTest" />
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.五大算法题.回溯算法.Maze" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.Test.*" />
+          <option name="PATTERN" value="com.liuwen.五大算法题.回溯算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SQLParseTest" />
       <item itemvalue="Application.IteratorPattern" />
       <item itemvalue="Application.GoodsPack" />
       <item itemvalue="JUnit.ExportParameters.test_export_parameters" />
       <item itemvalue="JUnit.MySqlVisitorDemo.test_for_demo" />
+      <item itemvalue="Application.Maze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maze" />
         <item itemvalue="Application.GoodsPack" />
         <item itemvalue="Application.IteratorPattern" />
         <item itemvalue="JUnit.MySqlVisitorDemo.test_for_demo" />
         <item itemvalue="JUnit.ExportParameters.test_export_parameters" />
-        <item itemvalue="Application.SQLParseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -399,14 +404,10 @@
       <workItem from="1610326387238" duration="74000" />
       <workItem from="1619429428628" duration="2942000" />
       <workItem from="1619435955658" duration="605000" />
-      <workItem from="1619436592183" duration="475000" />
-    </task>
-    <task id="LOCAL-00081" summary="HashMap">
-      <created>1585928923661</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1585928923661</updated>
+      <workItem from="1619436592183" duration="604000" />
+      <workItem from="1619451308282" duration="1188000" />
+      <workItem from="1619455252120" duration="321000" />
+      <workItem from="1619486111919" duration="3343000" />
     </task>
     <task id="LOCAL-00082" summary="线程创建的三种方法">
       <created>1586243557104</created>
@@ -744,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619436509149</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="软考中级——五大算法题">
+      <created>1619437129141</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1619437129141</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TodoView">

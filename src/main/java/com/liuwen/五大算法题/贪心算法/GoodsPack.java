@@ -17,7 +17,7 @@ public class GoodsPack {
 
         //------------------------//
         int resultV = firstFit(goodsV, C);
-        System.out.println("最先适宜策略：" + resultV);
+        System.out.println("最先适宜策略：需要几个箱子：" + resultV);
         System.out.println("---------------");
 
         int resultV2 = bestFit(goodsV, C);
