@@ -25,11 +25,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="软考中级——迷宫问题maze">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recruitment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Recruitment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/分治法/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/分治法/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,12 +101,8 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.liuwen.练习.V202话单" />
-      <recent name="com.liuwen.effectivejava.Test001_Test010.Test0005" />
-      <recent name="com.liuwen.effectivejava.Test001_Test010.Test0002" />
-      <recent name="com.liuwen.effectivejava.Test001_Test010" />
-      <recent name="com.liuwen.练习.链表题" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.liuwen.labuladong.手把手刷数据结构.二叉树" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyGitHub\MyRecruitment\src\main\java\com\liuwen\练习\V202话单" />
@@ -115,6 +110,13 @@
       <recent name="D:\CMCC\春招笔试开始啦\Recruitment\src\main\java\com\liuwen\Java8新特性\Character03StreamAPI\Execise" />
       <recent name="D:\找工作不-春招\春招笔试开始啦\Recruitment\src\main\java\com\liuwen\JVM虚拟机\关键字volatile" />
       <recent name="D:\找工作不-春招\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网进阶版" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuwen.练习.V202话单" />
+      <recent name="com.liuwen.effectivejava.Test001_Test010.Test0005" />
+      <recent name="com.liuwen.effectivejava.Test001_Test010.Test0002" />
+      <recent name="com.liuwen.effectivejava.Test001_Test010" />
+      <recent name="com.liuwen.练习.链表题" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -183,15 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -407,14 +407,8 @@
       <workItem from="1620353802993" duration="1000" />
       <workItem from="1620390182560" duration="4000" />
       <workItem from="1621606019132" duration="184000" />
-      <workItem from="1630297347013" duration="2921000" />
-    </task>
-    <task id="LOCAL-00085" summary="JUC">
-      <created>1586245285890</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1586245285891</updated>
+      <workItem from="1630297347013" duration="4681000" />
+      <workItem from="1630324429640" duration="6225000" />
     </task>
     <task id="LOCAL-00086" summary="死锁 生产者消费者">
       <created>1586255283678</created>
@@ -752,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619489691512</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="labuladong算法">
+      <created>1630304634512</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1630304634512</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TodoView">
@@ -780,7 +781,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode" />
     <MESSAGE value="上海交通银行笔试" />
     <MESSAGE value="Java编程思想" />
     <MESSAGE value="Java编程" />
@@ -805,7 +805,8 @@
     <MESSAGE value="格式修改" />
     <MESSAGE value="软考中级——五大算法题" />
     <MESSAGE value="软考中级——迷宫问题maze" />
-    <option name="LAST_COMMIT_MESSAGE" value="软考中级——迷宫问题maze" />
+    <MESSAGE value="labuladong算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="labuladong算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
