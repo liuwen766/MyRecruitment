@@ -25,13 +25,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="软考中级——五大算法题">
+    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="软考中级——迷宫问题maze">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/动态规划算法/BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/动态规划算法/BackPack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/回溯算法/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/贪心算法/GoodsPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/贪心算法/GoodsPack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liuwen/算法/贪心算法/GoodsPack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recruitment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Recruitment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/分治法/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/五大算法题/分治法/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +89,14 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592977637504" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="E:/百度网盘/尚硅谷资料/数据结构与算法学习/Algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -119,7 +117,7 @@
       <recent name="D:\找工作不-春招\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网进阶版" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Maze">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GoodsPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liuwen.五大算法题.贪心算法.GoodsPack" />
       <module name="Recruitment" />
@@ -133,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.设计模式.iterator.IteratorPattern" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.labuladong.手把手刷数据结构.二叉树.Main" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.设计模式.iterator.*" />
+          <option name="PATTERN" value="com.liuwen.labuladong.手把手刷数据结构.二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,63 +157,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.五大算法题.分治法.QuickSort" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.五大算法题.分治法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Test.Test1" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExportParameters.test_export_parameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Test.ExportParameters" />
-      <option name="METHOD_NAME" value="test_export_parameters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MySqlVisitorDemo.test_for_demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liuwen.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Test.MySqlVisitorDemo" />
-      <option name="METHOD_NAME" value="test_for_demo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IteratorPattern" />
       <item itemvalue="Application.GoodsPack" />
-      <item itemvalue="JUnit.ExportParameters.test_export_parameters" />
-      <item itemvalue="JUnit.MySqlVisitorDemo.test_for_demo" />
       <item itemvalue="Application.Maze" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.GoodsPack" />
-        <item itemvalue="Application.IteratorPattern" />
-        <item itemvalue="JUnit.MySqlVisitorDemo.test_for_demo" />
-        <item itemvalue="JUnit.ExportParameters.test_export_parameters" />
       </list>
     </recent_temporary>
   </component>
@@ -407,28 +401,13 @@
       <workItem from="1619436592183" duration="604000" />
       <workItem from="1619451308282" duration="1188000" />
       <workItem from="1619455252120" duration="321000" />
-      <workItem from="1619486111919" duration="3343000" />
-    </task>
-    <task id="LOCAL-00082" summary="线程创建的三种方法">
-      <created>1586243557104</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1586243557105</updated>
-    </task>
-    <task id="LOCAL-00083" summary="线程创建的三种方法">
-      <created>1586243601581</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1586243601581</updated>
-    </task>
-    <task id="LOCAL-00084" summary="推荐runnable写法">
-      <created>1586243664548</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1586243664548</updated>
+      <workItem from="1619486111919" duration="3595000" />
+      <workItem from="1619661427766" duration="5523000" />
+      <workItem from="1619693959277" duration="3000" />
+      <workItem from="1620353802993" duration="1000" />
+      <workItem from="1620390182560" duration="4000" />
+      <workItem from="1621606019132" duration="184000" />
+      <workItem from="1630297347013" duration="2921000" />
     </task>
     <task id="LOCAL-00085" summary="JUC">
       <created>1586245285890</created>
@@ -752,7 +731,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619437129141</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="软考中级——迷宫问题maze">
+      <created>1619489649553</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1619489649553</updated>
+    </task>
+    <task id="LOCAL-00132" summary="软考中级——迷宫问题maze">
+      <created>1619489684743</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1619489684743</updated>
+    </task>
+    <task id="LOCAL-00133" summary="软考中级——迷宫问题maze">
+      <created>1619489691512</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1619489691512</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TodoView">
@@ -780,7 +780,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" GC：JConsole测试" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="上海交通银行笔试" />
     <MESSAGE value="Java编程思想" />
@@ -805,7 +804,8 @@
     <MESSAGE value="2020.11.2" />
     <MESSAGE value="格式修改" />
     <MESSAGE value="软考中级——五大算法题" />
-    <option name="LAST_COMMIT_MESSAGE" value="软考中级——五大算法题" />
+    <MESSAGE value="软考中级——迷宫问题maze" />
+    <option name="LAST_COMMIT_MESSAGE" value="软考中级——迷宫问题maze" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
