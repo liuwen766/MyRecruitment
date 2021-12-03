@@ -27,8 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/LRULFU/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/面试第三季/LRULFU/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/JredisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/JredisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,14 @@
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -120,12 +129,25 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="GoodsPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.五大算法题.贪心算法.GoodsPack" />
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.CountDownLatchDemo" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.五大算法题.贪心算法.*" />
+          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.CyclicBarrierDemo" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.五大算法题.回溯算法.Maze" />
+    <configuration name="ReentrantReadWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.ReentrantReadWriteDemo" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.五大算法题.回溯算法.*" />
+          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,25 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.五大算法题.分治法.QuickSort" />
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.SemaphoreDemo" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.五大算法题.分治法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.Test.Test1" />
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.Test.*" />
+          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,19 +206,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GoodsPack" />
-      <item itemvalue="Application.Maze" />
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.CountDownLatchDemo" />
+      <item itemvalue="Application.CyclicBarrierDemo" />
+      <item itemvalue="Application.SemaphoreDemo" />
+      <item itemvalue="Application.ReentrantReadWriteDemo" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.GoodsPack" />
+        <item itemvalue="Application.ReentrantReadWriteDemo" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -408,35 +417,14 @@
       <workItem from="1620390182560" duration="4000" />
       <workItem from="1621606019132" duration="184000" />
       <workItem from="1630297347013" duration="4681000" />
-      <workItem from="1630324429640" duration="6225000" />
-    </task>
-    <task id="LOCAL-00086" summary="死锁 生产者消费者">
-      <created>1586255283678</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1586255283678</updated>
-    </task>
-    <task id="LOCAL-00087" summary="并发编程">
-      <created>1586314306415</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1586314306416</updated>
-    </task>
-    <task id="LOCAL-00088" summary="并发编程">
-      <created>1586317528915</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1586317528915</updated>
-    </task>
-    <task id="LOCAL-00089" summary="中国移动上海云能力中心测评">
-      <created>1586592704097</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1586592704098</updated>
+      <workItem from="1630324429640" duration="6850000" />
+      <workItem from="1630917292027" duration="1000" />
+      <workItem from="1636461390931" duration="2491000" />
+      <workItem from="1638065316230" duration="3718000" />
+      <workItem from="1638323072231" duration="500000" />
+      <workItem from="1638329034469" duration="9153000" />
+      <workItem from="1638363799447" duration="2368000" />
+      <workItem from="1638499980508" duration="363000" />
     </task>
     <task id="LOCAL-00090" summary="咪咕笔试">
       <created>1586678240919</created>
@@ -753,7 +741,35 @@
       <option name="project" value="LOCAL" />
       <updated>1630304634512</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="labuladong算法">
+      <created>1630331861560</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1630331861562</updated>
+    </task>
+    <task id="LOCAL-00136" summary="LRU By LinkedHashMap">
+      <created>1638066531271</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1638066531271</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Java面试第一、二、三季，start。">
+      <created>1638067908646</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1638067908646</updated>
+    </task>
+    <task id="LOCAL-00138" summary="JUC基础">
+      <created>1638500212564</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1638500212564</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TodoView">
@@ -781,9 +797,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="上海交通银行笔试" />
-    <MESSAGE value="Java编程思想" />
-    <MESSAGE value="Java编程" />
     <MESSAGE value="Java StreamAPI" />
     <MESSAGE value="Java Lambada" />
     <MESSAGE value="Java 方法引用" />
@@ -806,7 +819,10 @@
     <MESSAGE value="软考中级——五大算法题" />
     <MESSAGE value="软考中级——迷宫问题maze" />
     <MESSAGE value="labuladong算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="labuladong算法" />
+    <MESSAGE value="LRU By LinkedHashMap" />
+    <MESSAGE value="Java面试第一、二、三季，start。" />
+    <MESSAGE value="JUC基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUC基础" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -856,6 +872,41 @@
           <line>34</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/redis/JredisTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/面试第三季/JUC/AQSDemo.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/面试第三季/JUC/AQSDemo.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/面试第三季/JUC/AQSDemo.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/面试第三季/JUC/AQSDemo.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liuwen/面试第三季/JUC/AQSDemo.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -884,7 +935,7 @@
     <SUITE FILE_PATH="coverage/MyRecruitment$Test__1_.ic" NAME="Test (1) Coverage Results" MODIFIED="1603089323877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.netty.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MyRecruitment$JredisTest.ic" NAME="JredisTest Coverage Results" MODIFIED="1595729815274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/MyRecruitment$JredisTest.ic" NAME="JredisTest Coverage Results" MODIFIED="1636461476332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.redis.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MyRecruitment$Test__2_.ic" NAME="Test (2) Coverage Results" MODIFIED="1595643645134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

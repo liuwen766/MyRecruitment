@@ -1,7 +1,9 @@
 package com.liuwen.labuladong.手把手刷数据结构.二叉树;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * ----------------------------------------------------------------------
@@ -36,6 +38,7 @@ public class Main {
          */
         //1.定义一个二叉树
         TreeNode root = getNewTree();
+
         //2.二叉树遍历
         System.out.print("前序遍历：");
         preTraverse(root);
@@ -43,34 +46,43 @@ public class Main {
         midTraverse(root);
         System.out.print("后序遍历：");
         postTraverse(root);
+
         //3.获取二叉树的节点数
         int count = Count(root);
         System.out.println();
         System.out.print("二叉树的节点数：");
         System.out.println(count);
+
         //4.翻转二叉树
         TreeNode newRoot = invertTree(root);
         midTraverse(newRoot);
+
         //5.填充二叉树节点的右侧指针
         Node root1 = new Node();
         Node conn = connect(root1);
+
         //6.将二叉树展开为链表
         flatten(root);
+
         //7.最大二叉树
         int[] nums = {3, 2, 1, 6, 0, 5};
         TreeNode maxTreeRoot = constructMaximumBinaryTree(nums);
+
         //8.前序/中序遍历结果还原二叉树
         int[] preorder1 = {3, 9, 20, 15, 7};
         int[] inorder1 = {9, 3, 15, 20, 7};
         TreeNode buildroot1 = buildTree1(preorder1, inorder1);
+
         //9.后序/中序遍历结果还原二叉树
         int[] inorder2 = {9, 3, 15, 20, 7};
         int[] postorder2 = {9, 15, 7, 20, 3};
         TreeNode buildroot2 = buildTree2(inorder2, postorder2);
+
         //10.二叉树序列化
         String str = seriesOfTree(root);
         System.out.println("序列化二叉树：");
         System.out.println(str);
+
         //11.寻找重复子树
         List<TreeNode> result = findDuplicateSubtrees(root);
 

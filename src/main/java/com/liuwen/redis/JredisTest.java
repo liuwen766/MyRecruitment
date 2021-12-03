@@ -14,7 +14,7 @@ import redis.clients.jedis.Transaction;
 public class JredisTest {
 
     public static void main(String[] args) {
-        Jedis jedis = new Jedis("127.0.0.1", 6379);
+        Jedis jedis = new Jedis("192.168.168.101", 6379);
         System.out.println(jedis.ping());
 
         System.out.println("客户端启动成功！");
