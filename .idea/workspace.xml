@@ -27,9 +27,10 @@
   <component name="ChangeListManager">
     <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/LRULFU/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/面试第三季/LRULFU/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/labuladong/手把手刷数据结构/二叉树/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/JredisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/redis/JredisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/groupchat/GroupChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/groupchat/GroupChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/readme" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +53,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
-      <GitPushTagMode />
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -121,20 +126,20 @@
       <recent name="D:\找工作不-春招\春招笔试开始啦\Recruitment\src\com\liuwen\牛客网进阶版" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuwen.labuladong.手把手刷数据结构.二叉搜索树" />
       <recent name="com.liuwen.练习.V202话单" />
       <recent name="com.liuwen.effectivejava.Test001_Test010.Test0005" />
       <recent name="com.liuwen.effectivejava.Test001_Test010.Test0002" />
       <recent name="com.liuwen.effectivejava.Test001_Test010" />
-      <recent name="com.liuwen.练习.链表题" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.CountDownLatchDemo" />
+  <component name="RunManager" selected="Application.FileChannelDemo">
+    <configuration name="FileChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.JavaNIO.FileChannelDemo" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
+          <option name="PATTERN" value="com.liuwen.JavaNIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.CyclicBarrierDemo" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.labuladong.手把手刷数据结构.二叉搜索树.Main" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
+          <option name="PATTERN" value="com.liuwen.labuladong.手把手刷数据结构.二叉搜索树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.SemaphoreDemo" />
+    <configuration name="TestLinux" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.labuladong.手把手刷数据结构.TestLinux" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
+          <option name="PATTERN" value="com.liuwen.labuladong.手把手刷数据结构.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +211,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountDownLatchDemo" />
-      <item itemvalue="Application.CyclicBarrierDemo" />
-      <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.ReentrantReadWriteDemo" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.TestLinux" />
+      <item itemvalue="Application.FileChannelDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileChannelDemo" />
+        <item itemvalue="Application.TestLinux" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReentrantReadWriteDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -424,14 +429,9 @@
       <workItem from="1638323072231" duration="500000" />
       <workItem from="1638329034469" duration="9153000" />
       <workItem from="1638363799447" duration="2368000" />
-      <workItem from="1638499980508" duration="363000" />
-    </task>
-    <task id="LOCAL-00090" summary="咪咕笔试">
-      <created>1586678240919</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1586678240919</updated>
+      <workItem from="1638499980508" duration="3583000" />
+      <workItem from="1638592138444" duration="1631000" />
+      <workItem from="1638696293976" duration="427000" />
     </task>
     <task id="LOCAL-00091" summary=" GC：JConsole测试">
       <created>1586875517080</created>
@@ -769,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638500212564</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="二叉树">
+      <created>1638500357819</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1638500357819</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TodoView">
@@ -797,7 +804,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java StreamAPI" />
     <MESSAGE value="Java Lambada" />
     <MESSAGE value="Java 方法引用" />
     <MESSAGE value="Java 8 新特性学习" />
@@ -822,7 +828,8 @@
     <MESSAGE value="LRU By LinkedHashMap" />
     <MESSAGE value="Java面试第一、二、三季，start。" />
     <MESSAGE value="JUC基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="JUC基础" />
+    <MESSAGE value="二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
