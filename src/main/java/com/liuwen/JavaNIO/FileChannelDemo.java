@@ -27,6 +27,10 @@ public class FileChannelDemo {
         buff.flip();
 
         while (buff.hasRemaining()) {
+//            long position = inChannel.position();
+//            long size = inChannel.size();
+//            FileChannel fileChannel = inChannel.truncate(1024);
+//            inChannel.force(true);
             inChannel.write(buff);
         }
         inChannel.close();
