@@ -27,10 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/groupchat/GroupChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/groupchat/GroupChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/groupchat/GroupChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/netty/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/JavaNIO/netty/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recruitment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Recruitment.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +130,7 @@
       <recent name="com.liuwen.effectivejava.Test001_Test010" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileChannelDemo">
+  <component name="RunManager" selected="Application.TestSocket">
     <configuration name="FileChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.liuwen.JavaNIO.FileChannelDemo" />
       <module name="Recruitment" />
@@ -160,25 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.labuladong.手把手刷数据结构.二叉树.Main" />
+    <configuration name="SocketChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.JavaNIO.SocketChannelDemo" />
       <module name="Recruitment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liuwen.labuladong.手把手刷数据结构.二叉树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantReadWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.面试第三季.JUC.ReentrantReadWriteDemo" />
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.面试第三季.JUC.*" />
+          <option name="PATTERN" value="com.liuwen.JavaNIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,31 +183,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="TestSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.JavaNIO.TestSocket" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.JavaNIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReentrantReadWriteDemo" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.TestLinux" />
       <item itemvalue="Application.FileChannelDemo" />
+      <item itemvalue="Application.SocketChannelDemo" />
+      <item itemvalue="Application.TestSocket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSocket" />
+        <item itemvalue="Application.SocketChannelDemo" />
         <item itemvalue="Application.FileChannelDemo" />
         <item itemvalue="Application.TestLinux" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ReentrantReadWriteDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -431,28 +430,8 @@
       <workItem from="1638363799447" duration="2368000" />
       <workItem from="1638499980508" duration="3583000" />
       <workItem from="1638592138444" duration="1631000" />
-      <workItem from="1638696293976" duration="427000" />
-    </task>
-    <task id="LOCAL-00091" summary=" GC：JConsole测试">
-      <created>1586875517080</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1586875517081</updated>
-    </task>
-    <task id="LOCAL-00092" summary=" GC：JConsole测试">
-      <created>1586880641837</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1586880641837</updated>
-    </task>
-    <task id="LOCAL-00093" summary="leetcode">
-      <created>1586953919364</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1586953919364</updated>
+      <workItem from="1638696293976" duration="4083000" />
+      <workItem from="1641276589288" duration="2836000" />
     </task>
     <task id="LOCAL-00094" summary="上海交通银行笔试">
       <created>1587282497490</created>
@@ -776,7 +755,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638500357819</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Java NIO">
+      <created>1638696832131</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1638696832131</updated>
+    </task>
+    <task id="LOCAL-00141" summary="二叉树算法">
+      <created>1638696855450</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1638696855450</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Java NIO API学习">
+      <created>1638699918486</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1638699918486</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TodoView">
@@ -804,9 +804,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java Lambada" />
-    <MESSAGE value="Java 方法引用" />
-    <MESSAGE value="Java 8 新特性学习" />
     <MESSAGE value="代码隐私" />
     <MESSAGE value="建造者模式" />
     <MESSAGE value="工厂模式" />
@@ -829,7 +826,10 @@
     <MESSAGE value="Java面试第一、二、三季，start。" />
     <MESSAGE value="JUC基础" />
     <MESSAGE value="二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
+    <MESSAGE value="Java NIO" />
+    <MESSAGE value="二叉树算法" />
+    <MESSAGE value="Java NIO API学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java NIO API学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
