@@ -25,7 +25,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="" />
+    <list default="true" id="095a1f71-986b-4bef-8db4-b904d820ecc1" name="Default Changelist" comment="IO是门细致活">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuwen/练习/十大排序算法/Main7.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +36,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,6 +70,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -74,6 +83,9 @@
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -88,23 +100,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592977637504" />
-    <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/MyGitHub/MyRecruitment",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "e1de43dd18d19451febfc1584ab33767"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -127,99 +136,122 @@
       <recent name="com.liuwen.effectivejava.Test001_Test010" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSocket">
-    <configuration name="FileChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.JavaNIO.FileChannelDemo" />
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.JavaNIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.labuladong.手把手刷数据结构.二叉搜索树.Main" />
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.labuladong.手把手刷数据结构.二叉搜索树.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SocketChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.JavaNIO.SocketChannelDemo" />
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.JavaNIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLinux" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.labuladong.手把手刷数据结构.TestLinux" />
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.labuladong.手把手刷数据结构.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liuwen.JavaNIO.TestSocket" />
-      <module name="Recruitment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liuwen.JavaNIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.com.liuwen.各公司笔试题.wind万得.Main1">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Boolean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.Java8新特性.Character03StreamAPI.Boolean" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.Java8新特性.Character03StreamAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.牛客网.Main1" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.牛客网.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.datastructures.SparseArray" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPingDuoDuo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tmp.TestPingDuoDuo" />
+      <module name="Recruitment" />
+      <option name="VM_PARAMETERS" value="-XX:BiasedLockingStartupDelay=0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="Recruitment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.liuwen.各公司笔试题.wind万得.Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liuwen.各公司笔试题.wind万得.Main1" />
+      <module name="Recruitment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liuwen.各公司笔试题.wind万得.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="Recruitment" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="WORKING_DIRECTORY" value="D:\MyGitHub\MyRecruitment" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.TestLinux" />
-      <item itemvalue="Application.FileChannelDemo" />
-      <item itemvalue="Application.SocketChannelDemo" />
-      <item itemvalue="Application.TestSocket" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.com.liuwen.各公司笔试题.wind万得.Main1" />
+      <item itemvalue="Application.Boolean" />
+      <item itemvalue="Application.SparseArray" />
+      <item itemvalue="Application.TestPingDuoDuo" />
+      <item itemvalue="JAR Application.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSocket" />
-        <item itemvalue="Application.SocketChannelDemo" />
-        <item itemvalue="Application.FileChannelDemo" />
-        <item itemvalue="Application.TestLinux" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.com.liuwen.各公司笔试题.wind万得.Main1" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.TestPingDuoDuo" />
+        <item itemvalue="Application.Boolean" />
+        <item itemvalue="Application.SparseArray" />
       </list>
     </recent_temporary>
   </component>
@@ -428,21 +460,19 @@
       <workItem from="1638499980508" duration="3583000" />
       <workItem from="1638592138444" duration="1631000" />
       <workItem from="1638696293976" duration="4083000" />
-      <workItem from="1641276589288" duration="2942000" />
-    </task>
-    <task id="LOCAL-00095" summary="Java编程思想">
-      <created>1594263499385</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1594263499386</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Java编程">
-      <created>1594565512541</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1594565512541</updated>
+      <workItem from="1641276589288" duration="3409000" />
+      <workItem from="1642422008172" duration="2384000" />
+      <workItem from="1663808733991" duration="32000" />
+      <workItem from="1667303748125" duration="785000" />
+      <workItem from="1667304634886" duration="837000" />
+      <workItem from="1667305482911" duration="642000" />
+      <workItem from="1667306320058" duration="8000" />
+      <workItem from="1667306330847" duration="4000" />
+      <workItem from="1667352284844" duration="1000" />
+      <workItem from="1685761293996" duration="2000000" />
+      <workItem from="1685769911410" duration="83000" />
+      <workItem from="1686901729658" duration="6000" />
+      <workItem from="1688047332896" duration="619000" />
     </task>
     <task id="LOCAL-00097" summary="Java StreamAPI">
       <created>1594654346525</created>
@@ -773,7 +803,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641288281805</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="IO是门细致活">
+      <created>1641288330720</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1641288330720</updated>
+    </task>
+    <task id="LOCAL-00145" summary="IO是门细致活">
+      <created>1641288339748</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1641288339748</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TodoView">
@@ -798,7 +842,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="建造者模式" />
@@ -827,6 +870,10 @@
     <MESSAGE value="Java NIO API学习" />
     <MESSAGE value="IO是门细致活" />
     <option name="LAST_COMMIT_MESSAGE" value="IO是门细致活" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,29 +971,29 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Recruitment$FunctionInterfaceTest_test2.ic" NAME="FunctionInterfaceTest.test2 Coverage Results" MODIFIED="1594825665377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.liuwen.Java8新特性.Charcater01Lambada.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/MyRecruitment$TestDate.ic" NAME="TestDate Coverage Results" MODIFIED="1603866195676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.liuwen.练习.V202话单.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Recruitment$TestTransaction_test.ic" NAME="TestTransaction.test Coverage Results" MODIFIED="1594653601558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.liuwen.effectivejava.Java8StreamAPI.*</FILTER>
+    <SUITE FILE_PATH="coverage/MyRecruitment$JredisTest.ic" NAME="JredisTest Coverage Results" MODIFIED="1636461476332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuwen.redis.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Recruitment$Test01StreamAPI_test01.ic" NAME="Test01StreamAPI.test01 Coverage Results" MODIFIED="1594867217796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.Java8新特性.Character03StreamAPI.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/MyRecruitment$test.ic" NAME="test Coverage Results" MODIFIED="1603803849699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuwen.练习.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Recruitment$FunctionInterfaceTest_test2.ic" NAME="FunctionInterfaceTest.test2 Coverage Results" MODIFIED="1594825665377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuwen.Java8新特性.Charcater01Lambada.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Recruitment$TestTransaction_test.ic" NAME="TestTransaction.test Coverage Results" MODIFIED="1594653601558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuwen.effectivejava.Java8StreamAPI.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/MyRecruitment$Test__1_.ic" NAME="Test (1) Coverage Results" MODIFIED="1603089323877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.netty.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/MyRecruitment$JredisTest.ic" NAME="JredisTest Coverage Results" MODIFIED="1636461476332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.liuwen.redis.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MyRecruitment$Test__2_.ic" NAME="Test (2) Coverage Results" MODIFIED="1595643645134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.设计模式.factory.simple1.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MyRecruitment$test.ic" NAME="test Coverage Results" MODIFIED="1603803849699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.liuwen.练习.*</FILTER>
+    <SUITE FILE_PATH="coverage/MyRecruitment$TestDate.ic" NAME="TestDate Coverage Results" MODIFIED="1603866195676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuwen.练习.V202话单.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Recruitment$TestTransaction_test2.ic" NAME="TestTransaction.test2 Coverage Results" MODIFIED="1594653173279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuwen.effectivejava.Java8StreamAPI.*</FILTER>
